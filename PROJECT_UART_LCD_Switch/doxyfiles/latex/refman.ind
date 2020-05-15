@@ -1,0 +1,1768 @@
+\begin{theindex}
+
+  \item {activeState}
+    \subitem {LED\_cfg\_t}, \hyperpage{6}
+    \subitem {Switch\_cfg\_t}, \hyperpage{8}
+  \item {APPNotifiactionCbf\_t}
+    \subitem {LCD.h}, \hyperpage{57}
+  \item {apptask}
+    \subitem {SCHED\_systask\_info\_t}, \hyperpage{7}
+  \item {assert\_param}
+    \subitem {stm32f10x\_conf.h}, \hyperpage{97}
+
+  \indexspace
+
+  \item {BASE\_ADDRESS\_UART4}
+    \subitem {UART.h}, \hyperpage{106}
+  \item {BASE\_ADDRESS\_UART5}
+    \subitem {UART.h}, \hyperpage{106}
+  \item {BASE\_ADDRESS\_USART1}
+    \subitem {UART.h}, \hyperpage{106}
+  \item {BASE\_ADDRESS\_USART2}
+    \subitem {UART.h}, \hyperpage{106}
+  \item {BASE\_ADDRESS\_USART3}
+    \subitem {UART.h}, \hyperpage{106}
+
+  \indexspace
+
+  \item {CLOCK\_FREQUENCY}
+    \subitem {SYSTICK\_CFG.h}, \hyperpage{104}
+  \item {CLOCK\_FREQUENCY\_8\_MHZ}
+    \subitem {SYSTICK.h}, \hyperpage{101}
+  \item {CLOCK\_FREQUENCY\_8\_MHZ\_DIV8}
+    \subitem {SYSTICK.h}, \hyperpage{101}
+  \item {CLOCK\_PRESCALER}
+    \subitem {SYSTICK\_CFG.h}, \hyperpage{104}
+  \item {CLOCK\_PRESCALER\_AHB\_DIV\_1}
+    \subitem {SYSTICK.h}, \hyperpage{101}
+  \item {CLOCK\_PRESCALER\_AHB\_DIV\_8}
+    \subitem {SYSTICK.h}, \hyperpage{101}
+  \item {ClockSource\_ReturnType}
+    \subitem {RCC.h}, \hyperpage{85}
+  \item {ClockSourceType}
+    \subitem {RCC.h}, \hyperpage{74}
+
+  \indexspace
+
+  \item {delayMs}
+    \subitem {SCHED\_systask\_info\_t}, \hyperpage{7}
+
+  \indexspace
+
+  \item {E\_BUSY}
+    \subitem {LCD.h}, \hyperpage{55}
+    \subitem {STD\_TYPES.h}, \hyperpage{94}
+  \item {E\_NOT\_OK}
+    \subitem {LCD.h}, \hyperpage{55}
+    \subitem {STD\_TYPES.h}, \hyperpage{94}
+  \item {E\_OK}
+    \subitem {LCD.h}, \hyperpage{55}
+    \subitem {STD\_TYPES.h}, \hyperpage{94}
+  \item {EXTI0\_IRQNUMBER}
+    \subitem {NVIC.h}, \hyperpage{65}
+  \item {EXTI1\_IRQNUMBER}
+    \subitem {NVIC.h}, \hyperpage{65}
+  \item {EXTI2\_IRQNUMBER}
+    \subitem {NVIC.h}, \hyperpage{66}
+  \item {EXTI3\_IRQNUMBER}
+    \subitem {NVIC.h}, \hyperpage{66}
+  \item {EXTI4\_IRQNUMBER}
+    \subitem {NVIC.h}, \hyperpage{66}
+
+  \indexspace
+
+  \item {f32}
+    \subitem {STD\_TYPES.h}, \hyperpage{95}
+  \item {f64}
+    \subitem {STD\_TYPES.h}, \hyperpage{95}
+  \item {f96}
+    \subitem {STD\_TYPES.h}, \hyperpage{95}
+
+  \indexspace
+
+  \item {GPIO.h}
+    \subitem {GPIO\_InitPin}, \hyperpage{53}
+    \subitem {GPIO\_PIN0\_MODE\_INPUT\_ANALOG}, \hyperpage{17}
+    \subitem {GPIO\_PIN0\_MODE\_INPUT\_FLOATING}, \hyperpage{17}
+    \subitem {GPIO\_PIN0\_MODE\_INPUT\_PULL\_UP\_DOWN}, \hyperpage{17}
+    \subitem {GPIO\_PIN0\_MODE\_OUTPUT\_AF\_OPEN\_DRAIN}, 
+		\hyperpage{17}
+    \subitem {GPIO\_PIN0\_MODE\_OUTPUT\_AF\_PUSH\_PULL}, \hyperpage{17}
+    \subitem {GPIO\_PIN0\_MODE\_OUTPUT\_OPEN\_DRAIN}, \hyperpage{17}
+    \subitem {GPIO\_PIN0\_MODE\_OUTPUT\_PUSH\_PULL}, \hyperpage{18}
+    \subitem {GPIO\_PIN0\_PORTA}, \hyperpage{18}
+    \subitem {GPIO\_PIN0\_PORTB}, \hyperpage{18}
+    \subitem {GPIO\_PIN0\_PORTC}, \hyperpage{18}
+    \subitem {GPIO\_PIN0\_SELECT}, \hyperpage{18}
+    \subitem {GPIO\_PIN0\_SPEED\_10MHZ}, \hyperpage{18}
+    \subitem {GPIO\_PIN0\_SPEED\_2MHZ}, \hyperpage{18}
+    \subitem {GPIO\_PIN0\_SPEED\_50MHZ}, \hyperpage{18}
+    \subitem {GPIO\_PIN0\_SPEED\_NONE}, \hyperpage{19}
+    \subitem {GPIO\_PIN0\_VALUE\_HIGH}, \hyperpage{19}
+    \subitem {GPIO\_PIN0\_VALUE\_LOW}, \hyperpage{19}
+    \subitem {GPIO\_PIN10\_MODE\_INPUT\_ANALOG}, \hyperpage{19}
+    \subitem {GPIO\_PIN10\_MODE\_INPUT\_FLOATING}, \hyperpage{19}
+    \subitem {GPIO\_PIN10\_MODE\_INPUT\_PULL\_UP\_DOWN}, \hyperpage{19}
+    \subitem {GPIO\_PIN10\_MODE\_OUTPUT\_AF\_OPEN\_DRAIN}, 
+		\hyperpage{19}
+    \subitem {GPIO\_PIN10\_MODE\_OUTPUT\_AF\_PUSH\_PULL}, 
+		\hyperpage{19}
+    \subitem {GPIO\_PIN10\_MODE\_OUTPUT\_OPEN\_DRAIN}, \hyperpage{20}
+    \subitem {GPIO\_PIN10\_MODE\_OUTPUT\_PUSH\_PULL}, \hyperpage{20}
+    \subitem {GPIO\_PIN10\_PORTA}, \hyperpage{20}
+    \subitem {GPIO\_PIN10\_PORTB}, \hyperpage{20}
+    \subitem {GPIO\_PIN10\_PORTC}, \hyperpage{20}
+    \subitem {GPIO\_PIN10\_SELECT}, \hyperpage{20}
+    \subitem {GPIO\_PIN10\_SPEED\_10MHZ}, \hyperpage{20}
+    \subitem {GPIO\_PIN10\_SPEED\_2MHZ}, \hyperpage{20}
+    \subitem {GPIO\_PIN10\_SPEED\_50MHZ}, \hyperpage{21}
+    \subitem {GPIO\_PIN10\_SPEED\_NONE}, \hyperpage{21}
+    \subitem {GPIO\_PIN10\_VALUE\_HIGH}, \hyperpage{21}
+    \subitem {GPIO\_PIN10\_VALUE\_LOW}, \hyperpage{21}
+    \subitem {GPIO\_PIN11\_MODE\_INPUT\_ANALOG}, \hyperpage{21}
+    \subitem {GPIO\_PIN11\_MODE\_INPUT\_FLOATING}, \hyperpage{21}
+    \subitem {GPIO\_PIN11\_MODE\_INPUT\_PULL\_UP\_DOWN}, \hyperpage{21}
+    \subitem {GPIO\_PIN11\_MODE\_OUTPUT\_AF\_OPEN\_DRAIN}, 
+		\hyperpage{21}
+    \subitem {GPIO\_PIN11\_MODE\_OUTPUT\_AF\_PUSH\_PULL}, 
+		\hyperpage{22}
+    \subitem {GPIO\_PIN11\_MODE\_OUTPUT\_OPEN\_DRAIN}, \hyperpage{22}
+    \subitem {GPIO\_PIN11\_MODE\_OUTPUT\_PUSH\_PULL}, \hyperpage{22}
+    \subitem {GPIO\_PIN11\_PORTA}, \hyperpage{22}
+    \subitem {GPIO\_PIN11\_PORTB}, \hyperpage{22}
+    \subitem {GPIO\_PIN11\_PORTC}, \hyperpage{22}
+    \subitem {GPIO\_PIN11\_SELECT}, \hyperpage{22}
+    \subitem {GPIO\_PIN11\_SPEED\_10MHZ}, \hyperpage{22}
+    \subitem {GPIO\_PIN11\_SPEED\_2MHZ}, \hyperpage{23}
+    \subitem {GPIO\_PIN11\_SPEED\_50MHZ}, \hyperpage{23}
+    \subitem {GPIO\_PIN11\_SPEED\_NONE}, \hyperpage{23}
+    \subitem {GPIO\_PIN11\_VALUE\_HIGH}, \hyperpage{23}
+    \subitem {GPIO\_PIN11\_VALUE\_LOW}, \hyperpage{23}
+    \subitem {GPIO\_PIN12\_MODE\_INPUT\_ANALOG}, \hyperpage{23}
+    \subitem {GPIO\_PIN12\_MODE\_INPUT\_FLOATING}, \hyperpage{23}
+    \subitem {GPIO\_PIN12\_MODE\_INPUT\_PULL\_UP\_DOWN}, \hyperpage{23}
+    \subitem {GPIO\_PIN12\_MODE\_OUTPUT\_AF\_OPEN\_DRAIN}, 
+		\hyperpage{24}
+    \subitem {GPIO\_PIN12\_MODE\_OUTPUT\_AF\_PUSH\_PULL}, 
+		\hyperpage{24}
+    \subitem {GPIO\_PIN12\_MODE\_OUTPUT\_OPEN\_DRAIN}, \hyperpage{24}
+    \subitem {GPIO\_PIN12\_MODE\_OUTPUT\_PUSH\_PULL}, \hyperpage{24}
+    \subitem {GPIO\_PIN12\_PORTA}, \hyperpage{24}
+    \subitem {GPIO\_PIN12\_PORTB}, \hyperpage{24}
+    \subitem {GPIO\_PIN12\_PORTC}, \hyperpage{24}
+    \subitem {GPIO\_PIN12\_SELECT}, \hyperpage{24}
+    \subitem {GPIO\_PIN12\_SPEED\_10MHZ}, \hyperpage{25}
+    \subitem {GPIO\_PIN12\_SPEED\_2MHZ}, \hyperpage{25}
+    \subitem {GPIO\_PIN12\_SPEED\_50MHZ}, \hyperpage{25}
+    \subitem {GPIO\_PIN12\_SPEED\_NONE}, \hyperpage{25}
+    \subitem {GPIO\_PIN12\_VALUE\_HIGH}, \hyperpage{25}
+    \subitem {GPIO\_PIN12\_VALUE\_LOW}, \hyperpage{25}
+    \subitem {GPIO\_PIN13\_MODE\_INPUT\_ANALOG}, \hyperpage{25}
+    \subitem {GPIO\_PIN13\_MODE\_INPUT\_FLOATING}, \hyperpage{25}
+    \subitem {GPIO\_PIN13\_MODE\_INPUT\_PULL\_UP\_DOWN}, \hyperpage{26}
+    \subitem {GPIO\_PIN13\_MODE\_OUTPUT\_AF\_OPEN\_DRAIN}, 
+		\hyperpage{26}
+    \subitem {GPIO\_PIN13\_MODE\_OUTPUT\_AF\_PUSH\_PULL}, 
+		\hyperpage{26}
+    \subitem {GPIO\_PIN13\_MODE\_OUTPUT\_OPEN\_DRAIN}, \hyperpage{26}
+    \subitem {GPIO\_PIN13\_MODE\_OUTPUT\_PUSH\_PULL}, \hyperpage{26}
+    \subitem {GPIO\_PIN13\_PORTA}, \hyperpage{26}
+    \subitem {GPIO\_PIN13\_PORTB}, \hyperpage{26}
+    \subitem {GPIO\_PIN13\_PORTC}, \hyperpage{26}
+    \subitem {GPIO\_PIN13\_SELECT}, \hyperpage{27}
+    \subitem {GPIO\_PIN13\_SPEED\_10MHZ}, \hyperpage{27}
+    \subitem {GPIO\_PIN13\_SPEED\_2MHZ}, \hyperpage{27}
+    \subitem {GPIO\_PIN13\_SPEED\_50MHZ}, \hyperpage{27}
+    \subitem {GPIO\_PIN13\_SPEED\_NONE}, \hyperpage{27}
+    \subitem {GPIO\_PIN13\_VALUE\_HIGH}, \hyperpage{27}
+    \subitem {GPIO\_PIN13\_VALUE\_LOW}, \hyperpage{27}
+    \subitem {GPIO\_PIN14\_MODE\_INPUT\_ANALOG}, \hyperpage{27}
+    \subitem {GPIO\_PIN14\_MODE\_INPUT\_FLOATING}, \hyperpage{28}
+    \subitem {GPIO\_PIN14\_MODE\_INPUT\_PULL\_UP\_DOWN}, \hyperpage{28}
+    \subitem {GPIO\_PIN14\_MODE\_OUTPUT\_AF\_OPEN\_DRAIN}, 
+		\hyperpage{28}
+    \subitem {GPIO\_PIN14\_MODE\_OUTPUT\_AF\_PUSH\_PULL}, 
+		\hyperpage{28}
+    \subitem {GPIO\_PIN14\_MODE\_OUTPUT\_OPEN\_DRAIN}, \hyperpage{28}
+    \subitem {GPIO\_PIN14\_MODE\_OUTPUT\_PUSH\_PULL}, \hyperpage{28}
+    \subitem {GPIO\_PIN14\_PORTA}, \hyperpage{28}
+    \subitem {GPIO\_PIN14\_PORTB}, \hyperpage{28}
+    \subitem {GPIO\_PIN14\_PORTC}, \hyperpage{29}
+    \subitem {GPIO\_PIN14\_SELECT}, \hyperpage{29}
+    \subitem {GPIO\_PIN14\_SPEED\_10MHZ}, \hyperpage{29}
+    \subitem {GPIO\_PIN14\_SPEED\_2MHZ}, \hyperpage{29}
+    \subitem {GPIO\_PIN14\_SPEED\_50MHZ}, \hyperpage{29}
+    \subitem {GPIO\_PIN14\_SPEED\_NONE}, \hyperpage{29}
+    \subitem {GPIO\_PIN14\_VALUE\_HIGH}, \hyperpage{29}
+    \subitem {GPIO\_PIN14\_VALUE\_LOW}, \hyperpage{29}
+    \subitem {GPIO\_PIN15\_MODE\_INPUT\_ANALOG}, \hyperpage{30}
+    \subitem {GPIO\_PIN15\_MODE\_INPUT\_FLOATING}, \hyperpage{30}
+    \subitem {GPIO\_PIN15\_MODE\_INPUT\_PULL\_UP\_DOWN}, \hyperpage{30}
+    \subitem {GPIO\_PIN15\_MODE\_OUTPUT\_AF\_OPEN\_DRAIN}, 
+		\hyperpage{30}
+    \subitem {GPIO\_PIN15\_MODE\_OUTPUT\_AF\_PUSH\_PULL}, 
+		\hyperpage{30}
+    \subitem {GPIO\_PIN15\_MODE\_OUTPUT\_OPEN\_DRAIN}, \hyperpage{30}
+    \subitem {GPIO\_PIN15\_MODE\_OUTPUT\_PUSH\_PULL}, \hyperpage{30}
+    \subitem {GPIO\_PIN15\_PORTA}, \hyperpage{30}
+    \subitem {GPIO\_PIN15\_PORTB}, \hyperpage{31}
+    \subitem {GPIO\_PIN15\_PORTC}, \hyperpage{31}
+    \subitem {GPIO\_PIN15\_SELECT}, \hyperpage{31}
+    \subitem {GPIO\_PIN15\_SPEED\_10MHZ}, \hyperpage{31}
+    \subitem {GPIO\_PIN15\_SPEED\_2MHZ}, \hyperpage{31}
+    \subitem {GPIO\_PIN15\_SPEED\_50MHZ}, \hyperpage{31}
+    \subitem {GPIO\_PIN15\_SPEED\_NONE}, \hyperpage{31}
+    \subitem {GPIO\_PIN15\_VALUE\_HIGH}, \hyperpage{31}
+    \subitem {GPIO\_PIN15\_VALUE\_LOW}, \hyperpage{32}
+    \subitem {GPIO\_PIN1\_MODE\_INPUT\_ANALOG}, \hyperpage{32}
+    \subitem {GPIO\_PIN1\_MODE\_INPUT\_FLOATING}, \hyperpage{32}
+    \subitem {GPIO\_PIN1\_MODE\_INPUT\_PULL\_UP\_DOWN}, \hyperpage{32}
+    \subitem {GPIO\_PIN1\_MODE\_OUTPUT\_AF\_OPEN\_DRAIN}, 
+		\hyperpage{32}
+    \subitem {GPIO\_PIN1\_MODE\_OUTPUT\_AF\_PUSH\_PULL}, \hyperpage{32}
+    \subitem {GPIO\_PIN1\_MODE\_OUTPUT\_OPEN\_DRAIN}, \hyperpage{32}
+    \subitem {GPIO\_PIN1\_MODE\_OUTPUT\_PUSH\_PULL}, \hyperpage{32}
+    \subitem {GPIO\_PIN1\_PORTA}, \hyperpage{33}
+    \subitem {GPIO\_PIN1\_PORTB}, \hyperpage{33}
+    \subitem {GPIO\_PIN1\_PORTC}, \hyperpage{33}
+    \subitem {GPIO\_PIN1\_SELECT}, \hyperpage{33}
+    \subitem {GPIO\_PIN1\_SPEED\_10MHZ}, \hyperpage{33}
+    \subitem {GPIO\_PIN1\_SPEED\_2MHZ}, \hyperpage{33}
+    \subitem {GPIO\_PIN1\_SPEED\_50MHZ}, \hyperpage{33}
+    \subitem {GPIO\_PIN1\_SPEED\_NONE}, \hyperpage{33}
+    \subitem {GPIO\_PIN1\_VALUE\_HIGH}, \hyperpage{34}
+    \subitem {GPIO\_PIN1\_VALUE\_LOW}, \hyperpage{34}
+    \subitem {GPIO\_PIN2\_MODE\_INPUT\_ANALOG}, \hyperpage{34}
+    \subitem {GPIO\_PIN2\_MODE\_INPUT\_FLOATING}, \hyperpage{34}
+    \subitem {GPIO\_PIN2\_MODE\_INPUT\_PULL\_UP\_DOWN}, \hyperpage{34}
+    \subitem {GPIO\_PIN2\_MODE\_OUTPUT\_AF\_OPEN\_DRAIN}, 
+		\hyperpage{34}
+    \subitem {GPIO\_PIN2\_MODE\_OUTPUT\_AF\_PUSH\_PULL}, \hyperpage{34}
+    \subitem {GPIO\_PIN2\_MODE\_OUTPUT\_OPEN\_DRAIN}, \hyperpage{34}
+    \subitem {GPIO\_PIN2\_MODE\_OUTPUT\_PUSH\_PULL}, \hyperpage{35}
+    \subitem {GPIO\_PIN2\_PORTA}, \hyperpage{35}
+    \subitem {GPIO\_PIN2\_PORTB}, \hyperpage{35}
+    \subitem {GPIO\_PIN2\_PORTC}, \hyperpage{35}
+    \subitem {GPIO\_PIN2\_SELECT}, \hyperpage{35}
+    \subitem {GPIO\_PIN2\_SPEED\_10MHZ}, \hyperpage{35}
+    \subitem {GPIO\_PIN2\_SPEED\_2MHZ}, \hyperpage{35}
+    \subitem {GPIO\_PIN2\_SPEED\_50MHZ}, \hyperpage{35}
+    \subitem {GPIO\_PIN2\_SPEED\_NONE}, \hyperpage{36}
+    \subitem {GPIO\_PIN2\_VALUE\_HIGH}, \hyperpage{36}
+    \subitem {GPIO\_PIN2\_VALUE\_LOW}, \hyperpage{36}
+    \subitem {GPIO\_PIN3\_MODE\_INPUT\_ANALOG}, \hyperpage{36}
+    \subitem {GPIO\_PIN3\_MODE\_INPUT\_FLOATING}, \hyperpage{36}
+    \subitem {GPIO\_PIN3\_MODE\_INPUT\_PULL\_UP\_DOWN}, \hyperpage{36}
+    \subitem {GPIO\_PIN3\_MODE\_OUTPUT\_AF\_OPEN\_DRAIN}, 
+		\hyperpage{36}
+    \subitem {GPIO\_PIN3\_MODE\_OUTPUT\_AF\_PUSH\_PULL}, \hyperpage{36}
+    \subitem {GPIO\_PIN3\_MODE\_OUTPUT\_OPEN\_DRAIN}, \hyperpage{37}
+    \subitem {GPIO\_PIN3\_MODE\_OUTPUT\_PUSH\_PULL}, \hyperpage{37}
+    \subitem {GPIO\_PIN3\_PORTA}, \hyperpage{37}
+    \subitem {GPIO\_PIN3\_PORTB}, \hyperpage{37}
+    \subitem {GPIO\_PIN3\_PORTC}, \hyperpage{37}
+    \subitem {GPIO\_PIN3\_SELECT}, \hyperpage{37}
+    \subitem {GPIO\_PIN3\_SPEED\_10MHZ}, \hyperpage{37}
+    \subitem {GPIO\_PIN3\_SPEED\_2MHZ}, \hyperpage{37}
+    \subitem {GPIO\_PIN3\_SPEED\_50MHZ}, \hyperpage{38}
+    \subitem {GPIO\_PIN3\_SPEED\_NONE}, \hyperpage{38}
+    \subitem {GPIO\_PIN3\_VALUE\_HIGH}, \hyperpage{38}
+    \subitem {GPIO\_PIN3\_VALUE\_LOW}, \hyperpage{38}
+    \subitem {GPIO\_PIN4\_MODE\_INPUT\_ANALOG}, \hyperpage{38}
+    \subitem {GPIO\_PIN4\_MODE\_INPUT\_FLOATING}, \hyperpage{38}
+    \subitem {GPIO\_PIN4\_MODE\_INPUT\_PULL\_UP\_DOWN}, \hyperpage{38}
+    \subitem {GPIO\_PIN4\_MODE\_OUTPUT\_AF\_OPEN\_DRAIN}, 
+		\hyperpage{38}
+    \subitem {GPIO\_PIN4\_MODE\_OUTPUT\_AF\_PUSH\_PULL}, \hyperpage{39}
+    \subitem {GPIO\_PIN4\_MODE\_OUTPUT\_OPEN\_DRAIN}, \hyperpage{39}
+    \subitem {GPIO\_PIN4\_MODE\_OUTPUT\_PUSH\_PULL}, \hyperpage{39}
+    \subitem {GPIO\_PIN4\_PORTA}, \hyperpage{39}
+    \subitem {GPIO\_PIN4\_PORTB}, \hyperpage{39}
+    \subitem {GPIO\_PIN4\_PORTC}, \hyperpage{39}
+    \subitem {GPIO\_PIN4\_SELECT}, \hyperpage{39}
+    \subitem {GPIO\_PIN4\_SPEED\_10MHZ}, \hyperpage{39}
+    \subitem {GPIO\_PIN4\_SPEED\_2MHZ}, \hyperpage{40}
+    \subitem {GPIO\_PIN4\_SPEED\_50MHZ}, \hyperpage{40}
+    \subitem {GPIO\_PIN4\_SPEED\_NONE}, \hyperpage{40}
+    \subitem {GPIO\_PIN4\_VALUE\_HIGH}, \hyperpage{40}
+    \subitem {GPIO\_PIN4\_VALUE\_LOW}, \hyperpage{40}
+    \subitem {GPIO\_PIN5\_MODE\_INPUT\_ANALOG}, \hyperpage{40}
+    \subitem {GPIO\_PIN5\_MODE\_INPUT\_FLOATING}, \hyperpage{40}
+    \subitem {GPIO\_PIN5\_MODE\_INPUT\_PULL\_UP\_DOWN}, \hyperpage{40}
+    \subitem {GPIO\_PIN5\_MODE\_OUTPUT\_AF\_OPEN\_DRAIN}, 
+		\hyperpage{41}
+    \subitem {GPIO\_PIN5\_MODE\_OUTPUT\_AF\_PUSH\_PULL}, \hyperpage{41}
+    \subitem {GPIO\_PIN5\_MODE\_OUTPUT\_OPEN\_DRAIN}, \hyperpage{41}
+    \subitem {GPIO\_PIN5\_MODE\_OUTPUT\_PUSH\_PULL}, \hyperpage{41}
+    \subitem {GPIO\_PIN5\_PORTA}, \hyperpage{41}
+    \subitem {GPIO\_PIN5\_PORTB}, \hyperpage{41}
+    \subitem {GPIO\_PIN5\_PORTC}, \hyperpage{41}
+    \subitem {GPIO\_PIN5\_SELECT}, \hyperpage{41}
+    \subitem {GPIO\_PIN5\_SPEED\_10MHZ}, \hyperpage{42}
+    \subitem {GPIO\_PIN5\_SPEED\_2MHZ}, \hyperpage{42}
+    \subitem {GPIO\_PIN5\_SPEED\_50MHZ}, \hyperpage{42}
+    \subitem {GPIO\_PIN5\_SPEED\_NONE}, \hyperpage{42}
+    \subitem {GPIO\_PIN5\_VALUE\_HIGH}, \hyperpage{42}
+    \subitem {GPIO\_PIN5\_VALUE\_LOW}, \hyperpage{42}
+    \subitem {GPIO\_PIN6\_MODE\_INPUT\_ANALOG}, \hyperpage{42}
+    \subitem {GPIO\_PIN6\_MODE\_INPUT\_FLOATING}, \hyperpage{42}
+    \subitem {GPIO\_PIN6\_MODE\_INPUT\_PULL\_UP\_DOWN}, \hyperpage{43}
+    \subitem {GPIO\_PIN6\_MODE\_OUTPUT\_AF\_OPEN\_DRAIN}, 
+		\hyperpage{43}
+    \subitem {GPIO\_PIN6\_MODE\_OUTPUT\_AF\_PUSH\_PULL}, \hyperpage{43}
+    \subitem {GPIO\_PIN6\_MODE\_OUTPUT\_OPEN\_DRAIN}, \hyperpage{43}
+    \subitem {GPIO\_PIN6\_MODE\_OUTPUT\_PUSH\_PULL}, \hyperpage{43}
+    \subitem {GPIO\_PIN6\_PORTA}, \hyperpage{43}
+    \subitem {GPIO\_PIN6\_PORTB}, \hyperpage{43}
+    \subitem {GPIO\_PIN6\_PORTC}, \hyperpage{43}
+    \subitem {GPIO\_PIN6\_SELECT}, \hyperpage{44}
+    \subitem {GPIO\_PIN6\_SPEED\_10MHZ}, \hyperpage{44}
+    \subitem {GPIO\_PIN6\_SPEED\_2MHZ}, \hyperpage{44}
+    \subitem {GPIO\_PIN6\_SPEED\_50MHZ}, \hyperpage{44}
+    \subitem {GPIO\_PIN6\_SPEED\_NONE}, \hyperpage{44}
+    \subitem {GPIO\_PIN6\_VALUE\_HIGH}, \hyperpage{44}
+    \subitem {GPIO\_PIN6\_VALUE\_LOW}, \hyperpage{44}
+    \subitem {GPIO\_PIN7\_MODE\_INPUT\_ANALOG}, \hyperpage{44}
+    \subitem {GPIO\_PIN7\_MODE\_INPUT\_FLOATING}, \hyperpage{45}
+    \subitem {GPIO\_PIN7\_MODE\_INPUT\_PULL\_UP\_DOWN}, \hyperpage{45}
+    \subitem {GPIO\_PIN7\_MODE\_OUTPUT\_AF\_OPEN\_DRAIN}, 
+		\hyperpage{45}
+    \subitem {GPIO\_PIN7\_MODE\_OUTPUT\_AF\_PUSH\_PULL}, \hyperpage{45}
+    \subitem {GPIO\_PIN7\_MODE\_OUTPUT\_OPEN\_DRAIN}, \hyperpage{45}
+    \subitem {GPIO\_PIN7\_MODE\_OUTPUT\_PUSH\_PULL}, \hyperpage{45}
+    \subitem {GPIO\_PIN7\_PORTA}, \hyperpage{45}
+    \subitem {GPIO\_PIN7\_PORTB}, \hyperpage{45}
+    \subitem {GPIO\_PIN7\_PORTC}, \hyperpage{46}
+    \subitem {GPIO\_PIN7\_SELECT}, \hyperpage{46}
+    \subitem {GPIO\_PIN7\_SPEED\_10MHZ}, \hyperpage{46}
+    \subitem {GPIO\_PIN7\_SPEED\_2MHZ}, \hyperpage{46}
+    \subitem {GPIO\_PIN7\_SPEED\_50MHZ}, \hyperpage{46}
+    \subitem {GPIO\_PIN7\_SPEED\_NONE}, \hyperpage{46}
+    \subitem {GPIO\_PIN7\_VALUE\_HIGH}, \hyperpage{46}
+    \subitem {GPIO\_PIN7\_VALUE\_LOW}, \hyperpage{46}
+    \subitem {GPIO\_PIN8\_MODE\_INPUT\_ANALOG}, \hyperpage{47}
+    \subitem {GPIO\_PIN8\_MODE\_INPUT\_FLOATING}, \hyperpage{47}
+    \subitem {GPIO\_PIN8\_MODE\_INPUT\_PULL\_UP\_DOWN}, \hyperpage{47}
+    \subitem {GPIO\_PIN8\_MODE\_OUTPUT\_AF\_OPEN\_DRAIN}, 
+		\hyperpage{47}
+    \subitem {GPIO\_PIN8\_MODE\_OUTPUT\_AF\_PUSH\_PULL}, \hyperpage{47}
+    \subitem {GPIO\_PIN8\_MODE\_OUTPUT\_OPEN\_DRAIN}, \hyperpage{47}
+    \subitem {GPIO\_PIN8\_MODE\_OUTPUT\_PUSH\_PULL}, \hyperpage{47}
+    \subitem {GPIO\_PIN8\_PORTA}, \hyperpage{47}
+    \subitem {GPIO\_PIN8\_PORTB}, \hyperpage{48}
+    \subitem {GPIO\_PIN8\_PORTC}, \hyperpage{48}
+    \subitem {GPIO\_PIN8\_SELECT}, \hyperpage{48}
+    \subitem {GPIO\_PIN8\_SPEED\_10MHZ}, \hyperpage{48}
+    \subitem {GPIO\_PIN8\_SPEED\_2MHZ}, \hyperpage{48}
+    \subitem {GPIO\_PIN8\_SPEED\_50MHZ}, \hyperpage{48}
+    \subitem {GPIO\_PIN8\_SPEED\_NONE}, \hyperpage{48}
+    \subitem {GPIO\_PIN8\_VALUE\_HIGH}, \hyperpage{48}
+    \subitem {GPIO\_PIN8\_VALUE\_LOW}, \hyperpage{49}
+    \subitem {GPIO\_PIN9\_MODE\_INPUT\_ANALOG}, \hyperpage{49}
+    \subitem {GPIO\_PIN9\_MODE\_INPUT\_FLOATING}, \hyperpage{49}
+    \subitem {GPIO\_PIN9\_MODE\_INPUT\_PULL\_UP\_DOWN}, \hyperpage{49}
+    \subitem {GPIO\_PIN9\_MODE\_OUTPUT\_AF\_OPEN\_DRAIN}, 
+		\hyperpage{49}
+    \subitem {GPIO\_PIN9\_MODE\_OUTPUT\_AF\_PUSH\_PULL}, \hyperpage{49}
+    \subitem {GPIO\_PIN9\_MODE\_OUTPUT\_OPEN\_DRAIN}, \hyperpage{49}
+    \subitem {GPIO\_PIN9\_MODE\_OUTPUT\_PUSH\_PULL}, \hyperpage{49}
+    \subitem {GPIO\_PIN9\_PORTA}, \hyperpage{50}
+    \subitem {GPIO\_PIN9\_PORTB}, \hyperpage{50}
+    \subitem {GPIO\_PIN9\_PORTC}, \hyperpage{50}
+    \subitem {GPIO\_PIN9\_SELECT}, \hyperpage{50}
+    \subitem {GPIO\_PIN9\_SPEED\_10MHZ}, \hyperpage{50}
+    \subitem {GPIO\_PIN9\_SPEED\_2MHZ}, \hyperpage{50}
+    \subitem {GPIO\_PIN9\_SPEED\_50MHZ}, \hyperpage{50}
+    \subitem {GPIO\_PIN9\_SPEED\_NONE}, \hyperpage{50}
+    \subitem {GPIO\_PIN9\_VALUE\_HIGH}, \hyperpage{51}
+    \subitem {GPIO\_PIN9\_VALUE\_LOW}, \hyperpage{51}
+    \subitem {GPIO\_PIN\_ALL\_MODE\_INPUT\_ANALOG}, \hyperpage{51}
+    \subitem {GPIO\_PIN\_ALL\_MODE\_INPUT\_FLOATING}, \hyperpage{51}
+    \subitem {GPIO\_PIN\_ALL\_MODE\_INPUT\_PULL\_UP\_DOWN}, 
+		\hyperpage{51}
+    \subitem {GPIO\_PIN\_ALL\_MODE\_OUTPUT\_AF\_OPEN\_DRAIN}, 
+		\hyperpage{51}
+    \subitem {GPIO\_PIN\_ALL\_MODE\_OUTPUT\_AF\_PUSH\_PULL}, 
+		\hyperpage{51}
+    \subitem {GPIO\_PIN\_ALL\_MODE\_OUTPUT\_OPEN\_DRAIN}, 
+		\hyperpage{51}
+    \subitem {GPIO\_PIN\_ALL\_MODE\_OUTPUT\_PUSH\_PULL}, \hyperpage{52}
+    \subitem {GPIO\_PIN\_ALL\_PORTA}, \hyperpage{52}
+    \subitem {GPIO\_PIN\_ALL\_PORTB}, \hyperpage{52}
+    \subitem {GPIO\_PIN\_ALL\_PORTC}, \hyperpage{52}
+    \subitem {GPIO\_PIN\_ALL\_SPEED\_10MHZ}, \hyperpage{52}
+    \subitem {GPIO\_PIN\_ALL\_SPEED\_2MHZ}, \hyperpage{52}
+    \subitem {GPIO\_PIN\_ALL\_SPEED\_50MHZ}, \hyperpage{52}
+    \subitem {GPIO\_PIN\_ALL\_SPEED\_NONE}, \hyperpage{52}
+    \subitem {GPIO\_PIN\_ALL\_VALUE\_HIGH}, \hyperpage{53}
+    \subitem {GPIO\_PIN\_ALL\_VALUE\_LOW}, \hyperpage{53}
+    \subitem {GPIO\_ReadPin}, \hyperpage{53}
+    \subitem {GPIO\_WritePin}, \hyperpage{54}
+  \item {GPIO\_InitPin}
+    \subitem {GPIO.h}, \hyperpage{53}
+  \item {GPIO\_PIN0\_MODE\_INPUT\_ANALOG}
+    \subitem {GPIO.h}, \hyperpage{17}
+  \item {GPIO\_PIN0\_MODE\_INPUT\_FLOATING}
+    \subitem {GPIO.h}, \hyperpage{17}
+  \item {GPIO\_PIN0\_MODE\_INPUT\_PULL\_UP\_DOWN}
+    \subitem {GPIO.h}, \hyperpage{17}
+  \item {GPIO\_PIN0\_MODE\_OUTPUT\_AF\_OPEN\_DRAIN}
+    \subitem {GPIO.h}, \hyperpage{17}
+  \item {GPIO\_PIN0\_MODE\_OUTPUT\_AF\_PUSH\_PULL}
+    \subitem {GPIO.h}, \hyperpage{17}
+  \item {GPIO\_PIN0\_MODE\_OUTPUT\_OPEN\_DRAIN}
+    \subitem {GPIO.h}, \hyperpage{17}
+  \item {GPIO\_PIN0\_MODE\_OUTPUT\_PUSH\_PULL}
+    \subitem {GPIO.h}, \hyperpage{18}
+  \item {GPIO\_PIN0\_PORTA}
+    \subitem {GPIO.h}, \hyperpage{18}
+  \item {GPIO\_PIN0\_PORTB}
+    \subitem {GPIO.h}, \hyperpage{18}
+  \item {GPIO\_PIN0\_PORTC}
+    \subitem {GPIO.h}, \hyperpage{18}
+  \item {GPIO\_PIN0\_SELECT}
+    \subitem {GPIO.h}, \hyperpage{18}
+  \item {GPIO\_PIN0\_SPEED\_10MHZ}
+    \subitem {GPIO.h}, \hyperpage{18}
+  \item {GPIO\_PIN0\_SPEED\_2MHZ}
+    \subitem {GPIO.h}, \hyperpage{18}
+  \item {GPIO\_PIN0\_SPEED\_50MHZ}
+    \subitem {GPIO.h}, \hyperpage{18}
+  \item {GPIO\_PIN0\_SPEED\_NONE}
+    \subitem {GPIO.h}, \hyperpage{19}
+  \item {GPIO\_PIN0\_VALUE\_HIGH}
+    \subitem {GPIO.h}, \hyperpage{19}
+  \item {GPIO\_PIN0\_VALUE\_LOW}
+    \subitem {GPIO.h}, \hyperpage{19}
+  \item {GPIO\_PIN10\_MODE\_INPUT\_ANALOG}
+    \subitem {GPIO.h}, \hyperpage{19}
+  \item {GPIO\_PIN10\_MODE\_INPUT\_FLOATING}
+    \subitem {GPIO.h}, \hyperpage{19}
+  \item {GPIO\_PIN10\_MODE\_INPUT\_PULL\_UP\_DOWN}
+    \subitem {GPIO.h}, \hyperpage{19}
+  \item {GPIO\_PIN10\_MODE\_OUTPUT\_AF\_OPEN\_DRAIN}
+    \subitem {GPIO.h}, \hyperpage{19}
+  \item {GPIO\_PIN10\_MODE\_OUTPUT\_AF\_PUSH\_PULL}
+    \subitem {GPIO.h}, \hyperpage{19}
+  \item {GPIO\_PIN10\_MODE\_OUTPUT\_OPEN\_DRAIN}
+    \subitem {GPIO.h}, \hyperpage{20}
+  \item {GPIO\_PIN10\_MODE\_OUTPUT\_PUSH\_PULL}
+    \subitem {GPIO.h}, \hyperpage{20}
+  \item {GPIO\_PIN10\_PORTA}
+    \subitem {GPIO.h}, \hyperpage{20}
+  \item {GPIO\_PIN10\_PORTB}
+    \subitem {GPIO.h}, \hyperpage{20}
+  \item {GPIO\_PIN10\_PORTC}
+    \subitem {GPIO.h}, \hyperpage{20}
+  \item {GPIO\_PIN10\_SELECT}
+    \subitem {GPIO.h}, \hyperpage{20}
+  \item {GPIO\_PIN10\_SPEED\_10MHZ}
+    \subitem {GPIO.h}, \hyperpage{20}
+  \item {GPIO\_PIN10\_SPEED\_2MHZ}
+    \subitem {GPIO.h}, \hyperpage{20}
+  \item {GPIO\_PIN10\_SPEED\_50MHZ}
+    \subitem {GPIO.h}, \hyperpage{21}
+  \item {GPIO\_PIN10\_SPEED\_NONE}
+    \subitem {GPIO.h}, \hyperpage{21}
+  \item {GPIO\_PIN10\_VALUE\_HIGH}
+    \subitem {GPIO.h}, \hyperpage{21}
+  \item {GPIO\_PIN10\_VALUE\_LOW}
+    \subitem {GPIO.h}, \hyperpage{21}
+  \item {GPIO\_PIN11\_MODE\_INPUT\_ANALOG}
+    \subitem {GPIO.h}, \hyperpage{21}
+  \item {GPIO\_PIN11\_MODE\_INPUT\_FLOATING}
+    \subitem {GPIO.h}, \hyperpage{21}
+  \item {GPIO\_PIN11\_MODE\_INPUT\_PULL\_UP\_DOWN}
+    \subitem {GPIO.h}, \hyperpage{21}
+  \item {GPIO\_PIN11\_MODE\_OUTPUT\_AF\_OPEN\_DRAIN}
+    \subitem {GPIO.h}, \hyperpage{21}
+  \item {GPIO\_PIN11\_MODE\_OUTPUT\_AF\_PUSH\_PULL}
+    \subitem {GPIO.h}, \hyperpage{22}
+  \item {GPIO\_PIN11\_MODE\_OUTPUT\_OPEN\_DRAIN}
+    \subitem {GPIO.h}, \hyperpage{22}
+  \item {GPIO\_PIN11\_MODE\_OUTPUT\_PUSH\_PULL}
+    \subitem {GPIO.h}, \hyperpage{22}
+  \item {GPIO\_PIN11\_PORTA}
+    \subitem {GPIO.h}, \hyperpage{22}
+  \item {GPIO\_PIN11\_PORTB}
+    \subitem {GPIO.h}, \hyperpage{22}
+  \item {GPIO\_PIN11\_PORTC}
+    \subitem {GPIO.h}, \hyperpage{22}
+  \item {GPIO\_PIN11\_SELECT}
+    \subitem {GPIO.h}, \hyperpage{22}
+  \item {GPIO\_PIN11\_SPEED\_10MHZ}
+    \subitem {GPIO.h}, \hyperpage{22}
+  \item {GPIO\_PIN11\_SPEED\_2MHZ}
+    \subitem {GPIO.h}, \hyperpage{23}
+  \item {GPIO\_PIN11\_SPEED\_50MHZ}
+    \subitem {GPIO.h}, \hyperpage{23}
+  \item {GPIO\_PIN11\_SPEED\_NONE}
+    \subitem {GPIO.h}, \hyperpage{23}
+  \item {GPIO\_PIN11\_VALUE\_HIGH}
+    \subitem {GPIO.h}, \hyperpage{23}
+  \item {GPIO\_PIN11\_VALUE\_LOW}
+    \subitem {GPIO.h}, \hyperpage{23}
+  \item {GPIO\_PIN12\_MODE\_INPUT\_ANALOG}
+    \subitem {GPIO.h}, \hyperpage{23}
+  \item {GPIO\_PIN12\_MODE\_INPUT\_FLOATING}
+    \subitem {GPIO.h}, \hyperpage{23}
+  \item {GPIO\_PIN12\_MODE\_INPUT\_PULL\_UP\_DOWN}
+    \subitem {GPIO.h}, \hyperpage{23}
+  \item {GPIO\_PIN12\_MODE\_OUTPUT\_AF\_OPEN\_DRAIN}
+    \subitem {GPIO.h}, \hyperpage{24}
+  \item {GPIO\_PIN12\_MODE\_OUTPUT\_AF\_PUSH\_PULL}
+    \subitem {GPIO.h}, \hyperpage{24}
+  \item {GPIO\_PIN12\_MODE\_OUTPUT\_OPEN\_DRAIN}
+    \subitem {GPIO.h}, \hyperpage{24}
+  \item {GPIO\_PIN12\_MODE\_OUTPUT\_PUSH\_PULL}
+    \subitem {GPIO.h}, \hyperpage{24}
+  \item {GPIO\_PIN12\_PORTA}
+    \subitem {GPIO.h}, \hyperpage{24}
+  \item {GPIO\_PIN12\_PORTB}
+    \subitem {GPIO.h}, \hyperpage{24}
+  \item {GPIO\_PIN12\_PORTC}
+    \subitem {GPIO.h}, \hyperpage{24}
+  \item {GPIO\_PIN12\_SELECT}
+    \subitem {GPIO.h}, \hyperpage{24}
+  \item {GPIO\_PIN12\_SPEED\_10MHZ}
+    \subitem {GPIO.h}, \hyperpage{25}
+  \item {GPIO\_PIN12\_SPEED\_2MHZ}
+    \subitem {GPIO.h}, \hyperpage{25}
+  \item {GPIO\_PIN12\_SPEED\_50MHZ}
+    \subitem {GPIO.h}, \hyperpage{25}
+  \item {GPIO\_PIN12\_SPEED\_NONE}
+    \subitem {GPIO.h}, \hyperpage{25}
+  \item {GPIO\_PIN12\_VALUE\_HIGH}
+    \subitem {GPIO.h}, \hyperpage{25}
+  \item {GPIO\_PIN12\_VALUE\_LOW}
+    \subitem {GPIO.h}, \hyperpage{25}
+  \item {GPIO\_PIN13\_MODE\_INPUT\_ANALOG}
+    \subitem {GPIO.h}, \hyperpage{25}
+  \item {GPIO\_PIN13\_MODE\_INPUT\_FLOATING}
+    \subitem {GPIO.h}, \hyperpage{25}
+  \item {GPIO\_PIN13\_MODE\_INPUT\_PULL\_UP\_DOWN}
+    \subitem {GPIO.h}, \hyperpage{26}
+  \item {GPIO\_PIN13\_MODE\_OUTPUT\_AF\_OPEN\_DRAIN}
+    \subitem {GPIO.h}, \hyperpage{26}
+  \item {GPIO\_PIN13\_MODE\_OUTPUT\_AF\_PUSH\_PULL}
+    \subitem {GPIO.h}, \hyperpage{26}
+  \item {GPIO\_PIN13\_MODE\_OUTPUT\_OPEN\_DRAIN}
+    \subitem {GPIO.h}, \hyperpage{26}
+  \item {GPIO\_PIN13\_MODE\_OUTPUT\_PUSH\_PULL}
+    \subitem {GPIO.h}, \hyperpage{26}
+  \item {GPIO\_PIN13\_PORTA}
+    \subitem {GPIO.h}, \hyperpage{26}
+  \item {GPIO\_PIN13\_PORTB}
+    \subitem {GPIO.h}, \hyperpage{26}
+  \item {GPIO\_PIN13\_PORTC}
+    \subitem {GPIO.h}, \hyperpage{26}
+  \item {GPIO\_PIN13\_SELECT}
+    \subitem {GPIO.h}, \hyperpage{27}
+  \item {GPIO\_PIN13\_SPEED\_10MHZ}
+    \subitem {GPIO.h}, \hyperpage{27}
+  \item {GPIO\_PIN13\_SPEED\_2MHZ}
+    \subitem {GPIO.h}, \hyperpage{27}
+  \item {GPIO\_PIN13\_SPEED\_50MHZ}
+    \subitem {GPIO.h}, \hyperpage{27}
+  \item {GPIO\_PIN13\_SPEED\_NONE}
+    \subitem {GPIO.h}, \hyperpage{27}
+  \item {GPIO\_PIN13\_VALUE\_HIGH}
+    \subitem {GPIO.h}, \hyperpage{27}
+  \item {GPIO\_PIN13\_VALUE\_LOW}
+    \subitem {GPIO.h}, \hyperpage{27}
+  \item {GPIO\_PIN14\_MODE\_INPUT\_ANALOG}
+    \subitem {GPIO.h}, \hyperpage{27}
+  \item {GPIO\_PIN14\_MODE\_INPUT\_FLOATING}
+    \subitem {GPIO.h}, \hyperpage{28}
+  \item {GPIO\_PIN14\_MODE\_INPUT\_PULL\_UP\_DOWN}
+    \subitem {GPIO.h}, \hyperpage{28}
+  \item {GPIO\_PIN14\_MODE\_OUTPUT\_AF\_OPEN\_DRAIN}
+    \subitem {GPIO.h}, \hyperpage{28}
+  \item {GPIO\_PIN14\_MODE\_OUTPUT\_AF\_PUSH\_PULL}
+    \subitem {GPIO.h}, \hyperpage{28}
+  \item {GPIO\_PIN14\_MODE\_OUTPUT\_OPEN\_DRAIN}
+    \subitem {GPIO.h}, \hyperpage{28}
+  \item {GPIO\_PIN14\_MODE\_OUTPUT\_PUSH\_PULL}
+    \subitem {GPIO.h}, \hyperpage{28}
+  \item {GPIO\_PIN14\_PORTA}
+    \subitem {GPIO.h}, \hyperpage{28}
+  \item {GPIO\_PIN14\_PORTB}
+    \subitem {GPIO.h}, \hyperpage{28}
+  \item {GPIO\_PIN14\_PORTC}
+    \subitem {GPIO.h}, \hyperpage{29}
+  \item {GPIO\_PIN14\_SELECT}
+    \subitem {GPIO.h}, \hyperpage{29}
+  \item {GPIO\_PIN14\_SPEED\_10MHZ}
+    \subitem {GPIO.h}, \hyperpage{29}
+  \item {GPIO\_PIN14\_SPEED\_2MHZ}
+    \subitem {GPIO.h}, \hyperpage{29}
+  \item {GPIO\_PIN14\_SPEED\_50MHZ}
+    \subitem {GPIO.h}, \hyperpage{29}
+  \item {GPIO\_PIN14\_SPEED\_NONE}
+    \subitem {GPIO.h}, \hyperpage{29}
+  \item {GPIO\_PIN14\_VALUE\_HIGH}
+    \subitem {GPIO.h}, \hyperpage{29}
+  \item {GPIO\_PIN14\_VALUE\_LOW}
+    \subitem {GPIO.h}, \hyperpage{29}
+  \item {GPIO\_PIN15\_MODE\_INPUT\_ANALOG}
+    \subitem {GPIO.h}, \hyperpage{30}
+  \item {GPIO\_PIN15\_MODE\_INPUT\_FLOATING}
+    \subitem {GPIO.h}, \hyperpage{30}
+  \item {GPIO\_PIN15\_MODE\_INPUT\_PULL\_UP\_DOWN}
+    \subitem {GPIO.h}, \hyperpage{30}
+  \item {GPIO\_PIN15\_MODE\_OUTPUT\_AF\_OPEN\_DRAIN}
+    \subitem {GPIO.h}, \hyperpage{30}
+  \item {GPIO\_PIN15\_MODE\_OUTPUT\_AF\_PUSH\_PULL}
+    \subitem {GPIO.h}, \hyperpage{30}
+  \item {GPIO\_PIN15\_MODE\_OUTPUT\_OPEN\_DRAIN}
+    \subitem {GPIO.h}, \hyperpage{30}
+  \item {GPIO\_PIN15\_MODE\_OUTPUT\_PUSH\_PULL}
+    \subitem {GPIO.h}, \hyperpage{30}
+  \item {GPIO\_PIN15\_PORTA}
+    \subitem {GPIO.h}, \hyperpage{30}
+  \item {GPIO\_PIN15\_PORTB}
+    \subitem {GPIO.h}, \hyperpage{31}
+  \item {GPIO\_PIN15\_PORTC}
+    \subitem {GPIO.h}, \hyperpage{31}
+  \item {GPIO\_PIN15\_SELECT}
+    \subitem {GPIO.h}, \hyperpage{31}
+  \item {GPIO\_PIN15\_SPEED\_10MHZ}
+    \subitem {GPIO.h}, \hyperpage{31}
+  \item {GPIO\_PIN15\_SPEED\_2MHZ}
+    \subitem {GPIO.h}, \hyperpage{31}
+  \item {GPIO\_PIN15\_SPEED\_50MHZ}
+    \subitem {GPIO.h}, \hyperpage{31}
+  \item {GPIO\_PIN15\_SPEED\_NONE}
+    \subitem {GPIO.h}, \hyperpage{31}
+  \item {GPIO\_PIN15\_VALUE\_HIGH}
+    \subitem {GPIO.h}, \hyperpage{31}
+  \item {GPIO\_PIN15\_VALUE\_LOW}
+    \subitem {GPIO.h}, \hyperpage{32}
+  \item {GPIO\_PIN1\_MODE\_INPUT\_ANALOG}
+    \subitem {GPIO.h}, \hyperpage{32}
+  \item {GPIO\_PIN1\_MODE\_INPUT\_FLOATING}
+    \subitem {GPIO.h}, \hyperpage{32}
+  \item {GPIO\_PIN1\_MODE\_INPUT\_PULL\_UP\_DOWN}
+    \subitem {GPIO.h}, \hyperpage{32}
+  \item {GPIO\_PIN1\_MODE\_OUTPUT\_AF\_OPEN\_DRAIN}
+    \subitem {GPIO.h}, \hyperpage{32}
+  \item {GPIO\_PIN1\_MODE\_OUTPUT\_AF\_PUSH\_PULL}
+    \subitem {GPIO.h}, \hyperpage{32}
+  \item {GPIO\_PIN1\_MODE\_OUTPUT\_OPEN\_DRAIN}
+    \subitem {GPIO.h}, \hyperpage{32}
+  \item {GPIO\_PIN1\_MODE\_OUTPUT\_PUSH\_PULL}
+    \subitem {GPIO.h}, \hyperpage{32}
+  \item {GPIO\_PIN1\_PORTA}
+    \subitem {GPIO.h}, \hyperpage{33}
+  \item {GPIO\_PIN1\_PORTB}
+    \subitem {GPIO.h}, \hyperpage{33}
+  \item {GPIO\_PIN1\_PORTC}
+    \subitem {GPIO.h}, \hyperpage{33}
+  \item {GPIO\_PIN1\_SELECT}
+    \subitem {GPIO.h}, \hyperpage{33}
+  \item {GPIO\_PIN1\_SPEED\_10MHZ}
+    \subitem {GPIO.h}, \hyperpage{33}
+  \item {GPIO\_PIN1\_SPEED\_2MHZ}
+    \subitem {GPIO.h}, \hyperpage{33}
+  \item {GPIO\_PIN1\_SPEED\_50MHZ}
+    \subitem {GPIO.h}, \hyperpage{33}
+  \item {GPIO\_PIN1\_SPEED\_NONE}
+    \subitem {GPIO.h}, \hyperpage{33}
+  \item {GPIO\_PIN1\_VALUE\_HIGH}
+    \subitem {GPIO.h}, \hyperpage{34}
+  \item {GPIO\_PIN1\_VALUE\_LOW}
+    \subitem {GPIO.h}, \hyperpage{34}
+  \item {GPIO\_PIN2\_MODE\_INPUT\_ANALOG}
+    \subitem {GPIO.h}, \hyperpage{34}
+  \item {GPIO\_PIN2\_MODE\_INPUT\_FLOATING}
+    \subitem {GPIO.h}, \hyperpage{34}
+  \item {GPIO\_PIN2\_MODE\_INPUT\_PULL\_UP\_DOWN}
+    \subitem {GPIO.h}, \hyperpage{34}
+  \item {GPIO\_PIN2\_MODE\_OUTPUT\_AF\_OPEN\_DRAIN}
+    \subitem {GPIO.h}, \hyperpage{34}
+  \item {GPIO\_PIN2\_MODE\_OUTPUT\_AF\_PUSH\_PULL}
+    \subitem {GPIO.h}, \hyperpage{34}
+  \item {GPIO\_PIN2\_MODE\_OUTPUT\_OPEN\_DRAIN}
+    \subitem {GPIO.h}, \hyperpage{34}
+  \item {GPIO\_PIN2\_MODE\_OUTPUT\_PUSH\_PULL}
+    \subitem {GPIO.h}, \hyperpage{35}
+  \item {GPIO\_PIN2\_PORTA}
+    \subitem {GPIO.h}, \hyperpage{35}
+  \item {GPIO\_PIN2\_PORTB}
+    \subitem {GPIO.h}, \hyperpage{35}
+  \item {GPIO\_PIN2\_PORTC}
+    \subitem {GPIO.h}, \hyperpage{35}
+  \item {GPIO\_PIN2\_SELECT}
+    \subitem {GPIO.h}, \hyperpage{35}
+  \item {GPIO\_PIN2\_SPEED\_10MHZ}
+    \subitem {GPIO.h}, \hyperpage{35}
+  \item {GPIO\_PIN2\_SPEED\_2MHZ}
+    \subitem {GPIO.h}, \hyperpage{35}
+  \item {GPIO\_PIN2\_SPEED\_50MHZ}
+    \subitem {GPIO.h}, \hyperpage{35}
+  \item {GPIO\_PIN2\_SPEED\_NONE}
+    \subitem {GPIO.h}, \hyperpage{36}
+  \item {GPIO\_PIN2\_VALUE\_HIGH}
+    \subitem {GPIO.h}, \hyperpage{36}
+  \item {GPIO\_PIN2\_VALUE\_LOW}
+    \subitem {GPIO.h}, \hyperpage{36}
+  \item {GPIO\_PIN3\_MODE\_INPUT\_ANALOG}
+    \subitem {GPIO.h}, \hyperpage{36}
+  \item {GPIO\_PIN3\_MODE\_INPUT\_FLOATING}
+    \subitem {GPIO.h}, \hyperpage{36}
+  \item {GPIO\_PIN3\_MODE\_INPUT\_PULL\_UP\_DOWN}
+    \subitem {GPIO.h}, \hyperpage{36}
+  \item {GPIO\_PIN3\_MODE\_OUTPUT\_AF\_OPEN\_DRAIN}
+    \subitem {GPIO.h}, \hyperpage{36}
+  \item {GPIO\_PIN3\_MODE\_OUTPUT\_AF\_PUSH\_PULL}
+    \subitem {GPIO.h}, \hyperpage{36}
+  \item {GPIO\_PIN3\_MODE\_OUTPUT\_OPEN\_DRAIN}
+    \subitem {GPIO.h}, \hyperpage{37}
+  \item {GPIO\_PIN3\_MODE\_OUTPUT\_PUSH\_PULL}
+    \subitem {GPIO.h}, \hyperpage{37}
+  \item {GPIO\_PIN3\_PORTA}
+    \subitem {GPIO.h}, \hyperpage{37}
+  \item {GPIO\_PIN3\_PORTB}
+    \subitem {GPIO.h}, \hyperpage{37}
+  \item {GPIO\_PIN3\_PORTC}
+    \subitem {GPIO.h}, \hyperpage{37}
+  \item {GPIO\_PIN3\_SELECT}
+    \subitem {GPIO.h}, \hyperpage{37}
+  \item {GPIO\_PIN3\_SPEED\_10MHZ}
+    \subitem {GPIO.h}, \hyperpage{37}
+  \item {GPIO\_PIN3\_SPEED\_2MHZ}
+    \subitem {GPIO.h}, \hyperpage{37}
+  \item {GPIO\_PIN3\_SPEED\_50MHZ}
+    \subitem {GPIO.h}, \hyperpage{38}
+  \item {GPIO\_PIN3\_SPEED\_NONE}
+    \subitem {GPIO.h}, \hyperpage{38}
+  \item {GPIO\_PIN3\_VALUE\_HIGH}
+    \subitem {GPIO.h}, \hyperpage{38}
+  \item {GPIO\_PIN3\_VALUE\_LOW}
+    \subitem {GPIO.h}, \hyperpage{38}
+  \item {GPIO\_PIN4\_MODE\_INPUT\_ANALOG}
+    \subitem {GPIO.h}, \hyperpage{38}
+  \item {GPIO\_PIN4\_MODE\_INPUT\_FLOATING}
+    \subitem {GPIO.h}, \hyperpage{38}
+  \item {GPIO\_PIN4\_MODE\_INPUT\_PULL\_UP\_DOWN}
+    \subitem {GPIO.h}, \hyperpage{38}
+  \item {GPIO\_PIN4\_MODE\_OUTPUT\_AF\_OPEN\_DRAIN}
+    \subitem {GPIO.h}, \hyperpage{38}
+  \item {GPIO\_PIN4\_MODE\_OUTPUT\_AF\_PUSH\_PULL}
+    \subitem {GPIO.h}, \hyperpage{39}
+  \item {GPIO\_PIN4\_MODE\_OUTPUT\_OPEN\_DRAIN}
+    \subitem {GPIO.h}, \hyperpage{39}
+  \item {GPIO\_PIN4\_MODE\_OUTPUT\_PUSH\_PULL}
+    \subitem {GPIO.h}, \hyperpage{39}
+  \item {GPIO\_PIN4\_PORTA}
+    \subitem {GPIO.h}, \hyperpage{39}
+  \item {GPIO\_PIN4\_PORTB}
+    \subitem {GPIO.h}, \hyperpage{39}
+  \item {GPIO\_PIN4\_PORTC}
+    \subitem {GPIO.h}, \hyperpage{39}
+  \item {GPIO\_PIN4\_SELECT}
+    \subitem {GPIO.h}, \hyperpage{39}
+  \item {GPIO\_PIN4\_SPEED\_10MHZ}
+    \subitem {GPIO.h}, \hyperpage{39}
+  \item {GPIO\_PIN4\_SPEED\_2MHZ}
+    \subitem {GPIO.h}, \hyperpage{40}
+  \item {GPIO\_PIN4\_SPEED\_50MHZ}
+    \subitem {GPIO.h}, \hyperpage{40}
+  \item {GPIO\_PIN4\_SPEED\_NONE}
+    \subitem {GPIO.h}, \hyperpage{40}
+  \item {GPIO\_PIN4\_VALUE\_HIGH}
+    \subitem {GPIO.h}, \hyperpage{40}
+  \item {GPIO\_PIN4\_VALUE\_LOW}
+    \subitem {GPIO.h}, \hyperpage{40}
+  \item {GPIO\_PIN5\_MODE\_INPUT\_ANALOG}
+    \subitem {GPIO.h}, \hyperpage{40}
+  \item {GPIO\_PIN5\_MODE\_INPUT\_FLOATING}
+    \subitem {GPIO.h}, \hyperpage{40}
+  \item {GPIO\_PIN5\_MODE\_INPUT\_PULL\_UP\_DOWN}
+    \subitem {GPIO.h}, \hyperpage{40}
+  \item {GPIO\_PIN5\_MODE\_OUTPUT\_AF\_OPEN\_DRAIN}
+    \subitem {GPIO.h}, \hyperpage{41}
+  \item {GPIO\_PIN5\_MODE\_OUTPUT\_AF\_PUSH\_PULL}
+    \subitem {GPIO.h}, \hyperpage{41}
+  \item {GPIO\_PIN5\_MODE\_OUTPUT\_OPEN\_DRAIN}
+    \subitem {GPIO.h}, \hyperpage{41}
+  \item {GPIO\_PIN5\_MODE\_OUTPUT\_PUSH\_PULL}
+    \subitem {GPIO.h}, \hyperpage{41}
+  \item {GPIO\_PIN5\_PORTA}
+    \subitem {GPIO.h}, \hyperpage{41}
+  \item {GPIO\_PIN5\_PORTB}
+    \subitem {GPIO.h}, \hyperpage{41}
+  \item {GPIO\_PIN5\_PORTC}
+    \subitem {GPIO.h}, \hyperpage{41}
+  \item {GPIO\_PIN5\_SELECT}
+    \subitem {GPIO.h}, \hyperpage{41}
+  \item {GPIO\_PIN5\_SPEED\_10MHZ}
+    \subitem {GPIO.h}, \hyperpage{42}
+  \item {GPIO\_PIN5\_SPEED\_2MHZ}
+    \subitem {GPIO.h}, \hyperpage{42}
+  \item {GPIO\_PIN5\_SPEED\_50MHZ}
+    \subitem {GPIO.h}, \hyperpage{42}
+  \item {GPIO\_PIN5\_SPEED\_NONE}
+    \subitem {GPIO.h}, \hyperpage{42}
+  \item {GPIO\_PIN5\_VALUE\_HIGH}
+    \subitem {GPIO.h}, \hyperpage{42}
+  \item {GPIO\_PIN5\_VALUE\_LOW}
+    \subitem {GPIO.h}, \hyperpage{42}
+  \item {GPIO\_PIN6\_MODE\_INPUT\_ANALOG}
+    \subitem {GPIO.h}, \hyperpage{42}
+  \item {GPIO\_PIN6\_MODE\_INPUT\_FLOATING}
+    \subitem {GPIO.h}, \hyperpage{42}
+  \item {GPIO\_PIN6\_MODE\_INPUT\_PULL\_UP\_DOWN}
+    \subitem {GPIO.h}, \hyperpage{43}
+  \item {GPIO\_PIN6\_MODE\_OUTPUT\_AF\_OPEN\_DRAIN}
+    \subitem {GPIO.h}, \hyperpage{43}
+  \item {GPIO\_PIN6\_MODE\_OUTPUT\_AF\_PUSH\_PULL}
+    \subitem {GPIO.h}, \hyperpage{43}
+  \item {GPIO\_PIN6\_MODE\_OUTPUT\_OPEN\_DRAIN}
+    \subitem {GPIO.h}, \hyperpage{43}
+  \item {GPIO\_PIN6\_MODE\_OUTPUT\_PUSH\_PULL}
+    \subitem {GPIO.h}, \hyperpage{43}
+  \item {GPIO\_PIN6\_PORTA}
+    \subitem {GPIO.h}, \hyperpage{43}
+  \item {GPIO\_PIN6\_PORTB}
+    \subitem {GPIO.h}, \hyperpage{43}
+  \item {GPIO\_PIN6\_PORTC}
+    \subitem {GPIO.h}, \hyperpage{43}
+  \item {GPIO\_PIN6\_SELECT}
+    \subitem {GPIO.h}, \hyperpage{44}
+  \item {GPIO\_PIN6\_SPEED\_10MHZ}
+    \subitem {GPIO.h}, \hyperpage{44}
+  \item {GPIO\_PIN6\_SPEED\_2MHZ}
+    \subitem {GPIO.h}, \hyperpage{44}
+  \item {GPIO\_PIN6\_SPEED\_50MHZ}
+    \subitem {GPIO.h}, \hyperpage{44}
+  \item {GPIO\_PIN6\_SPEED\_NONE}
+    \subitem {GPIO.h}, \hyperpage{44}
+  \item {GPIO\_PIN6\_VALUE\_HIGH}
+    \subitem {GPIO.h}, \hyperpage{44}
+  \item {GPIO\_PIN6\_VALUE\_LOW}
+    \subitem {GPIO.h}, \hyperpage{44}
+  \item {GPIO\_PIN7\_MODE\_INPUT\_ANALOG}
+    \subitem {GPIO.h}, \hyperpage{44}
+  \item {GPIO\_PIN7\_MODE\_INPUT\_FLOATING}
+    \subitem {GPIO.h}, \hyperpage{45}
+  \item {GPIO\_PIN7\_MODE\_INPUT\_PULL\_UP\_DOWN}
+    \subitem {GPIO.h}, \hyperpage{45}
+  \item {GPIO\_PIN7\_MODE\_OUTPUT\_AF\_OPEN\_DRAIN}
+    \subitem {GPIO.h}, \hyperpage{45}
+  \item {GPIO\_PIN7\_MODE\_OUTPUT\_AF\_PUSH\_PULL}
+    \subitem {GPIO.h}, \hyperpage{45}
+  \item {GPIO\_PIN7\_MODE\_OUTPUT\_OPEN\_DRAIN}
+    \subitem {GPIO.h}, \hyperpage{45}
+  \item {GPIO\_PIN7\_MODE\_OUTPUT\_PUSH\_PULL}
+    \subitem {GPIO.h}, \hyperpage{45}
+  \item {GPIO\_PIN7\_PORTA}
+    \subitem {GPIO.h}, \hyperpage{45}
+  \item {GPIO\_PIN7\_PORTB}
+    \subitem {GPIO.h}, \hyperpage{45}
+  \item {GPIO\_PIN7\_PORTC}
+    \subitem {GPIO.h}, \hyperpage{46}
+  \item {GPIO\_PIN7\_SELECT}
+    \subitem {GPIO.h}, \hyperpage{46}
+  \item {GPIO\_PIN7\_SPEED\_10MHZ}
+    \subitem {GPIO.h}, \hyperpage{46}
+  \item {GPIO\_PIN7\_SPEED\_2MHZ}
+    \subitem {GPIO.h}, \hyperpage{46}
+  \item {GPIO\_PIN7\_SPEED\_50MHZ}
+    \subitem {GPIO.h}, \hyperpage{46}
+  \item {GPIO\_PIN7\_SPEED\_NONE}
+    \subitem {GPIO.h}, \hyperpage{46}
+  \item {GPIO\_PIN7\_VALUE\_HIGH}
+    \subitem {GPIO.h}, \hyperpage{46}
+  \item {GPIO\_PIN7\_VALUE\_LOW}
+    \subitem {GPIO.h}, \hyperpage{46}
+  \item {GPIO\_PIN8\_MODE\_INPUT\_ANALOG}
+    \subitem {GPIO.h}, \hyperpage{47}
+  \item {GPIO\_PIN8\_MODE\_INPUT\_FLOATING}
+    \subitem {GPIO.h}, \hyperpage{47}
+  \item {GPIO\_PIN8\_MODE\_INPUT\_PULL\_UP\_DOWN}
+    \subitem {GPIO.h}, \hyperpage{47}
+  \item {GPIO\_PIN8\_MODE\_OUTPUT\_AF\_OPEN\_DRAIN}
+    \subitem {GPIO.h}, \hyperpage{47}
+  \item {GPIO\_PIN8\_MODE\_OUTPUT\_AF\_PUSH\_PULL}
+    \subitem {GPIO.h}, \hyperpage{47}
+  \item {GPIO\_PIN8\_MODE\_OUTPUT\_OPEN\_DRAIN}
+    \subitem {GPIO.h}, \hyperpage{47}
+  \item {GPIO\_PIN8\_MODE\_OUTPUT\_PUSH\_PULL}
+    \subitem {GPIO.h}, \hyperpage{47}
+  \item {GPIO\_PIN8\_PORTA}
+    \subitem {GPIO.h}, \hyperpage{47}
+  \item {GPIO\_PIN8\_PORTB}
+    \subitem {GPIO.h}, \hyperpage{48}
+  \item {GPIO\_PIN8\_PORTC}
+    \subitem {GPIO.h}, \hyperpage{48}
+  \item {GPIO\_PIN8\_SELECT}
+    \subitem {GPIO.h}, \hyperpage{48}
+  \item {GPIO\_PIN8\_SPEED\_10MHZ}
+    \subitem {GPIO.h}, \hyperpage{48}
+  \item {GPIO\_PIN8\_SPEED\_2MHZ}
+    \subitem {GPIO.h}, \hyperpage{48}
+  \item {GPIO\_PIN8\_SPEED\_50MHZ}
+    \subitem {GPIO.h}, \hyperpage{48}
+  \item {GPIO\_PIN8\_SPEED\_NONE}
+    \subitem {GPIO.h}, \hyperpage{48}
+  \item {GPIO\_PIN8\_VALUE\_HIGH}
+    \subitem {GPIO.h}, \hyperpage{48}
+  \item {GPIO\_PIN8\_VALUE\_LOW}
+    \subitem {GPIO.h}, \hyperpage{49}
+  \item {GPIO\_PIN9\_MODE\_INPUT\_ANALOG}
+    \subitem {GPIO.h}, \hyperpage{49}
+  \item {GPIO\_PIN9\_MODE\_INPUT\_FLOATING}
+    \subitem {GPIO.h}, \hyperpage{49}
+  \item {GPIO\_PIN9\_MODE\_INPUT\_PULL\_UP\_DOWN}
+    \subitem {GPIO.h}, \hyperpage{49}
+  \item {GPIO\_PIN9\_MODE\_OUTPUT\_AF\_OPEN\_DRAIN}
+    \subitem {GPIO.h}, \hyperpage{49}
+  \item {GPIO\_PIN9\_MODE\_OUTPUT\_AF\_PUSH\_PULL}
+    \subitem {GPIO.h}, \hyperpage{49}
+  \item {GPIO\_PIN9\_MODE\_OUTPUT\_OPEN\_DRAIN}
+    \subitem {GPIO.h}, \hyperpage{49}
+  \item {GPIO\_PIN9\_MODE\_OUTPUT\_PUSH\_PULL}
+    \subitem {GPIO.h}, \hyperpage{49}
+  \item {GPIO\_PIN9\_PORTA}
+    \subitem {GPIO.h}, \hyperpage{50}
+  \item {GPIO\_PIN9\_PORTB}
+    \subitem {GPIO.h}, \hyperpage{50}
+  \item {GPIO\_PIN9\_PORTC}
+    \subitem {GPIO.h}, \hyperpage{50}
+  \item {GPIO\_PIN9\_SELECT}
+    \subitem {GPIO.h}, \hyperpage{50}
+  \item {GPIO\_PIN9\_SPEED\_10MHZ}
+    \subitem {GPIO.h}, \hyperpage{50}
+  \item {GPIO\_PIN9\_SPEED\_2MHZ}
+    \subitem {GPIO.h}, \hyperpage{50}
+  \item {GPIO\_PIN9\_SPEED\_50MHZ}
+    \subitem {GPIO.h}, \hyperpage{50}
+  \item {GPIO\_PIN9\_SPEED\_NONE}
+    \subitem {GPIO.h}, \hyperpage{50}
+  \item {GPIO\_PIN9\_VALUE\_HIGH}
+    \subitem {GPIO.h}, \hyperpage{51}
+  \item {GPIO\_PIN9\_VALUE\_LOW}
+    \subitem {GPIO.h}, \hyperpage{51}
+  \item {GPIO\_PIN\_ALL\_MODE\_INPUT\_ANALOG}
+    \subitem {GPIO.h}, \hyperpage{51}
+  \item {GPIO\_PIN\_ALL\_MODE\_INPUT\_FLOATING}
+    \subitem {GPIO.h}, \hyperpage{51}
+  \item {GPIO\_PIN\_ALL\_MODE\_INPUT\_PULL\_UP\_DOWN}
+    \subitem {GPIO.h}, \hyperpage{51}
+  \item {GPIO\_PIN\_ALL\_MODE\_OUTPUT\_AF\_OPEN\_DRAIN}
+    \subitem {GPIO.h}, \hyperpage{51}
+  \item {GPIO\_PIN\_ALL\_MODE\_OUTPUT\_AF\_PUSH\_PULL}
+    \subitem {GPIO.h}, \hyperpage{51}
+  \item {GPIO\_PIN\_ALL\_MODE\_OUTPUT\_OPEN\_DRAIN}
+    \subitem {GPIO.h}, \hyperpage{51}
+  \item {GPIO\_PIN\_ALL\_MODE\_OUTPUT\_PUSH\_PULL}
+    \subitem {GPIO.h}, \hyperpage{52}
+  \item {GPIO\_PIN\_ALL\_PORTA}
+    \subitem {GPIO.h}, \hyperpage{52}
+  \item {GPIO\_PIN\_ALL\_PORTB}
+    \subitem {GPIO.h}, \hyperpage{52}
+  \item {GPIO\_PIN\_ALL\_PORTC}
+    \subitem {GPIO.h}, \hyperpage{52}
+  \item {GPIO\_PIN\_ALL\_SPEED\_10MHZ}
+    \subitem {GPIO.h}, \hyperpage{52}
+  \item {GPIO\_PIN\_ALL\_SPEED\_2MHZ}
+    \subitem {GPIO.h}, \hyperpage{52}
+  \item {GPIO\_PIN\_ALL\_SPEED\_50MHZ}
+    \subitem {GPIO.h}, \hyperpage{52}
+  \item {GPIO\_PIN\_ALL\_SPEED\_NONE}
+    \subitem {GPIO.h}, \hyperpage{52}
+  \item {GPIO\_PIN\_ALL\_VALUE\_HIGH}
+    \subitem {GPIO.h}, \hyperpage{53}
+  \item {GPIO\_PIN\_ALL\_VALUE\_LOW}
+    \subitem {GPIO.h}, \hyperpage{53}
+  \item {GPIO\_ReadPin}
+    \subitem {GPIO.h}, \hyperpage{53}
+  \item {GPIO\_t}, \hyperpage{5}
+    \subitem {mode}, \hyperpage{5}
+    \subitem {pin}, \hyperpage{5}
+    \subitem {port}, \hyperpage{5}
+    \subitem {speed}, \hyperpage{5}
+  \item {GPIO\_WritePin}
+    \subitem {GPIO.h}, \hyperpage{54}
+
+  \indexspace
+
+  \item {HUART\_EnableIRQ}
+    \subitem {UART\_handler.h}, \hyperpage{113}
+  \item {HUART\_InitGPIO}
+    \subitem {UART\_handler.h}, \hyperpage{113}
+
+  \indexspace
+
+  \item {include/GPIO.h}, \hyperpage{11}
+  \item {include/LCD.h}, \hyperpage{54}
+  \item {include/LCD\_cfg.h}, \hyperpage{60}
+  \item {include/LED.h}, \hyperpage{61}
+  \item {include/LED\_Cfg.h}, \hyperpage{63}
+  \item {include/NVIC.h}, \hyperpage{64}
+  \item {include/RCC.h}, \hyperpage{72}
+  \item {include/sched\_config.h}, \hyperpage{91}
+  \item {include/sched\_interface.h}, \hyperpage{92}
+  \item {include/STD\_TYPES.h}, \hyperpage{93}
+  \item {include/stm32f10x\_conf.h}, \hyperpage{97}
+  \item {include/switch\_config.h}, \hyperpage{97}
+  \item {include/switch\_interface.h}, \hyperpage{98}
+  \item {include/SYSTICK.h}, \hyperpage{100}
+  \item {include/SYSTICK\_CFG.h}, \hyperpage{104}
+  \item {include/UART.h}, \hyperpage{105}
+  \item {include/UART\_cfg.h}, \hyperpage{112}
+  \item {include/UART\_handler.h}, \hyperpage{113}
+
+  \indexspace
+
+  \item {LCD.h}
+    \subitem {APPNotifiactionCbf\_t}, \hyperpage{57}
+    \subitem {E\_BUSY}, \hyperpage{55}
+    \subitem {E\_NOT\_OK}, \hyperpage{55}
+    \subitem {E\_OK}, \hyperpage{55}
+    \subitem {LCD\_4\_BIT\_1\_LINE}, \hyperpage{56}
+    \subitem {LCD\_4\_BIT\_2\_LINE}, \hyperpage{56}
+    \subitem {LCD\_8\_BIT\_1\_LINE}, \hyperpage{56}
+    \subitem {LCD\_8\_BIT\_2\_LINE}, \hyperpage{56}
+    \subitem {LCD\_CLEAR\_SCREEN}, \hyperpage{56}
+    \subitem {LCD\_ClearScreen}, \hyperpage{57}
+    \subitem {LCD\_DISPLAY\_OFF\_CURSOR\_OFF}, \hyperpage{56}
+    \subitem {LCD\_DISPLAY\_ON\_CURSOR\_Blinging}, \hyperpage{56}
+    \subitem {LCD\_DISPLAY\_ON\_CURSOR\_OFF}, \hyperpage{56}
+    \subitem {LCD\_DISPLAY\_ON\_CURSOR\_ON}, \hyperpage{57}
+    \subitem {LCD\_FIRST\_LINE}, \hyperpage{57}
+    \subitem {LCD\_GotoLocation}, \hyperpage{58}
+    \subitem {LCD\_SECOND\_LINE}, \hyperpage{57}
+    \subitem {LCD\_SetCbf}, \hyperpage{58}
+    \subitem {LCD\_voidInit}, \hyperpage{59}
+    \subitem {LCD\_WriteString}, \hyperpage{59}
+    \subitem {Std\_ReturnType}, \hyperpage{57}
+  \item {LCD\_4\_BIT\_1\_LINE}
+    \subitem {LCD.h}, \hyperpage{56}
+  \item {LCD\_4\_BIT\_2\_LINE}
+    \subitem {LCD.h}, \hyperpage{56}
+  \item {LCD\_8\_BIT\_1\_LINE}
+    \subitem {LCD.h}, \hyperpage{56}
+  \item {LCD\_8\_BIT\_2\_LINE}
+    \subitem {LCD.h}, \hyperpage{56}
+  \item {LCD\_cfg.h}
+    \subitem {LCD\_CoLumn}, \hyperpage{60}
+    \subitem {LCD\_CONFIGPIN}, \hyperpage{60}
+    \subitem {LCD\_D\_PIN}, \hyperpage{60}
+    \subitem {LCD\_DISPLAY\_CURSOR}, \hyperpage{61}
+    \subitem {LCD\_E\_PIN}, \hyperpage{61}
+    \subitem {LCD\_FUNCTION\_SET}, \hyperpage{61}
+    \subitem {LCD\_LINE}, \hyperpage{61}
+    \subitem {LCD\_RS\_PIN}, \hyperpage{61}
+    \subitem {LCD\_RW\_PIN}, \hyperpage{61}
+  \item {LCD\_CLEAR\_SCREEN}
+    \subitem {LCD.h}, \hyperpage{56}
+  \item {LCD\_ClearScreen}
+    \subitem {LCD.h}, \hyperpage{57}
+  \item {LCD\_CoLumn}
+    \subitem {LCD\_cfg.h}, \hyperpage{60}
+  \item {LCD\_CONFIGPIN}
+    \subitem {LCD\_cfg.h}, \hyperpage{60}
+  \item {LCD\_D\_PIN}
+    \subitem {LCD\_cfg.h}, \hyperpage{60}
+  \item {LCD\_DISPLAY\_CURSOR}
+    \subitem {LCD\_cfg.h}, \hyperpage{61}
+  \item {LCD\_DISPLAY\_OFF\_CURSOR\_OFF}
+    \subitem {LCD.h}, \hyperpage{56}
+  \item {LCD\_DISPLAY\_ON\_CURSOR\_Blinging}
+    \subitem {LCD.h}, \hyperpage{56}
+  \item {LCD\_DISPLAY\_ON\_CURSOR\_OFF}
+    \subitem {LCD.h}, \hyperpage{56}
+  \item {LCD\_DISPLAY\_ON\_CURSOR\_ON}
+    \subitem {LCD.h}, \hyperpage{57}
+  \item {LCD\_E\_PIN}
+    \subitem {LCD\_cfg.h}, \hyperpage{61}
+  \item {LCD\_FIRST\_LINE}
+    \subitem {LCD.h}, \hyperpage{57}
+  \item {LCD\_FUNCTION\_SET}
+    \subitem {LCD\_cfg.h}, \hyperpage{61}
+  \item {LCD\_GotoLocation}
+    \subitem {LCD.h}, \hyperpage{58}
+  \item {LCD\_LINE}
+    \subitem {LCD\_cfg.h}, \hyperpage{61}
+  \item {LCD\_RS\_PIN}
+    \subitem {LCD\_cfg.h}, \hyperpage{61}
+  \item {LCD\_RW\_PIN}
+    \subitem {LCD\_cfg.h}, \hyperpage{61}
+  \item {LCD\_SECOND\_LINE}
+    \subitem {LCD.h}, \hyperpage{57}
+  \item {LCD\_SetCbf}
+    \subitem {LCD.h}, \hyperpage{58}
+  \item {LCD\_voidInit}
+    \subitem {LCD.h}, \hyperpage{59}
+  \item {LCD\_WriteString}
+    \subitem {LCD.h}, \hyperpage{59}
+  \item {LED.h}
+    \subitem {LED\_ACTIVE\_HIGH}, \hyperpage{62}
+    \subitem {LED\_ACTIVE\_LOW}, \hyperpage{62}
+    \subitem {LED\_voidInit}, \hyperpage{62}
+    \subitem {LED\_voidOFF}, \hyperpage{63}
+    \subitem {LED\_voidON}, \hyperpage{63}
+  \item {LED\_ACTIVE\_HIGH}
+    \subitem {LED.h}, \hyperpage{62}
+  \item {LED\_ACTIVE\_LOW}
+    \subitem {LED.h}, \hyperpage{62}
+  \item {LED\_Cfg.h}
+    \subitem {LED\_CFGNUMBER}, \hyperpage{64}
+  \item {LED\_cfg\_t}, \hyperpage{6}
+    \subitem {activeState}, \hyperpage{6}
+    \subitem {LED\_IO}, \hyperpage{6}
+  \item {LED\_CFGNUMBER}
+    \subitem {LED\_Cfg.h}, \hyperpage{64}
+  \item {LED\_IO}
+    \subitem {LED\_cfg\_t}, \hyperpage{6}
+  \item {LED\_voidInit}
+    \subitem {LED.h}, \hyperpage{62}
+  \item {LED\_voidOFF}
+    \subitem {LED.h}, \hyperpage{63}
+  \item {LED\_voidON}
+    \subitem {LED.h}, \hyperpage{63}
+
+  \indexspace
+
+  \item {mode}
+    \subitem {GPIO\_t}, \hyperpage{5}
+
+  \indexspace
+
+  \item {NULL}
+    \subitem {STD\_TYPES.h}, \hyperpage{95}
+  \item {NVIC.h}
+    \subitem {EXTI0\_IRQNUMBER}, \hyperpage{65}
+    \subitem {EXTI1\_IRQNUMBER}, \hyperpage{65}
+    \subitem {EXTI2\_IRQNUMBER}, \hyperpage{66}
+    \subitem {EXTI3\_IRQNUMBER}, \hyperpage{66}
+    \subitem {EXTI4\_IRQNUMBER}, \hyperpage{66}
+    \subitem {NVIC\_ClearPendingIRQ}, \hyperpage{67}
+    \subitem {NVIC\_DisableAllFaults}, \hyperpage{67}
+    \subitem {NVIC\_DisableAllInterrupt}, \hyperpage{67}
+    \subitem {NVIC\_DisableIRQ}, \hyperpage{68}
+    \subitem {NVIC\_EnableAllInterrupt}, \hyperpage{68}
+    \subitem {NVIC\_EnableIRQ}, \hyperpage{68}
+    \subitem {NVIC\_ISActive}, \hyperpage{69}
+    \subitem {NVIC\_SetPendingIRQ}, \hyperpage{69}
+    \subitem {NVIC\_SetPriority}, \hyperpage{70}
+    \subitem {NVIC\_SetPriorityGrouping}, \hyperpage{70}
+    \subitem {NVIC\_SoftwareInterrupt}, \hyperpage{70}
+    \subitem {UART4\_IRQNUMBER}, \hyperpage{66}
+    \subitem {UART5\_IRQNUMBER}, \hyperpage{66}
+    \subitem {USART1\_IRQNUMBER}, \hyperpage{66}
+    \subitem {USART2\_IRQNUMBER}, \hyperpage{66}
+    \subitem {USART3\_IRQNUMBER}, \hyperpage{66}
+  \item {NVIC\_ClearPendingIRQ}
+    \subitem {NVIC.h}, \hyperpage{67}
+  \item {NVIC\_DisableAllFaults}
+    \subitem {NVIC.h}, \hyperpage{67}
+  \item {NVIC\_DisableAllInterrupt}
+    \subitem {NVIC.h}, \hyperpage{67}
+  \item {NVIC\_DisableIRQ}
+    \subitem {NVIC.h}, \hyperpage{68}
+  \item {NVIC\_EnableAllInterrupt}
+    \subitem {NVIC.h}, \hyperpage{68}
+  \item {NVIC\_EnableIRQ}
+    \subitem {NVIC.h}, \hyperpage{68}
+  \item {NVIC\_ISActive}
+    \subitem {NVIC.h}, \hyperpage{69}
+  \item {NVIC\_SetPendingIRQ}
+    \subitem {NVIC.h}, \hyperpage{69}
+  \item {NVIC\_SetPriority}
+    \subitem {NVIC.h}, \hyperpage{70}
+  \item {NVIC\_SetPriorityGrouping}
+    \subitem {NVIC.h}, \hyperpage{70}
+  \item {NVIC\_SoftwareInterrupt}
+    \subitem {NVIC.h}, \hyperpage{70}
+
+  \indexspace
+
+  \item {OFF}
+    \subitem {RCC.h}, \hyperpage{74}
+  \item {ON}
+    \subitem {RCC.h}, \hyperpage{75}
+
+  \indexspace
+
+  \item {periodicTimeMs}
+    \subitem {SCHED\_task\_t}, \hyperpage{7}
+  \item {pin}
+    \subitem {GPIO\_t}, \hyperpage{5}
+  \item {port}
+    \subitem {GPIO\_t}, \hyperpage{5}
+
+  \indexspace
+
+  \item {RCC.h}
+    \subitem {ClockSource\_ReturnType}, \hyperpage{85}
+    \subitem {ClockSourceType}, \hyperpage{74}
+    \subitem {OFF}, \hyperpage{74}
+    \subitem {ON}, \hyperpage{75}
+    \subitem {RCC\_ADCPRE\_SetPrescaler}, \hyperpage{85}
+    \subitem {RCC\_APB1ENR\_UART4EN}, \hyperpage{75}
+    \subitem {RCC\_APB1ENR\_UART5EN}, \hyperpage{75}
+    \subitem {RCC\_APB1ENR\_USART2EN}, \hyperpage{75}
+    \subitem {RCC\_APB1ENR\_USART3EN}, \hyperpage{75}
+    \subitem {RCC\_APB2ENR\_ADC1EN}, \hyperpage{75}
+    \subitem {RCC\_APB2ENR\_ADC2EN}, \hyperpage{75}
+    \subitem {RCC\_APB2ENR\_ADC3EN}, \hyperpage{75, 76}
+    \subitem {RCC\_APB2ENR\_AFIOEN\_Disable}, \hyperpage{76}
+    \subitem {RCC\_APB2ENR\_AFIOEN\_Enable}, \hyperpage{76}
+    \subitem {RCC\_APB2ENR\_IOPAEN\_PORTA}, \hyperpage{76}
+    \subitem {RCC\_APB2ENR\_IOPBEN\_PORTB}, \hyperpage{76}
+    \subitem {RCC\_APB2ENR\_IOPCEN\_PORTC}, \hyperpage{76}
+    \subitem {RCC\_APB2ENR\_IOPDEN\_PORTD}, \hyperpage{76}
+    \subitem {RCC\_APB2ENR\_IOPEEN\_PORTE}, \hyperpage{76}
+    \subitem {RCC\_APB2ENR\_IOPFEN\_PORTF}, \hyperpage{77}
+    \subitem {RCC\_APB2ENR\_IOPGEN\_PORTG}, \hyperpage{77}
+    \subitem {RCC\_APB2ENR\_SPI1EN}, \hyperpage{77}
+    \subitem {RCC\_APB2ENR\_TIM10EN}, \hyperpage{77}
+    \subitem {RCC\_APB2ENR\_TIM11EN}, \hyperpage{77}
+    \subitem {RCC\_APB2ENR\_TIM1EN}, \hyperpage{77}
+    \subitem {RCC\_APB2ENR\_TIM8EN}, \hyperpage{77}
+    \subitem {RCC\_APB2ENR\_TIM9EN}, \hyperpage{77}
+    \subitem {RCC\_APB2ENR\_USART1EN}, \hyperpage{78}
+    \subitem {RCC\_CFGR\_ADCPRE\_div\_2}, \hyperpage{78}
+    \subitem {RCC\_CFGR\_ADCPRE\_div\_4}, \hyperpage{78}
+    \subitem {RCC\_CFGR\_ADCPRE\_div\_6}, \hyperpage{78}
+    \subitem {RCC\_CFGR\_ADCPRE\_div\_8}, \hyperpage{78}
+    \subitem {RCC\_CFGR\_HPRE\_div\_1}, \hyperpage{78}
+    \subitem {RCC\_CFGR\_HPRE\_div\_128}, \hyperpage{78}
+    \subitem {RCC\_CFGR\_HPRE\_div\_16}, \hyperpage{78}
+    \subitem {RCC\_CFGR\_HPRE\_div\_2}, \hyperpage{79}
+    \subitem {RCC\_CFGR\_HPRE\_div\_256}, \hyperpage{79}
+    \subitem {RCC\_CFGR\_HPRE\_div\_4}, \hyperpage{79}
+    \subitem {RCC\_CFGR\_HPRE\_div\_512}, \hyperpage{79}
+    \subitem {RCC\_CFGR\_HPRE\_div\_64}, \hyperpage{79}
+    \subitem {RCC\_CFGR\_HPRE\_div\_8}, \hyperpage{79}
+    \subitem {RCC\_CFGR\_MCO\_HSE}, \hyperpage{79}
+    \subitem {RCC\_CFGR\_MCO\_HSI}, \hyperpage{79}
+    \subitem {RCC\_CFGR\_MCO\_NOCLK}, \hyperpage{80}
+    \subitem {RCC\_CFGR\_MCO\_PLL}, \hyperpage{80}
+    \subitem {RCC\_CFGR\_MCO\_SYSCLK}, \hyperpage{80}
+    \subitem {RCC\_CFGR\_PLLMUL\_10}, \hyperpage{80}
+    \subitem {RCC\_CFGR\_PLLMUL\_11}, \hyperpage{80}
+    \subitem {RCC\_CFGR\_PLLMUL\_12}, \hyperpage{80}
+    \subitem {RCC\_CFGR\_PLLMUL\_13}, \hyperpage{80}
+    \subitem {RCC\_CFGR\_PLLMUL\_14}, \hyperpage{80}
+    \subitem {RCC\_CFGR\_PLLMUL\_15}, \hyperpage{81}
+    \subitem {RCC\_CFGR\_PLLMUL\_16}, \hyperpage{81}
+    \subitem {RCC\_CFGR\_PLLMUL\_2}, \hyperpage{81}
+    \subitem {RCC\_CFGR\_PLLMUL\_3}, \hyperpage{81}
+    \subitem {RCC\_CFGR\_PLLMUL\_4}, \hyperpage{81}
+    \subitem {RCC\_CFGR\_PLLMUL\_5}, \hyperpage{81}
+    \subitem {RCC\_CFGR\_PLLMUL\_6}, \hyperpage{81}
+    \subitem {RCC\_CFGR\_PLLMUL\_7}, \hyperpage{81}
+    \subitem {RCC\_CFGR\_PLLMUL\_8}, \hyperpage{82}
+    \subitem {RCC\_CFGR\_PLLMUL\_9}, \hyperpage{82}
+    \subitem {RCC\_CFGR\_PLLXTPRESRC\_HSE\_divided\_1}, \hyperpage{82}
+    \subitem {RCC\_CFGR\_PLLXTPRESRC\_HSE\_divided\_2}, \hyperpage{82}
+    \subitem {RCC\_CFGR\_PLLXTPRESRC\_HSI\_divided\_2}, \hyperpage{82}
+    \subitem {RCC\_CFGR\_PPRE1\_div\_1}, \hyperpage{82}
+    \subitem {RCC\_CFGR\_PPRE1\_div\_16}, \hyperpage{82}
+    \subitem {RCC\_CFGR\_PPRE1\_div\_2}, \hyperpage{82}
+    \subitem {RCC\_CFGR\_PPRE1\_div\_4}, \hyperpage{83}
+    \subitem {RCC\_CFGR\_PPRE1\_div\_8}, \hyperpage{83}
+    \subitem {RCC\_CFGR\_PPRE2\_div\_1}, \hyperpage{83}
+    \subitem {RCC\_CFGR\_PPRE2\_div\_16}, \hyperpage{83}
+    \subitem {RCC\_CFGR\_PPRE2\_div\_2}, \hyperpage{83}
+    \subitem {RCC\_CFGR\_PPRE2\_div\_4}, \hyperpage{83}
+    \subitem {RCC\_CFGR\_PPRE2\_div\_8}, \hyperpage{83}
+    \subitem {RCC\_CFGR\_SW\_HSE}, \hyperpage{83}
+    \subitem {RCC\_CFGR\_SW\_HSI}, \hyperpage{84}
+    \subitem {RCC\_CFGR\_SW\_PLL}, \hyperpage{84}
+    \subitem {RCC\_CFGR\_SWS\_HSE}, \hyperpage{84}
+    \subitem {RCC\_CFGR\_SWS\_HSI}, \hyperpage{84}
+    \subitem {RCC\_CFGR\_SWS\_PLL}, \hyperpage{84}
+    \subitem {RCC\_CheckSystemClock}, \hyperpage{86}
+    \subitem {RCC\_CR\_CSSON}, \hyperpage{84}
+    \subitem {RCC\_CR\_HSE}, \hyperpage{84}
+    \subitem {RCC\_CR\_HSEBYP}, \hyperpage{84}
+    \subitem {RCC\_CR\_HSERDY}, \hyperpage{85}
+    \subitem {RCC\_CR\_HSI}, \hyperpage{85}
+    \subitem {RCC\_CR\_HSIRDY}, \hyperpage{85}
+    \subitem {RCC\_CR\_PLL}, \hyperpage{85}
+    \subitem {RCC\_CR\_PLLRDY}, \hyperpage{85}
+    \subitem {RCC\_EnablePeripheral\_APB1}, \hyperpage{86}
+    \subitem {RCC\_EnablePeripheral\_APB2}, \hyperpage{86}
+    \subitem {RCC\_HPRE\_SetPrescaler}, \hyperpage{87}
+    \subitem {RCC\_PLLConfiguration}, \hyperpage{88}
+    \subitem {RCC\_PPRE1\_SetPrescaler}, \hyperpage{88}
+    \subitem {RCC\_PPRE2\_SetPrescaler}, \hyperpage{89}
+    \subitem {RCC\_SelectMCO}, \hyperpage{89}
+    \subitem {RCC\_SetClock}, \hyperpage{90}
+    \subitem {Select\_SystemClock}, \hyperpage{90}
+  \item {RCC\_ADCPRE\_SetPrescaler}
+    \subitem {RCC.h}, \hyperpage{85}
+  \item {RCC\_APB1ENR\_UART4EN}
+    \subitem {RCC.h}, \hyperpage{75}
+  \item {RCC\_APB1ENR\_UART5EN}
+    \subitem {RCC.h}, \hyperpage{75}
+  \item {RCC\_APB1ENR\_USART2EN}
+    \subitem {RCC.h}, \hyperpage{75}
+  \item {RCC\_APB1ENR\_USART3EN}
+    \subitem {RCC.h}, \hyperpage{75}
+  \item {RCC\_APB2ENR\_ADC1EN}
+    \subitem {RCC.h}, \hyperpage{75}
+  \item {RCC\_APB2ENR\_ADC2EN}
+    \subitem {RCC.h}, \hyperpage{75}
+  \item {RCC\_APB2ENR\_ADC3EN}
+    \subitem {RCC.h}, \hyperpage{75, 76}
+  \item {RCC\_APB2ENR\_AFIOEN\_Disable}
+    \subitem {RCC.h}, \hyperpage{76}
+  \item {RCC\_APB2ENR\_AFIOEN\_Enable}
+    \subitem {RCC.h}, \hyperpage{76}
+  \item {RCC\_APB2ENR\_IOPAEN\_PORTA}
+    \subitem {RCC.h}, \hyperpage{76}
+  \item {RCC\_APB2ENR\_IOPBEN\_PORTB}
+    \subitem {RCC.h}, \hyperpage{76}
+  \item {RCC\_APB2ENR\_IOPCEN\_PORTC}
+    \subitem {RCC.h}, \hyperpage{76}
+  \item {RCC\_APB2ENR\_IOPDEN\_PORTD}
+    \subitem {RCC.h}, \hyperpage{76}
+  \item {RCC\_APB2ENR\_IOPEEN\_PORTE}
+    \subitem {RCC.h}, \hyperpage{76}
+  \item {RCC\_APB2ENR\_IOPFEN\_PORTF}
+    \subitem {RCC.h}, \hyperpage{77}
+  \item {RCC\_APB2ENR\_IOPGEN\_PORTG}
+    \subitem {RCC.h}, \hyperpage{77}
+  \item {RCC\_APB2ENR\_SPI1EN}
+    \subitem {RCC.h}, \hyperpage{77}
+  \item {RCC\_APB2ENR\_TIM10EN}
+    \subitem {RCC.h}, \hyperpage{77}
+  \item {RCC\_APB2ENR\_TIM11EN}
+    \subitem {RCC.h}, \hyperpage{77}
+  \item {RCC\_APB2ENR\_TIM1EN}
+    \subitem {RCC.h}, \hyperpage{77}
+  \item {RCC\_APB2ENR\_TIM8EN}
+    \subitem {RCC.h}, \hyperpage{77}
+  \item {RCC\_APB2ENR\_TIM9EN}
+    \subitem {RCC.h}, \hyperpage{77}
+  \item {RCC\_APB2ENR\_USART1EN}
+    \subitem {RCC.h}, \hyperpage{78}
+  \item {RCC\_CFGR\_ADCPRE\_div\_2}
+    \subitem {RCC.h}, \hyperpage{78}
+  \item {RCC\_CFGR\_ADCPRE\_div\_4}
+    \subitem {RCC.h}, \hyperpage{78}
+  \item {RCC\_CFGR\_ADCPRE\_div\_6}
+    \subitem {RCC.h}, \hyperpage{78}
+  \item {RCC\_CFGR\_ADCPRE\_div\_8}
+    \subitem {RCC.h}, \hyperpage{78}
+  \item {RCC\_CFGR\_HPRE\_div\_1}
+    \subitem {RCC.h}, \hyperpage{78}
+  \item {RCC\_CFGR\_HPRE\_div\_128}
+    \subitem {RCC.h}, \hyperpage{78}
+  \item {RCC\_CFGR\_HPRE\_div\_16}
+    \subitem {RCC.h}, \hyperpage{78}
+  \item {RCC\_CFGR\_HPRE\_div\_2}
+    \subitem {RCC.h}, \hyperpage{79}
+  \item {RCC\_CFGR\_HPRE\_div\_256}
+    \subitem {RCC.h}, \hyperpage{79}
+  \item {RCC\_CFGR\_HPRE\_div\_4}
+    \subitem {RCC.h}, \hyperpage{79}
+  \item {RCC\_CFGR\_HPRE\_div\_512}
+    \subitem {RCC.h}, \hyperpage{79}
+  \item {RCC\_CFGR\_HPRE\_div\_64}
+    \subitem {RCC.h}, \hyperpage{79}
+  \item {RCC\_CFGR\_HPRE\_div\_8}
+    \subitem {RCC.h}, \hyperpage{79}
+  \item {RCC\_CFGR\_MCO\_HSE}
+    \subitem {RCC.h}, \hyperpage{79}
+  \item {RCC\_CFGR\_MCO\_HSI}
+    \subitem {RCC.h}, \hyperpage{79}
+  \item {RCC\_CFGR\_MCO\_NOCLK}
+    \subitem {RCC.h}, \hyperpage{80}
+  \item {RCC\_CFGR\_MCO\_PLL}
+    \subitem {RCC.h}, \hyperpage{80}
+  \item {RCC\_CFGR\_MCO\_SYSCLK}
+    \subitem {RCC.h}, \hyperpage{80}
+  \item {RCC\_CFGR\_PLLMUL\_10}
+    \subitem {RCC.h}, \hyperpage{80}
+  \item {RCC\_CFGR\_PLLMUL\_11}
+    \subitem {RCC.h}, \hyperpage{80}
+  \item {RCC\_CFGR\_PLLMUL\_12}
+    \subitem {RCC.h}, \hyperpage{80}
+  \item {RCC\_CFGR\_PLLMUL\_13}
+    \subitem {RCC.h}, \hyperpage{80}
+  \item {RCC\_CFGR\_PLLMUL\_14}
+    \subitem {RCC.h}, \hyperpage{80}
+  \item {RCC\_CFGR\_PLLMUL\_15}
+    \subitem {RCC.h}, \hyperpage{81}
+  \item {RCC\_CFGR\_PLLMUL\_16}
+    \subitem {RCC.h}, \hyperpage{81}
+  \item {RCC\_CFGR\_PLLMUL\_2}
+    \subitem {RCC.h}, \hyperpage{81}
+  \item {RCC\_CFGR\_PLLMUL\_3}
+    \subitem {RCC.h}, \hyperpage{81}
+  \item {RCC\_CFGR\_PLLMUL\_4}
+    \subitem {RCC.h}, \hyperpage{81}
+  \item {RCC\_CFGR\_PLLMUL\_5}
+    \subitem {RCC.h}, \hyperpage{81}
+  \item {RCC\_CFGR\_PLLMUL\_6}
+    \subitem {RCC.h}, \hyperpage{81}
+  \item {RCC\_CFGR\_PLLMUL\_7}
+    \subitem {RCC.h}, \hyperpage{81}
+  \item {RCC\_CFGR\_PLLMUL\_8}
+    \subitem {RCC.h}, \hyperpage{82}
+  \item {RCC\_CFGR\_PLLMUL\_9}
+    \subitem {RCC.h}, \hyperpage{82}
+  \item {RCC\_CFGR\_PLLXTPRESRC\_HSE\_divided\_1}
+    \subitem {RCC.h}, \hyperpage{82}
+  \item {RCC\_CFGR\_PLLXTPRESRC\_HSE\_divided\_2}
+    \subitem {RCC.h}, \hyperpage{82}
+  \item {RCC\_CFGR\_PLLXTPRESRC\_HSI\_divided\_2}
+    \subitem {RCC.h}, \hyperpage{82}
+  \item {RCC\_CFGR\_PPRE1\_div\_1}
+    \subitem {RCC.h}, \hyperpage{82}
+  \item {RCC\_CFGR\_PPRE1\_div\_16}
+    \subitem {RCC.h}, \hyperpage{82}
+  \item {RCC\_CFGR\_PPRE1\_div\_2}
+    \subitem {RCC.h}, \hyperpage{82}
+  \item {RCC\_CFGR\_PPRE1\_div\_4}
+    \subitem {RCC.h}, \hyperpage{83}
+  \item {RCC\_CFGR\_PPRE1\_div\_8}
+    \subitem {RCC.h}, \hyperpage{83}
+  \item {RCC\_CFGR\_PPRE2\_div\_1}
+    \subitem {RCC.h}, \hyperpage{83}
+  \item {RCC\_CFGR\_PPRE2\_div\_16}
+    \subitem {RCC.h}, \hyperpage{83}
+  \item {RCC\_CFGR\_PPRE2\_div\_2}
+    \subitem {RCC.h}, \hyperpage{83}
+  \item {RCC\_CFGR\_PPRE2\_div\_4}
+    \subitem {RCC.h}, \hyperpage{83}
+  \item {RCC\_CFGR\_PPRE2\_div\_8}
+    \subitem {RCC.h}, \hyperpage{83}
+  \item {RCC\_CFGR\_SW\_HSE}
+    \subitem {RCC.h}, \hyperpage{83}
+  \item {RCC\_CFGR\_SW\_HSI}
+    \subitem {RCC.h}, \hyperpage{84}
+  \item {RCC\_CFGR\_SW\_PLL}
+    \subitem {RCC.h}, \hyperpage{84}
+  \item {RCC\_CFGR\_SWS\_HSE}
+    \subitem {RCC.h}, \hyperpage{84}
+  \item {RCC\_CFGR\_SWS\_HSI}
+    \subitem {RCC.h}, \hyperpage{84}
+  \item {RCC\_CFGR\_SWS\_PLL}
+    \subitem {RCC.h}, \hyperpage{84}
+  \item {RCC\_CheckSystemClock}
+    \subitem {RCC.h}, \hyperpage{86}
+  \item {RCC\_CR\_CSSON}
+    \subitem {RCC.h}, \hyperpage{84}
+  \item {RCC\_CR\_HSE}
+    \subitem {RCC.h}, \hyperpage{84}
+  \item {RCC\_CR\_HSEBYP}
+    \subitem {RCC.h}, \hyperpage{84}
+  \item {RCC\_CR\_HSERDY}
+    \subitem {RCC.h}, \hyperpage{85}
+  \item {RCC\_CR\_HSI}
+    \subitem {RCC.h}, \hyperpage{85}
+  \item {RCC\_CR\_HSIRDY}
+    \subitem {RCC.h}, \hyperpage{85}
+  \item {RCC\_CR\_PLL}
+    \subitem {RCC.h}, \hyperpage{85}
+  \item {RCC\_CR\_PLLRDY}
+    \subitem {RCC.h}, \hyperpage{85}
+  \item {RCC\_EnablePeripheral\_APB1}
+    \subitem {RCC.h}, \hyperpage{86}
+  \item {RCC\_EnablePeripheral\_APB2}
+    \subitem {RCC.h}, \hyperpage{86}
+  \item {RCC\_HPRE\_SetPrescaler}
+    \subitem {RCC.h}, \hyperpage{87}
+  \item {RCC\_PLLConfiguration}
+    \subitem {RCC.h}, \hyperpage{88}
+  \item {RCC\_PPRE1\_SetPrescaler}
+    \subitem {RCC.h}, \hyperpage{88}
+  \item {RCC\_PPRE2\_SetPrescaler}
+    \subitem {RCC.h}, \hyperpage{89}
+  \item {RCC\_SelectMCO}
+    \subitem {RCC.h}, \hyperpage{89}
+  \item {RCC\_SetClock}
+    \subitem {RCC.h}, \hyperpage{90}
+  \item {runnable}
+    \subitem {SCHED\_task\_t}, \hyperpage{7}
+
+  \indexspace
+
+  \item {s16}
+    \subitem {STD\_TYPES.h}, \hyperpage{95}
+  \item {s32}
+    \subitem {STD\_TYPES.h}, \hyperpage{95}
+  \item {s64}
+    \subitem {STD\_TYPES.h}, \hyperpage{95}
+  \item {s8}
+    \subitem {STD\_TYPES.h}, \hyperpage{96}
+  \item {SCHED\_AHB\_CLK}
+    \subitem {sched\_config.h}, \hyperpage{91}
+  \item {sched\_config.h}
+    \subitem {SCHED\_AHB\_CLK}, \hyperpage{91}
+    \subitem {SCHED\_MAX\_TASKS}, \hyperpage{91}
+    \subitem {SCHED\_TICK\_TIME}, \hyperpage{92}
+  \item {SCHED\_Init}
+    \subitem {sched\_interface.h}, \hyperpage{93}
+  \item {sched\_interface.h}
+    \subitem {SCHED\_Init}, \hyperpage{93}
+    \subitem {SCHED\_Start}, \hyperpage{93}
+    \subitem {SCHED\_task\_runnable\_t}, \hyperpage{92}
+  \item {SCHED\_MAX\_TASKS}
+    \subitem {sched\_config.h}, \hyperpage{91}
+  \item {SCHED\_Start}
+    \subitem {sched\_interface.h}, \hyperpage{93}
+  \item {SCHED\_systask\_info\_t}, \hyperpage{6}
+    \subitem {apptask}, \hyperpage{7}
+    \subitem {delayMs}, \hyperpage{7}
+  \item {SCHED\_task\_runnable\_t}
+    \subitem {sched\_interface.h}, \hyperpage{92}
+  \item {SCHED\_task\_t}, \hyperpage{7}
+    \subitem {periodicTimeMs}, \hyperpage{7}
+    \subitem {runnable}, \hyperpage{7}
+  \item {SCHED\_TICK\_TIME}
+    \subitem {sched\_config.h}, \hyperpage{92}
+  \item {Select\_SystemClock}
+    \subitem {RCC.h}, \hyperpage{90}
+  \item {speed}
+    \subitem {GPIO\_t}, \hyperpage{5}
+  \item {Std\_ReturnType}
+    \subitem {LCD.h}, \hyperpage{57}
+    \subitem {STD\_TYPES.h}, \hyperpage{96}
+  \item {STD\_TYPES.h}
+    \subitem {E\_BUSY}, \hyperpage{94}
+    \subitem {E\_NOT\_OK}, \hyperpage{94}
+    \subitem {E\_OK}, \hyperpage{94}
+    \subitem {f32}, \hyperpage{95}
+    \subitem {f64}, \hyperpage{95}
+    \subitem {f96}, \hyperpage{95}
+    \subitem {NULL}, \hyperpage{95}
+    \subitem {s16}, \hyperpage{95}
+    \subitem {s32}, \hyperpage{95}
+    \subitem {s64}, \hyperpage{95}
+    \subitem {s8}, \hyperpage{96}
+    \subitem {Std\_ReturnType}, \hyperpage{96}
+    \subitem {u16}, \hyperpage{96}
+    \subitem {u32}, \hyperpage{96}
+    \subitem {u64}, \hyperpage{96}
+    \subitem {u8}, \hyperpage{96}
+  \item {stm32f10x\_conf.h}
+    \subitem {assert\_param}, \hyperpage{97}
+  \item {SWITCH\_ACTIVE\_HIGH}
+    \subitem {switch\_interface.h}, \hyperpage{99}
+  \item {SWITCH\_ACTIVE\_LOW}
+    \subitem {switch\_interface.h}, \hyperpage{99}
+  \item {Switch\_cfg\_t}, \hyperpage{8}
+    \subitem {activeState}, \hyperpage{8}
+    \subitem {switchIO}, \hyperpage{8}
+  \item {switch\_config.h}
+    \subitem {SWITCH\_COUNT}, \hyperpage{98}
+  \item {SWITCH\_COUNT}
+    \subitem {switch\_config.h}, \hyperpage{98}
+  \item {Switch\_GetReading}
+    \subitem {switch\_interface.h}, \hyperpage{99}
+  \item {Switch\_Init}
+    \subitem {switch\_interface.h}, \hyperpage{100}
+  \item {switch\_interface.h}
+    \subitem {SWITCH\_ACTIVE\_HIGH}, \hyperpage{99}
+    \subitem {SWITCH\_ACTIVE\_LOW}, \hyperpage{99}
+    \subitem {Switch\_GetReading}, \hyperpage{99}
+    \subitem {Switch\_Init}, \hyperpage{100}
+    \subitem {SWITCH\_PRESSED}, \hyperpage{99}
+    \subitem {SWITCH\_UNPRESSED}, \hyperpage{99}
+  \item {SWITCH\_PRESSED}
+    \subitem {switch\_interface.h}, \hyperpage{99}
+  \item {SWITCH\_UNPRESSED}
+    \subitem {switch\_interface.h}, \hyperpage{99}
+  \item {switchIO}
+    \subitem {Switch\_cfg\_t}, \hyperpage{8}
+  \item {SYSTICK.h}
+    \subitem {CLOCK\_FREQUENCY\_8\_MHZ}, \hyperpage{101}
+    \subitem {CLOCK\_FREQUENCY\_8\_MHZ\_DIV8}, \hyperpage{101}
+    \subitem {CLOCK\_PRESCALER\_AHB\_DIV\_1}, \hyperpage{101}
+    \subitem {CLOCK\_PRESCALER\_AHB\_DIV\_8}, \hyperpage{101}
+    \subitem {SYSTICK\_DISABLE}, \hyperpage{101}
+    \subitem {SYSTICK\_ENABLE}, \hyperpage{101}
+    \subitem {SYSTICK\_Init}, \hyperpage{102}
+    \subitem {SYSTICK\_INTERRUPT\_ENABLE}, \hyperpage{102}
+    \subitem {SYSTICK\_SetCallBack}, \hyperpage{102}
+    \subitem {SYSTICK\_SetTimers}, \hyperpage{103}
+    \subitem {SYSTICK\_Start}, \hyperpage{103}
+    \subitem {SYSTICK\_Stop}, \hyperpage{103}
+  \item {SYSTICK\_CFG.h}
+    \subitem {CLOCK\_FREQUENCY}, \hyperpage{104}
+    \subitem {CLOCK\_PRESCALER}, \hyperpage{104}
+  \item {SYSTICK\_DISABLE}
+    \subitem {SYSTICK.h}, \hyperpage{101}
+  \item {SYSTICK\_ENABLE}
+    \subitem {SYSTICK.h}, \hyperpage{101}
+  \item {SYSTICK\_Init}
+    \subitem {SYSTICK.h}, \hyperpage{102}
+  \item {SYSTICK\_INTERRUPT\_ENABLE}
+    \subitem {SYSTICK.h}, \hyperpage{102}
+  \item {SYSTICK\_SetCallBack}
+    \subitem {SYSTICK.h}, \hyperpage{102}
+  \item {SYSTICK\_SetTimers}
+    \subitem {SYSTICK.h}, \hyperpage{103}
+  \item {SYSTICK\_Start}
+    \subitem {SYSTICK.h}, \hyperpage{103}
+  \item {SYSTICK\_Stop}
+    \subitem {SYSTICK.h}, \hyperpage{103}
+
+  \indexspace
+
+  \item {u16}
+    \subitem {STD\_TYPES.h}, \hyperpage{96}
+  \item {u32}
+    \subitem {STD\_TYPES.h}, \hyperpage{96}
+  \item {u64}
+    \subitem {STD\_TYPES.h}, \hyperpage{96}
+  \item {u8}
+    \subitem {STD\_TYPES.h}, \hyperpage{96}
+  \item {UART.h}
+    \subitem {BASE\_ADDRESS\_UART4}, \hyperpage{106}
+    \subitem {BASE\_ADDRESS\_UART5}, \hyperpage{106}
+    \subitem {BASE\_ADDRESS\_USART1}, \hyperpage{106}
+    \subitem {BASE\_ADDRESS\_USART2}, \hyperpage{106}
+    \subitem {BASE\_ADDRESS\_USART3}, \hyperpage{106}
+    \subitem {UART4}, \hyperpage{106}
+    \subitem {UART4\_Peripherial}, \hyperpage{107}
+    \subitem {UART5}, \hyperpage{107}
+    \subitem {UART5\_Peripherial}, \hyperpage{107}
+    \subitem {UART\_BUADRATE\_9600}, \hyperpage{107}
+    \subitem {UART\_CR1\_RE\_Disable}, \hyperpage{107}
+    \subitem {UART\_CR1\_RE\_Enable}, \hyperpage{107}
+    \subitem {UART\_CR1\_TE\_Disable}, \hyperpage{107}
+    \subitem {UART\_CR1\_TE\_Enable}, \hyperpage{107}
+    \subitem {UART\_ENABLE\_BIT}, \hyperpage{108}
+    \subitem {UART\_FREQUENCY}, \hyperpage{108}
+    \subitem {UART\_Init}, \hyperpage{110}
+    \subitem {UART\_M\_LENGTH\_8}, \hyperpage{108}
+    \subitem {UART\_M\_LENGTH\_9}, \hyperpage{108}
+    \subitem {UART\_PCE\_Disable}, \hyperpage{108}
+    \subitem {UART\_PCE\_Enable\_PS\_EVEN}, \hyperpage{108}
+    \subitem {UART\_PCE\_Enable\_PS\_ODD}, \hyperpage{108}
+    \subitem {UART\_RecieveData}, \hyperpage{110}
+    \subitem {UART\_SendData}, \hyperpage{111}
+    \subitem {UART\_SetRecieverCbf}, \hyperpage{111}
+    \subitem {UART\_SetTransmissionCbf}, \hyperpage{111}
+    \subitem {UART\_STOP\_BIT\_0\_5}, \hyperpage{108}
+    \subitem {UART\_STOP\_BIT\_1}, \hyperpage{109}
+    \subitem {UART\_STOP\_BIT\_1\_5}, \hyperpage{109}
+    \subitem {UART\_STOP\_BIT\_2}, \hyperpage{109}
+    \subitem {USART1}, \hyperpage{109}
+    \subitem {USART1\_Peripherial}, \hyperpage{109}
+    \subitem {USART2}, \hyperpage{109}
+    \subitem {USART2\_Peripherial}, \hyperpage{109}
+    \subitem {USART3}, \hyperpage{109}
+    \subitem {USART3\_Peripherial}, \hyperpage{110}
+  \item {UART4}
+    \subitem {UART.h}, \hyperpage{106}
+  \item {UART4\_IRQNUMBER}
+    \subitem {NVIC.h}, \hyperpage{66}
+  \item {UART4\_Peripherial}
+    \subitem {UART.h}, \hyperpage{107}
+  \item {UART5}
+    \subitem {UART.h}, \hyperpage{107}
+  \item {UART5\_IRQNUMBER}
+    \subitem {NVIC.h}, \hyperpage{66}
+  \item {UART5\_Peripherial}
+    \subitem {UART.h}, \hyperpage{107}
+  \item {UART\_Buadrate}
+    \subitem {UART\_CONFIG\_t}, \hyperpage{8}
+  \item {UART\_BUADRATE\_9600}
+    \subitem {UART.h}, \hyperpage{107}
+  \item {UART\_cfg.h}
+    \subitem {UART\_COUNT}, \hyperpage{112}
+  \item {UART\_CONFIG\_t}, \hyperpage{8}
+    \subitem {UART\_Buadrate}, \hyperpage{8}
+    \subitem {UART\_DataLength}, \hyperpage{9}
+    \subitem {UART\_Parity}, \hyperpage{9}
+    \subitem {UART\_Peripheral}, \hyperpage{9}
+    \subitem {UART\_StopBits}, \hyperpage{9}
+    \subitem {UART\_TX\_RX\_Mode}, \hyperpage{9}
+  \item {UART\_COUNT}
+    \subitem {UART\_cfg.h}, \hyperpage{112}
+  \item {UART\_CR1\_RE\_Disable}
+    \subitem {UART.h}, \hyperpage{107}
+  \item {UART\_CR1\_RE\_Enable}
+    \subitem {UART.h}, \hyperpage{107}
+  \item {UART\_CR1\_TE\_Disable}
+    \subitem {UART.h}, \hyperpage{107}
+  \item {UART\_CR1\_TE\_Enable}
+    \subitem {UART.h}, \hyperpage{107}
+  \item {UART\_DATABuffer}
+    \subitem {UART\_DATABUFFER\_t}, \hyperpage{10}
+  \item {UART\_DATABUFFER\_t}, \hyperpage{9}
+    \subitem {UART\_DATABuffer}, \hyperpage{10}
+    \subitem {UART\_DataIndex}, \hyperpage{10}
+    \subitem {UART\_DataLength}, \hyperpage{10}
+    \subitem {UART\_State}, \hyperpage{10}
+  \item {UART\_DataIndex}
+    \subitem {UART\_DATABUFFER\_t}, \hyperpage{10}
+  \item {UART\_DataLength}
+    \subitem {UART\_CONFIG\_t}, \hyperpage{9}
+    \subitem {UART\_DATABUFFER\_t}, \hyperpage{10}
+  \item {UART\_ENABLE\_BIT}
+    \subitem {UART.h}, \hyperpage{108}
+  \item {UART\_FREQUENCY}
+    \subitem {UART.h}, \hyperpage{108}
+  \item {UART\_handler.h}
+    \subitem {HUART\_EnableIRQ}, \hyperpage{113}
+    \subitem {HUART\_InitGPIO}, \hyperpage{113}
+  \item {UART\_Init}
+    \subitem {UART.h}, \hyperpage{110}
+  \item {UART\_M\_LENGTH\_8}
+    \subitem {UART.h}, \hyperpage{108}
+  \item {UART\_M\_LENGTH\_9}
+    \subitem {UART.h}, \hyperpage{108}
+  \item {UART\_Parity}
+    \subitem {UART\_CONFIG\_t}, \hyperpage{9}
+  \item {UART\_PCE\_Disable}
+    \subitem {UART.h}, \hyperpage{108}
+  \item {UART\_PCE\_Enable\_PS\_EVEN}
+    \subitem {UART.h}, \hyperpage{108}
+  \item {UART\_PCE\_Enable\_PS\_ODD}
+    \subitem {UART.h}, \hyperpage{108}
+  \item {UART\_Peripheral}
+    \subitem {UART\_CONFIG\_t}, \hyperpage{9}
+  \item {UART\_RecieveData}
+    \subitem {UART.h}, \hyperpage{110}
+  \item {UART\_SendData}
+    \subitem {UART.h}, \hyperpage{111}
+  \item {UART\_SetRecieverCbf}
+    \subitem {UART.h}, \hyperpage{111}
+  \item {UART\_SetTransmissionCbf}
+    \subitem {UART.h}, \hyperpage{111}
+  \item {UART\_State}
+    \subitem {UART\_DATABUFFER\_t}, \hyperpage{10}
+  \item {UART\_STOP\_BIT\_0\_5}
+    \subitem {UART.h}, \hyperpage{108}
+  \item {UART\_STOP\_BIT\_1}
+    \subitem {UART.h}, \hyperpage{109}
+  \item {UART\_STOP\_BIT\_1\_5}
+    \subitem {UART.h}, \hyperpage{109}
+  \item {UART\_STOP\_BIT\_2}
+    \subitem {UART.h}, \hyperpage{109}
+  \item {UART\_StopBits}
+    \subitem {UART\_CONFIG\_t}, \hyperpage{9}
+  \item {UART\_TX\_RX\_Mode}
+    \subitem {UART\_CONFIG\_t}, \hyperpage{9}
+  \item {USART1}
+    \subitem {UART.h}, \hyperpage{109}
+  \item {USART1\_IRQNUMBER}
+    \subitem {NVIC.h}, \hyperpage{66}
+  \item {USART1\_Peripherial}
+    \subitem {UART.h}, \hyperpage{109}
+  \item {USART2}
+    \subitem {UART.h}, \hyperpage{109}
+  \item {USART2\_IRQNUMBER}
+    \subitem {NVIC.h}, \hyperpage{66}
+  \item {USART2\_Peripherial}
+    \subitem {UART.h}, \hyperpage{109}
+  \item {USART3}
+    \subitem {UART.h}, \hyperpage{109}
+  \item {USART3\_IRQNUMBER}
+    \subitem {NVIC.h}, \hyperpage{66}
+  \item {USART3\_Peripherial}
+    \subitem {UART.h}, \hyperpage{110}
+
+\end{theindex}

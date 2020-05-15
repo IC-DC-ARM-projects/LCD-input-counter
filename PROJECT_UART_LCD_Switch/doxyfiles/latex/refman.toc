@@ -1,0 +1,638 @@
+\@ifundefined {etoctocstyle}{\let \etoc@startlocaltoc \@gobble \let \etoc@settocdepth \@gobble \let \etoc@depthtag \@gobble \let \etoc@setlocaltop \@gobble }{}
+\contentsline {chapter}{\numberline {1}Data Structure Index}{1}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Data Structures}{1}{section.1.1}%
+\contentsline {chapter}{\numberline {2}File Index}{3}{chapter.2}%
+\contentsline {section}{\numberline {2.1}File List}{3}{section.2.1}%
+\contentsline {chapter}{\numberline {3}Data Structure Documentation}{5}{chapter.3}%
+\contentsline {section}{\numberline {3.1}G\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}P\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}I\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}O\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}t Struct Reference}{5}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}Field Documentation}{5}{subsection.3.1.1}%
+\contentsline {subsubsection}{\numberline {3.1.1.1}mode}{5}{subsubsection.3.1.1.1}%
+\contentsline {subsubsection}{\numberline {3.1.1.2}pin}{5}{subsubsection.3.1.1.2}%
+\contentsline {subsubsection}{\numberline {3.1.1.3}port}{5}{subsubsection.3.1.1.3}%
+\contentsline {subsubsection}{\numberline {3.1.1.4}speed}{6}{subsubsection.3.1.1.4}%
+\contentsline {section}{\numberline {3.2}L\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}E\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}D\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}cfg\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}t Struct Reference}{6}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Field Documentation}{6}{subsection.3.2.1}%
+\contentsline {subsubsection}{\numberline {3.2.1.1}activeState}{6}{subsubsection.3.2.1.1}%
+\contentsline {subsubsection}{\numberline {3.2.1.2}LED\_IO}{6}{subsubsection.3.2.1.2}%
+\contentsline {section}{\numberline {3.3}S\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}C\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}H\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}E\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}D\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}systask\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}info\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}t Struct Reference}{6}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}Field Documentation}{7}{subsection.3.3.1}%
+\contentsline {subsubsection}{\numberline {3.3.1.1}apptask}{7}{subsubsection.3.3.1.1}%
+\contentsline {subsubsection}{\numberline {3.3.1.2}delayMs}{7}{subsubsection.3.3.1.2}%
+\contentsline {section}{\numberline {3.4}S\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}C\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}H\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}E\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}D\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}task\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}t Struct Reference}{7}{section.3.4}%
+\contentsline {subsection}{\numberline {3.4.1}Field Documentation}{7}{subsection.3.4.1}%
+\contentsline {subsubsection}{\numberline {3.4.1.1}periodicTimeMs}{7}{subsubsection.3.4.1.1}%
+\contentsline {subsubsection}{\numberline {3.4.1.2}runnable}{7}{subsubsection.3.4.1.2}%
+\contentsline {section}{\numberline {3.5}Switch\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}cfg\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}t Struct Reference}{8}{section.3.5}%
+\contentsline {subsection}{\numberline {3.5.1}Field Documentation}{8}{subsection.3.5.1}%
+\contentsline {subsubsection}{\numberline {3.5.1.1}activeState}{8}{subsubsection.3.5.1.1}%
+\contentsline {subsubsection}{\numberline {3.5.1.2}switchIO}{8}{subsubsection.3.5.1.2}%
+\contentsline {section}{\numberline {3.6}U\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}A\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}R\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}T\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}C\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}O\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}N\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}F\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}I\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}G\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}t Struct Reference}{8}{section.3.6}%
+\contentsline {subsection}{\numberline {3.6.1}Field Documentation}{8}{subsection.3.6.1}%
+\contentsline {subsubsection}{\numberline {3.6.1.1}UART\_Buadrate}{9}{subsubsection.3.6.1.1}%
+\contentsline {subsubsection}{\numberline {3.6.1.2}UART\_DataLength}{9}{subsubsection.3.6.1.2}%
+\contentsline {subsubsection}{\numberline {3.6.1.3}UART\_Parity}{9}{subsubsection.3.6.1.3}%
+\contentsline {subsubsection}{\numberline {3.6.1.4}UART\_Peripheral}{9}{subsubsection.3.6.1.4}%
+\contentsline {subsubsection}{\numberline {3.6.1.5}UART\_StopBits}{9}{subsubsection.3.6.1.5}%
+\contentsline {subsubsection}{\numberline {3.6.1.6}UART\_TX\_RX\_Mode}{9}{subsubsection.3.6.1.6}%
+\contentsline {section}{\numberline {3.7}U\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}A\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}R\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}T\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}D\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}A\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}T\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}A\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}B\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}U\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}F\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}F\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}E\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}R\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}t Struct Reference}{9}{section.3.7}%
+\contentsline {subsection}{\numberline {3.7.1}Field Documentation}{10}{subsection.3.7.1}%
+\contentsline {subsubsection}{\numberline {3.7.1.1}UART\_DATABuffer}{10}{subsubsection.3.7.1.1}%
+\contentsline {subsubsection}{\numberline {3.7.1.2}UART\_DataIndex}{10}{subsubsection.3.7.1.2}%
+\contentsline {subsubsection}{\numberline {3.7.1.3}UART\_DataLength}{10}{subsubsection.3.7.1.3}%
+\contentsline {subsubsection}{\numberline {3.7.1.4}UART\_State}{10}{subsubsection.3.7.1.4}%
+\contentsline {chapter}{\numberline {4}File Documentation}{11}{chapter.4}%
+\contentsline {section}{\numberline {4.1}include/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}G\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}P\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}IO.h File Reference}{11}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}Detailed Description}{17}{subsection.4.1.1}%
+\contentsline {subsection}{\numberline {4.1.2}Macro Definition Documentation}{17}{subsection.4.1.2}%
+\contentsline {subsubsection}{\numberline {4.1.2.1}GPIO\_PIN0\_MODE\_INPUT\_ANALOG}{17}{subsubsection.4.1.2.1}%
+\contentsline {subsubsection}{\numberline {4.1.2.2}GPIO\_PIN0\_MODE\_INPUT\_FLOATING}{17}{subsubsection.4.1.2.2}%
+\contentsline {subsubsection}{\numberline {4.1.2.3}GPIO\_PIN0\_MODE\_INPUT\_PULL\_UP\_DOWN}{17}{subsubsection.4.1.2.3}%
+\contentsline {subsubsection}{\numberline {4.1.2.4}GPIO\_PIN0\_MODE\_OUTPUT\_AF\_OPEN\_DRAIN}{17}{subsubsection.4.1.2.4}%
+\contentsline {subsubsection}{\numberline {4.1.2.5}GPIO\_PIN0\_MODE\_OUTPUT\_AF\_PUSH\_PULL}{17}{subsubsection.4.1.2.5}%
+\contentsline {subsubsection}{\numberline {4.1.2.6}GPIO\_PIN0\_MODE\_OUTPUT\_OPEN\_DRAIN}{18}{subsubsection.4.1.2.6}%
+\contentsline {subsubsection}{\numberline {4.1.2.7}GPIO\_PIN0\_MODE\_OUTPUT\_PUSH\_PULL}{18}{subsubsection.4.1.2.7}%
+\contentsline {subsubsection}{\numberline {4.1.2.8}GPIO\_PIN0\_PORTA}{18}{subsubsection.4.1.2.8}%
+\contentsline {subsubsection}{\numberline {4.1.2.9}GPIO\_PIN0\_PORTB}{18}{subsubsection.4.1.2.9}%
+\contentsline {subsubsection}{\numberline {4.1.2.10}GPIO\_PIN0\_PORTC}{18}{subsubsection.4.1.2.10}%
+\contentsline {subsubsection}{\numberline {4.1.2.11}GPIO\_PIN0\_SELECT}{18}{subsubsection.4.1.2.11}%
+\contentsline {subsubsection}{\numberline {4.1.2.12}GPIO\_PIN0\_SPEED\_10MHZ}{18}{subsubsection.4.1.2.12}%
+\contentsline {subsubsection}{\numberline {4.1.2.13}GPIO\_PIN0\_SPEED\_2MHZ}{18}{subsubsection.4.1.2.13}%
+\contentsline {subsubsection}{\numberline {4.1.2.14}GPIO\_PIN0\_SPEED\_50MHZ}{19}{subsubsection.4.1.2.14}%
+\contentsline {subsubsection}{\numberline {4.1.2.15}GPIO\_PIN0\_SPEED\_NONE}{19}{subsubsection.4.1.2.15}%
+\contentsline {subsubsection}{\numberline {4.1.2.16}GPIO\_PIN0\_VALUE\_HIGH}{19}{subsubsection.4.1.2.16}%
+\contentsline {subsubsection}{\numberline {4.1.2.17}GPIO\_PIN0\_VALUE\_LOW}{19}{subsubsection.4.1.2.17}%
+\contentsline {subsubsection}{\numberline {4.1.2.18}GPIO\_PIN10\_MODE\_INPUT\_ANALOG}{19}{subsubsection.4.1.2.18}%
+\contentsline {subsubsection}{\numberline {4.1.2.19}GPIO\_PIN10\_MODE\_INPUT\_FLOATING}{19}{subsubsection.4.1.2.19}%
+\contentsline {subsubsection}{\numberline {4.1.2.20}GPIO\_PIN10\_MODE\_INPUT\_PULL\_UP\_DOWN}{19}{subsubsection.4.1.2.20}%
+\contentsline {subsubsection}{\numberline {4.1.2.21}GPIO\_PIN10\_MODE\_OUTPUT\_AF\_OPEN\_DRAIN}{19}{subsubsection.4.1.2.21}%
+\contentsline {subsubsection}{\numberline {4.1.2.22}GPIO\_PIN10\_MODE\_OUTPUT\_AF\_PUSH\_PULL}{20}{subsubsection.4.1.2.22}%
+\contentsline {subsubsection}{\numberline {4.1.2.23}GPIO\_PIN10\_MODE\_OUTPUT\_OPEN\_DRAIN}{20}{subsubsection.4.1.2.23}%
+\contentsline {subsubsection}{\numberline {4.1.2.24}GPIO\_PIN10\_MODE\_OUTPUT\_PUSH\_PULL}{20}{subsubsection.4.1.2.24}%
+\contentsline {subsubsection}{\numberline {4.1.2.25}GPIO\_PIN10\_PORTA}{20}{subsubsection.4.1.2.25}%
+\contentsline {subsubsection}{\numberline {4.1.2.26}GPIO\_PIN10\_PORTB}{20}{subsubsection.4.1.2.26}%
+\contentsline {subsubsection}{\numberline {4.1.2.27}GPIO\_PIN10\_PORTC}{20}{subsubsection.4.1.2.27}%
+\contentsline {subsubsection}{\numberline {4.1.2.28}GPIO\_PIN10\_SELECT}{20}{subsubsection.4.1.2.28}%
+\contentsline {subsubsection}{\numberline {4.1.2.29}GPIO\_PIN10\_SPEED\_10MHZ}{20}{subsubsection.4.1.2.29}%
+\contentsline {subsubsection}{\numberline {4.1.2.30}GPIO\_PIN10\_SPEED\_2MHZ}{21}{subsubsection.4.1.2.30}%
+\contentsline {subsubsection}{\numberline {4.1.2.31}GPIO\_PIN10\_SPEED\_50MHZ}{21}{subsubsection.4.1.2.31}%
+\contentsline {subsubsection}{\numberline {4.1.2.32}GPIO\_PIN10\_SPEED\_NONE}{21}{subsubsection.4.1.2.32}%
+\contentsline {subsubsection}{\numberline {4.1.2.33}GPIO\_PIN10\_VALUE\_HIGH}{21}{subsubsection.4.1.2.33}%
+\contentsline {subsubsection}{\numberline {4.1.2.34}GPIO\_PIN10\_VALUE\_LOW}{21}{subsubsection.4.1.2.34}%
+\contentsline {subsubsection}{\numberline {4.1.2.35}GPIO\_PIN11\_MODE\_INPUT\_ANALOG}{21}{subsubsection.4.1.2.35}%
+\contentsline {subsubsection}{\numberline {4.1.2.36}GPIO\_PIN11\_MODE\_INPUT\_FLOATING}{21}{subsubsection.4.1.2.36}%
+\contentsline {subsubsection}{\numberline {4.1.2.37}GPIO\_PIN11\_MODE\_INPUT\_PULL\_UP\_DOWN}{21}{subsubsection.4.1.2.37}%
+\contentsline {subsubsection}{\numberline {4.1.2.38}GPIO\_PIN11\_MODE\_OUTPUT\_AF\_OPEN\_DRAIN}{22}{subsubsection.4.1.2.38}%
+\contentsline {subsubsection}{\numberline {4.1.2.39}GPIO\_PIN11\_MODE\_OUTPUT\_AF\_PUSH\_PULL}{22}{subsubsection.4.1.2.39}%
+\contentsline {subsubsection}{\numberline {4.1.2.40}GPIO\_PIN11\_MODE\_OUTPUT\_OPEN\_DRAIN}{22}{subsubsection.4.1.2.40}%
+\contentsline {subsubsection}{\numberline {4.1.2.41}GPIO\_PIN11\_MODE\_OUTPUT\_PUSH\_PULL}{22}{subsubsection.4.1.2.41}%
+\contentsline {subsubsection}{\numberline {4.1.2.42}GPIO\_PIN11\_PORTA}{22}{subsubsection.4.1.2.42}%
+\contentsline {subsubsection}{\numberline {4.1.2.43}GPIO\_PIN11\_PORTB}{22}{subsubsection.4.1.2.43}%
+\contentsline {subsubsection}{\numberline {4.1.2.44}GPIO\_PIN11\_PORTC}{22}{subsubsection.4.1.2.44}%
+\contentsline {subsubsection}{\numberline {4.1.2.45}GPIO\_PIN11\_SELECT}{22}{subsubsection.4.1.2.45}%
+\contentsline {subsubsection}{\numberline {4.1.2.46}GPIO\_PIN11\_SPEED\_10MHZ}{23}{subsubsection.4.1.2.46}%
+\contentsline {subsubsection}{\numberline {4.1.2.47}GPIO\_PIN11\_SPEED\_2MHZ}{23}{subsubsection.4.1.2.47}%
+\contentsline {subsubsection}{\numberline {4.1.2.48}GPIO\_PIN11\_SPEED\_50MHZ}{23}{subsubsection.4.1.2.48}%
+\contentsline {subsubsection}{\numberline {4.1.2.49}GPIO\_PIN11\_SPEED\_NONE}{23}{subsubsection.4.1.2.49}%
+\contentsline {subsubsection}{\numberline {4.1.2.50}GPIO\_PIN11\_VALUE\_HIGH}{23}{subsubsection.4.1.2.50}%
+\contentsline {subsubsection}{\numberline {4.1.2.51}GPIO\_PIN11\_VALUE\_LOW}{23}{subsubsection.4.1.2.51}%
+\contentsline {subsubsection}{\numberline {4.1.2.52}GPIO\_PIN12\_MODE\_INPUT\_ANALOG}{23}{subsubsection.4.1.2.52}%
+\contentsline {subsubsection}{\numberline {4.1.2.53}GPIO\_PIN12\_MODE\_INPUT\_FLOATING}{23}{subsubsection.4.1.2.53}%
+\contentsline {subsubsection}{\numberline {4.1.2.54}GPIO\_PIN12\_MODE\_INPUT\_PULL\_UP\_DOWN}{24}{subsubsection.4.1.2.54}%
+\contentsline {subsubsection}{\numberline {4.1.2.55}GPIO\_PIN12\_MODE\_OUTPUT\_AF\_OPEN\_DRAIN}{24}{subsubsection.4.1.2.55}%
+\contentsline {subsubsection}{\numberline {4.1.2.56}GPIO\_PIN12\_MODE\_OUTPUT\_AF\_PUSH\_PULL}{24}{subsubsection.4.1.2.56}%
+\contentsline {subsubsection}{\numberline {4.1.2.57}GPIO\_PIN12\_MODE\_OUTPUT\_OPEN\_DRAIN}{24}{subsubsection.4.1.2.57}%
+\contentsline {subsubsection}{\numberline {4.1.2.58}GPIO\_PIN12\_MODE\_OUTPUT\_PUSH\_PULL}{24}{subsubsection.4.1.2.58}%
+\contentsline {subsubsection}{\numberline {4.1.2.59}GPIO\_PIN12\_PORTA}{24}{subsubsection.4.1.2.59}%
+\contentsline {subsubsection}{\numberline {4.1.2.60}GPIO\_PIN12\_PORTB}{24}{subsubsection.4.1.2.60}%
+\contentsline {subsubsection}{\numberline {4.1.2.61}GPIO\_PIN12\_PORTC}{24}{subsubsection.4.1.2.61}%
+\contentsline {subsubsection}{\numberline {4.1.2.62}GPIO\_PIN12\_SELECT}{25}{subsubsection.4.1.2.62}%
+\contentsline {subsubsection}{\numberline {4.1.2.63}GPIO\_PIN12\_SPEED\_10MHZ}{25}{subsubsection.4.1.2.63}%
+\contentsline {subsubsection}{\numberline {4.1.2.64}GPIO\_PIN12\_SPEED\_2MHZ}{25}{subsubsection.4.1.2.64}%
+\contentsline {subsubsection}{\numberline {4.1.2.65}GPIO\_PIN12\_SPEED\_50MHZ}{25}{subsubsection.4.1.2.65}%
+\contentsline {subsubsection}{\numberline {4.1.2.66}GPIO\_PIN12\_SPEED\_NONE}{25}{subsubsection.4.1.2.66}%
+\contentsline {subsubsection}{\numberline {4.1.2.67}GPIO\_PIN12\_VALUE\_HIGH}{25}{subsubsection.4.1.2.67}%
+\contentsline {subsubsection}{\numberline {4.1.2.68}GPIO\_PIN12\_VALUE\_LOW}{25}{subsubsection.4.1.2.68}%
+\contentsline {subsubsection}{\numberline {4.1.2.69}GPIO\_PIN13\_MODE\_INPUT\_ANALOG}{25}{subsubsection.4.1.2.69}%
+\contentsline {subsubsection}{\numberline {4.1.2.70}GPIO\_PIN13\_MODE\_INPUT\_FLOATING}{26}{subsubsection.4.1.2.70}%
+\contentsline {subsubsection}{\numberline {4.1.2.71}GPIO\_PIN13\_MODE\_INPUT\_PULL\_UP\_DOWN}{26}{subsubsection.4.1.2.71}%
+\contentsline {subsubsection}{\numberline {4.1.2.72}GPIO\_PIN13\_MODE\_OUTPUT\_AF\_OPEN\_DRAIN}{26}{subsubsection.4.1.2.72}%
+\contentsline {subsubsection}{\numberline {4.1.2.73}GPIO\_PIN13\_MODE\_OUTPUT\_AF\_PUSH\_PULL}{26}{subsubsection.4.1.2.73}%
+\contentsline {subsubsection}{\numberline {4.1.2.74}GPIO\_PIN13\_MODE\_OUTPUT\_OPEN\_DRAIN}{26}{subsubsection.4.1.2.74}%
+\contentsline {subsubsection}{\numberline {4.1.2.75}GPIO\_PIN13\_MODE\_OUTPUT\_PUSH\_PULL}{26}{subsubsection.4.1.2.75}%
+\contentsline {subsubsection}{\numberline {4.1.2.76}GPIO\_PIN13\_PORTA}{26}{subsubsection.4.1.2.76}%
+\contentsline {subsubsection}{\numberline {4.1.2.77}GPIO\_PIN13\_PORTB}{26}{subsubsection.4.1.2.77}%
+\contentsline {subsubsection}{\numberline {4.1.2.78}GPIO\_PIN13\_PORTC}{27}{subsubsection.4.1.2.78}%
+\contentsline {subsubsection}{\numberline {4.1.2.79}GPIO\_PIN13\_SELECT}{27}{subsubsection.4.1.2.79}%
+\contentsline {subsubsection}{\numberline {4.1.2.80}GPIO\_PIN13\_SPEED\_10MHZ}{27}{subsubsection.4.1.2.80}%
+\contentsline {subsubsection}{\numberline {4.1.2.81}GPIO\_PIN13\_SPEED\_2MHZ}{27}{subsubsection.4.1.2.81}%
+\contentsline {subsubsection}{\numberline {4.1.2.82}GPIO\_PIN13\_SPEED\_50MHZ}{27}{subsubsection.4.1.2.82}%
+\contentsline {subsubsection}{\numberline {4.1.2.83}GPIO\_PIN13\_SPEED\_NONE}{27}{subsubsection.4.1.2.83}%
+\contentsline {subsubsection}{\numberline {4.1.2.84}GPIO\_PIN13\_VALUE\_HIGH}{27}{subsubsection.4.1.2.84}%
+\contentsline {subsubsection}{\numberline {4.1.2.85}GPIO\_PIN13\_VALUE\_LOW}{27}{subsubsection.4.1.2.85}%
+\contentsline {subsubsection}{\numberline {4.1.2.86}GPIO\_PIN14\_MODE\_INPUT\_ANALOG}{28}{subsubsection.4.1.2.86}%
+\contentsline {subsubsection}{\numberline {4.1.2.87}GPIO\_PIN14\_MODE\_INPUT\_FLOATING}{28}{subsubsection.4.1.2.87}%
+\contentsline {subsubsection}{\numberline {4.1.2.88}GPIO\_PIN14\_MODE\_INPUT\_PULL\_UP\_DOWN}{28}{subsubsection.4.1.2.88}%
+\contentsline {subsubsection}{\numberline {4.1.2.89}GPIO\_PIN14\_MODE\_OUTPUT\_AF\_OPEN\_DRAIN}{28}{subsubsection.4.1.2.89}%
+\contentsline {subsubsection}{\numberline {4.1.2.90}GPIO\_PIN14\_MODE\_OUTPUT\_AF\_PUSH\_PULL}{28}{subsubsection.4.1.2.90}%
+\contentsline {subsubsection}{\numberline {4.1.2.91}GPIO\_PIN14\_MODE\_OUTPUT\_OPEN\_DRAIN}{28}{subsubsection.4.1.2.91}%
+\contentsline {subsubsection}{\numberline {4.1.2.92}GPIO\_PIN14\_MODE\_OUTPUT\_PUSH\_PULL}{28}{subsubsection.4.1.2.92}%
+\contentsline {subsubsection}{\numberline {4.1.2.93}GPIO\_PIN14\_PORTA}{28}{subsubsection.4.1.2.93}%
+\contentsline {subsubsection}{\numberline {4.1.2.94}GPIO\_PIN14\_PORTB}{29}{subsubsection.4.1.2.94}%
+\contentsline {subsubsection}{\numberline {4.1.2.95}GPIO\_PIN14\_PORTC}{29}{subsubsection.4.1.2.95}%
+\contentsline {subsubsection}{\numberline {4.1.2.96}GPIO\_PIN14\_SELECT}{29}{subsubsection.4.1.2.96}%
+\contentsline {subsubsection}{\numberline {4.1.2.97}GPIO\_PIN14\_SPEED\_10MHZ}{29}{subsubsection.4.1.2.97}%
+\contentsline {subsubsection}{\numberline {4.1.2.98}GPIO\_PIN14\_SPEED\_2MHZ}{29}{subsubsection.4.1.2.98}%
+\contentsline {subsubsection}{\numberline {4.1.2.99}GPIO\_PIN14\_SPEED\_50MHZ}{29}{subsubsection.4.1.2.99}%
+\contentsline {subsubsection}{\numberline {4.1.2.100}GPIO\_PIN14\_SPEED\_NONE}{29}{subsubsection.4.1.2.100}%
+\contentsline {subsubsection}{\numberline {4.1.2.101}GPIO\_PIN14\_VALUE\_HIGH}{29}{subsubsection.4.1.2.101}%
+\contentsline {subsubsection}{\numberline {4.1.2.102}GPIO\_PIN14\_VALUE\_LOW}{30}{subsubsection.4.1.2.102}%
+\contentsline {subsubsection}{\numberline {4.1.2.103}GPIO\_PIN15\_MODE\_INPUT\_ANALOG}{30}{subsubsection.4.1.2.103}%
+\contentsline {subsubsection}{\numberline {4.1.2.104}GPIO\_PIN15\_MODE\_INPUT\_FLOATING}{30}{subsubsection.4.1.2.104}%
+\contentsline {subsubsection}{\numberline {4.1.2.105}GPIO\_PIN15\_MODE\_INPUT\_PULL\_UP\_DOWN}{30}{subsubsection.4.1.2.105}%
+\contentsline {subsubsection}{\numberline {4.1.2.106}GPIO\_PIN15\_MODE\_OUTPUT\_AF\_OPEN\_DRAIN}{30}{subsubsection.4.1.2.106}%
+\contentsline {subsubsection}{\numberline {4.1.2.107}GPIO\_PIN15\_MODE\_OUTPUT\_AF\_PUSH\_PULL}{30}{subsubsection.4.1.2.107}%
+\contentsline {subsubsection}{\numberline {4.1.2.108}GPIO\_PIN15\_MODE\_OUTPUT\_OPEN\_DRAIN}{30}{subsubsection.4.1.2.108}%
+\contentsline {subsubsection}{\numberline {4.1.2.109}GPIO\_PIN15\_MODE\_OUTPUT\_PUSH\_PULL}{30}{subsubsection.4.1.2.109}%
+\contentsline {subsubsection}{\numberline {4.1.2.110}GPIO\_PIN15\_PORTA}{31}{subsubsection.4.1.2.110}%
+\contentsline {subsubsection}{\numberline {4.1.2.111}GPIO\_PIN15\_PORTB}{31}{subsubsection.4.1.2.111}%
+\contentsline {subsubsection}{\numberline {4.1.2.112}GPIO\_PIN15\_PORTC}{31}{subsubsection.4.1.2.112}%
+\contentsline {subsubsection}{\numberline {4.1.2.113}GPIO\_PIN15\_SELECT}{31}{subsubsection.4.1.2.113}%
+\contentsline {subsubsection}{\numberline {4.1.2.114}GPIO\_PIN15\_SPEED\_10MHZ}{31}{subsubsection.4.1.2.114}%
+\contentsline {subsubsection}{\numberline {4.1.2.115}GPIO\_PIN15\_SPEED\_2MHZ}{31}{subsubsection.4.1.2.115}%
+\contentsline {subsubsection}{\numberline {4.1.2.116}GPIO\_PIN15\_SPEED\_50MHZ}{31}{subsubsection.4.1.2.116}%
+\contentsline {subsubsection}{\numberline {4.1.2.117}GPIO\_PIN15\_SPEED\_NONE}{31}{subsubsection.4.1.2.117}%
+\contentsline {subsubsection}{\numberline {4.1.2.118}GPIO\_PIN15\_VALUE\_HIGH}{32}{subsubsection.4.1.2.118}%
+\contentsline {subsubsection}{\numberline {4.1.2.119}GPIO\_PIN15\_VALUE\_LOW}{32}{subsubsection.4.1.2.119}%
+\contentsline {subsubsection}{\numberline {4.1.2.120}GPIO\_PIN1\_MODE\_INPUT\_ANALOG}{32}{subsubsection.4.1.2.120}%
+\contentsline {subsubsection}{\numberline {4.1.2.121}GPIO\_PIN1\_MODE\_INPUT\_FLOATING}{32}{subsubsection.4.1.2.121}%
+\contentsline {subsubsection}{\numberline {4.1.2.122}GPIO\_PIN1\_MODE\_INPUT\_PULL\_UP\_DOWN}{32}{subsubsection.4.1.2.122}%
+\contentsline {subsubsection}{\numberline {4.1.2.123}GPIO\_PIN1\_MODE\_OUTPUT\_AF\_OPEN\_DRAIN}{32}{subsubsection.4.1.2.123}%
+\contentsline {subsubsection}{\numberline {4.1.2.124}GPIO\_PIN1\_MODE\_OUTPUT\_AF\_PUSH\_PULL}{32}{subsubsection.4.1.2.124}%
+\contentsline {subsubsection}{\numberline {4.1.2.125}GPIO\_PIN1\_MODE\_OUTPUT\_OPEN\_DRAIN}{32}{subsubsection.4.1.2.125}%
+\contentsline {subsubsection}{\numberline {4.1.2.126}GPIO\_PIN1\_MODE\_OUTPUT\_PUSH\_PULL}{33}{subsubsection.4.1.2.126}%
+\contentsline {subsubsection}{\numberline {4.1.2.127}GPIO\_PIN1\_PORTA}{33}{subsubsection.4.1.2.127}%
+\contentsline {subsubsection}{\numberline {4.1.2.128}GPIO\_PIN1\_PORTB}{33}{subsubsection.4.1.2.128}%
+\contentsline {subsubsection}{\numberline {4.1.2.129}GPIO\_PIN1\_PORTC}{33}{subsubsection.4.1.2.129}%
+\contentsline {subsubsection}{\numberline {4.1.2.130}GPIO\_PIN1\_SELECT}{33}{subsubsection.4.1.2.130}%
+\contentsline {subsubsection}{\numberline {4.1.2.131}GPIO\_PIN1\_SPEED\_10MHZ}{33}{subsubsection.4.1.2.131}%
+\contentsline {subsubsection}{\numberline {4.1.2.132}GPIO\_PIN1\_SPEED\_2MHZ}{33}{subsubsection.4.1.2.132}%
+\contentsline {subsubsection}{\numberline {4.1.2.133}GPIO\_PIN1\_SPEED\_50MHZ}{33}{subsubsection.4.1.2.133}%
+\contentsline {subsubsection}{\numberline {4.1.2.134}GPIO\_PIN1\_SPEED\_NONE}{34}{subsubsection.4.1.2.134}%
+\contentsline {subsubsection}{\numberline {4.1.2.135}GPIO\_PIN1\_VALUE\_HIGH}{34}{subsubsection.4.1.2.135}%
+\contentsline {subsubsection}{\numberline {4.1.2.136}GPIO\_PIN1\_VALUE\_LOW}{34}{subsubsection.4.1.2.136}%
+\contentsline {subsubsection}{\numberline {4.1.2.137}GPIO\_PIN2\_MODE\_INPUT\_ANALOG}{34}{subsubsection.4.1.2.137}%
+\contentsline {subsubsection}{\numberline {4.1.2.138}GPIO\_PIN2\_MODE\_INPUT\_FLOATING}{34}{subsubsection.4.1.2.138}%
+\contentsline {subsubsection}{\numberline {4.1.2.139}GPIO\_PIN2\_MODE\_INPUT\_PULL\_UP\_DOWN}{34}{subsubsection.4.1.2.139}%
+\contentsline {subsubsection}{\numberline {4.1.2.140}GPIO\_PIN2\_MODE\_OUTPUT\_AF\_OPEN\_DRAIN}{34}{subsubsection.4.1.2.140}%
+\contentsline {subsubsection}{\numberline {4.1.2.141}GPIO\_PIN2\_MODE\_OUTPUT\_AF\_PUSH\_PULL}{34}{subsubsection.4.1.2.141}%
+\contentsline {subsubsection}{\numberline {4.1.2.142}GPIO\_PIN2\_MODE\_OUTPUT\_OPEN\_DRAIN}{35}{subsubsection.4.1.2.142}%
+\contentsline {subsubsection}{\numberline {4.1.2.143}GPIO\_PIN2\_MODE\_OUTPUT\_PUSH\_PULL}{35}{subsubsection.4.1.2.143}%
+\contentsline {subsubsection}{\numberline {4.1.2.144}GPIO\_PIN2\_PORTA}{35}{subsubsection.4.1.2.144}%
+\contentsline {subsubsection}{\numberline {4.1.2.145}GPIO\_PIN2\_PORTB}{35}{subsubsection.4.1.2.145}%
+\contentsline {subsubsection}{\numberline {4.1.2.146}GPIO\_PIN2\_PORTC}{35}{subsubsection.4.1.2.146}%
+\contentsline {subsubsection}{\numberline {4.1.2.147}GPIO\_PIN2\_SELECT}{35}{subsubsection.4.1.2.147}%
+\contentsline {subsubsection}{\numberline {4.1.2.148}GPIO\_PIN2\_SPEED\_10MHZ}{35}{subsubsection.4.1.2.148}%
+\contentsline {subsubsection}{\numberline {4.1.2.149}GPIO\_PIN2\_SPEED\_2MHZ}{35}{subsubsection.4.1.2.149}%
+\contentsline {subsubsection}{\numberline {4.1.2.150}GPIO\_PIN2\_SPEED\_50MHZ}{36}{subsubsection.4.1.2.150}%
+\contentsline {subsubsection}{\numberline {4.1.2.151}GPIO\_PIN2\_SPEED\_NONE}{36}{subsubsection.4.1.2.151}%
+\contentsline {subsubsection}{\numberline {4.1.2.152}GPIO\_PIN2\_VALUE\_HIGH}{36}{subsubsection.4.1.2.152}%
+\contentsline {subsubsection}{\numberline {4.1.2.153}GPIO\_PIN2\_VALUE\_LOW}{36}{subsubsection.4.1.2.153}%
+\contentsline {subsubsection}{\numberline {4.1.2.154}GPIO\_PIN3\_MODE\_INPUT\_ANALOG}{36}{subsubsection.4.1.2.154}%
+\contentsline {subsubsection}{\numberline {4.1.2.155}GPIO\_PIN3\_MODE\_INPUT\_FLOATING}{36}{subsubsection.4.1.2.155}%
+\contentsline {subsubsection}{\numberline {4.1.2.156}GPIO\_PIN3\_MODE\_INPUT\_PULL\_UP\_DOWN}{36}{subsubsection.4.1.2.156}%
+\contentsline {subsubsection}{\numberline {4.1.2.157}GPIO\_PIN3\_MODE\_OUTPUT\_AF\_OPEN\_DRAIN}{36}{subsubsection.4.1.2.157}%
+\contentsline {subsubsection}{\numberline {4.1.2.158}GPIO\_PIN3\_MODE\_OUTPUT\_AF\_PUSH\_PULL}{37}{subsubsection.4.1.2.158}%
+\contentsline {subsubsection}{\numberline {4.1.2.159}GPIO\_PIN3\_MODE\_OUTPUT\_OPEN\_DRAIN}{37}{subsubsection.4.1.2.159}%
+\contentsline {subsubsection}{\numberline {4.1.2.160}GPIO\_PIN3\_MODE\_OUTPUT\_PUSH\_PULL}{37}{subsubsection.4.1.2.160}%
+\contentsline {subsubsection}{\numberline {4.1.2.161}GPIO\_PIN3\_PORTA}{37}{subsubsection.4.1.2.161}%
+\contentsline {subsubsection}{\numberline {4.1.2.162}GPIO\_PIN3\_PORTB}{37}{subsubsection.4.1.2.162}%
+\contentsline {subsubsection}{\numberline {4.1.2.163}GPIO\_PIN3\_PORTC}{37}{subsubsection.4.1.2.163}%
+\contentsline {subsubsection}{\numberline {4.1.2.164}GPIO\_PIN3\_SELECT}{37}{subsubsection.4.1.2.164}%
+\contentsline {subsubsection}{\numberline {4.1.2.165}GPIO\_PIN3\_SPEED\_10MHZ}{37}{subsubsection.4.1.2.165}%
+\contentsline {subsubsection}{\numberline {4.1.2.166}GPIO\_PIN3\_SPEED\_2MHZ}{38}{subsubsection.4.1.2.166}%
+\contentsline {subsubsection}{\numberline {4.1.2.167}GPIO\_PIN3\_SPEED\_50MHZ}{38}{subsubsection.4.1.2.167}%
+\contentsline {subsubsection}{\numberline {4.1.2.168}GPIO\_PIN3\_SPEED\_NONE}{38}{subsubsection.4.1.2.168}%
+\contentsline {subsubsection}{\numberline {4.1.2.169}GPIO\_PIN3\_VALUE\_HIGH}{38}{subsubsection.4.1.2.169}%
+\contentsline {subsubsection}{\numberline {4.1.2.170}GPIO\_PIN3\_VALUE\_LOW}{38}{subsubsection.4.1.2.170}%
+\contentsline {subsubsection}{\numberline {4.1.2.171}GPIO\_PIN4\_MODE\_INPUT\_ANALOG}{38}{subsubsection.4.1.2.171}%
+\contentsline {subsubsection}{\numberline {4.1.2.172}GPIO\_PIN4\_MODE\_INPUT\_FLOATING}{38}{subsubsection.4.1.2.172}%
+\contentsline {subsubsection}{\numberline {4.1.2.173}GPIO\_PIN4\_MODE\_INPUT\_PULL\_UP\_DOWN}{38}{subsubsection.4.1.2.173}%
+\contentsline {subsubsection}{\numberline {4.1.2.174}GPIO\_PIN4\_MODE\_OUTPUT\_AF\_OPEN\_DRAIN}{39}{subsubsection.4.1.2.174}%
+\contentsline {subsubsection}{\numberline {4.1.2.175}GPIO\_PIN4\_MODE\_OUTPUT\_AF\_PUSH\_PULL}{39}{subsubsection.4.1.2.175}%
+\contentsline {subsubsection}{\numberline {4.1.2.176}GPIO\_PIN4\_MODE\_OUTPUT\_OPEN\_DRAIN}{39}{subsubsection.4.1.2.176}%
+\contentsline {subsubsection}{\numberline {4.1.2.177}GPIO\_PIN4\_MODE\_OUTPUT\_PUSH\_PULL}{39}{subsubsection.4.1.2.177}%
+\contentsline {subsubsection}{\numberline {4.1.2.178}GPIO\_PIN4\_PORTA}{39}{subsubsection.4.1.2.178}%
+\contentsline {subsubsection}{\numberline {4.1.2.179}GPIO\_PIN4\_PORTB}{39}{subsubsection.4.1.2.179}%
+\contentsline {subsubsection}{\numberline {4.1.2.180}GPIO\_PIN4\_PORTC}{39}{subsubsection.4.1.2.180}%
+\contentsline {subsubsection}{\numberline {4.1.2.181}GPIO\_PIN4\_SELECT}{39}{subsubsection.4.1.2.181}%
+\contentsline {subsubsection}{\numberline {4.1.2.182}GPIO\_PIN4\_SPEED\_10MHZ}{40}{subsubsection.4.1.2.182}%
+\contentsline {subsubsection}{\numberline {4.1.2.183}GPIO\_PIN4\_SPEED\_2MHZ}{40}{subsubsection.4.1.2.183}%
+\contentsline {subsubsection}{\numberline {4.1.2.184}GPIO\_PIN4\_SPEED\_50MHZ}{40}{subsubsection.4.1.2.184}%
+\contentsline {subsubsection}{\numberline {4.1.2.185}GPIO\_PIN4\_SPEED\_NONE}{40}{subsubsection.4.1.2.185}%
+\contentsline {subsubsection}{\numberline {4.1.2.186}GPIO\_PIN4\_VALUE\_HIGH}{40}{subsubsection.4.1.2.186}%
+\contentsline {subsubsection}{\numberline {4.1.2.187}GPIO\_PIN4\_VALUE\_LOW}{40}{subsubsection.4.1.2.187}%
+\contentsline {subsubsection}{\numberline {4.1.2.188}GPIO\_PIN5\_MODE\_INPUT\_ANALOG}{40}{subsubsection.4.1.2.188}%
+\contentsline {subsubsection}{\numberline {4.1.2.189}GPIO\_PIN5\_MODE\_INPUT\_FLOATING}{40}{subsubsection.4.1.2.189}%
+\contentsline {subsubsection}{\numberline {4.1.2.190}GPIO\_PIN5\_MODE\_INPUT\_PULL\_UP\_DOWN}{41}{subsubsection.4.1.2.190}%
+\contentsline {subsubsection}{\numberline {4.1.2.191}GPIO\_PIN5\_MODE\_OUTPUT\_AF\_OPEN\_DRAIN}{41}{subsubsection.4.1.2.191}%
+\contentsline {subsubsection}{\numberline {4.1.2.192}GPIO\_PIN5\_MODE\_OUTPUT\_AF\_PUSH\_PULL}{41}{subsubsection.4.1.2.192}%
+\contentsline {subsubsection}{\numberline {4.1.2.193}GPIO\_PIN5\_MODE\_OUTPUT\_OPEN\_DRAIN}{41}{subsubsection.4.1.2.193}%
+\contentsline {subsubsection}{\numberline {4.1.2.194}GPIO\_PIN5\_MODE\_OUTPUT\_PUSH\_PULL}{41}{subsubsection.4.1.2.194}%
+\contentsline {subsubsection}{\numberline {4.1.2.195}GPIO\_PIN5\_PORTA}{41}{subsubsection.4.1.2.195}%
+\contentsline {subsubsection}{\numberline {4.1.2.196}GPIO\_PIN5\_PORTB}{41}{subsubsection.4.1.2.196}%
+\contentsline {subsubsection}{\numberline {4.1.2.197}GPIO\_PIN5\_PORTC}{41}{subsubsection.4.1.2.197}%
+\contentsline {subsubsection}{\numberline {4.1.2.198}GPIO\_PIN5\_SELECT}{42}{subsubsection.4.1.2.198}%
+\contentsline {subsubsection}{\numberline {4.1.2.199}GPIO\_PIN5\_SPEED\_10MHZ}{42}{subsubsection.4.1.2.199}%
+\contentsline {subsubsection}{\numberline {4.1.2.200}GPIO\_PIN5\_SPEED\_2MHZ}{42}{subsubsection.4.1.2.200}%
+\contentsline {subsubsection}{\numberline {4.1.2.201}GPIO\_PIN5\_SPEED\_50MHZ}{42}{subsubsection.4.1.2.201}%
+\contentsline {subsubsection}{\numberline {4.1.2.202}GPIO\_PIN5\_SPEED\_NONE}{42}{subsubsection.4.1.2.202}%
+\contentsline {subsubsection}{\numberline {4.1.2.203}GPIO\_PIN5\_VALUE\_HIGH}{42}{subsubsection.4.1.2.203}%
+\contentsline {subsubsection}{\numberline {4.1.2.204}GPIO\_PIN5\_VALUE\_LOW}{42}{subsubsection.4.1.2.204}%
+\contentsline {subsubsection}{\numberline {4.1.2.205}GPIO\_PIN6\_MODE\_INPUT\_ANALOG}{42}{subsubsection.4.1.2.205}%
+\contentsline {subsubsection}{\numberline {4.1.2.206}GPIO\_PIN6\_MODE\_INPUT\_FLOATING}{43}{subsubsection.4.1.2.206}%
+\contentsline {subsubsection}{\numberline {4.1.2.207}GPIO\_PIN6\_MODE\_INPUT\_PULL\_UP\_DOWN}{43}{subsubsection.4.1.2.207}%
+\contentsline {subsubsection}{\numberline {4.1.2.208}GPIO\_PIN6\_MODE\_OUTPUT\_AF\_OPEN\_DRAIN}{43}{subsubsection.4.1.2.208}%
+\contentsline {subsubsection}{\numberline {4.1.2.209}GPIO\_PIN6\_MODE\_OUTPUT\_AF\_PUSH\_PULL}{43}{subsubsection.4.1.2.209}%
+\contentsline {subsubsection}{\numberline {4.1.2.210}GPIO\_PIN6\_MODE\_OUTPUT\_OPEN\_DRAIN}{43}{subsubsection.4.1.2.210}%
+\contentsline {subsubsection}{\numberline {4.1.2.211}GPIO\_PIN6\_MODE\_OUTPUT\_PUSH\_PULL}{43}{subsubsection.4.1.2.211}%
+\contentsline {subsubsection}{\numberline {4.1.2.212}GPIO\_PIN6\_PORTA}{43}{subsubsection.4.1.2.212}%
+\contentsline {subsubsection}{\numberline {4.1.2.213}GPIO\_PIN6\_PORTB}{43}{subsubsection.4.1.2.213}%
+\contentsline {subsubsection}{\numberline {4.1.2.214}GPIO\_PIN6\_PORTC}{44}{subsubsection.4.1.2.214}%
+\contentsline {subsubsection}{\numberline {4.1.2.215}GPIO\_PIN6\_SELECT}{44}{subsubsection.4.1.2.215}%
+\contentsline {subsubsection}{\numberline {4.1.2.216}GPIO\_PIN6\_SPEED\_10MHZ}{44}{subsubsection.4.1.2.216}%
+\contentsline {subsubsection}{\numberline {4.1.2.217}GPIO\_PIN6\_SPEED\_2MHZ}{44}{subsubsection.4.1.2.217}%
+\contentsline {subsubsection}{\numberline {4.1.2.218}GPIO\_PIN6\_SPEED\_50MHZ}{44}{subsubsection.4.1.2.218}%
+\contentsline {subsubsection}{\numberline {4.1.2.219}GPIO\_PIN6\_SPEED\_NONE}{44}{subsubsection.4.1.2.219}%
+\contentsline {subsubsection}{\numberline {4.1.2.220}GPIO\_PIN6\_VALUE\_HIGH}{44}{subsubsection.4.1.2.220}%
+\contentsline {subsubsection}{\numberline {4.1.2.221}GPIO\_PIN6\_VALUE\_LOW}{44}{subsubsection.4.1.2.221}%
+\contentsline {subsubsection}{\numberline {4.1.2.222}GPIO\_PIN7\_MODE\_INPUT\_ANALOG}{45}{subsubsection.4.1.2.222}%
+\contentsline {subsubsection}{\numberline {4.1.2.223}GPIO\_PIN7\_MODE\_INPUT\_FLOATING}{45}{subsubsection.4.1.2.223}%
+\contentsline {subsubsection}{\numberline {4.1.2.224}GPIO\_PIN7\_MODE\_INPUT\_PULL\_UP\_DOWN}{45}{subsubsection.4.1.2.224}%
+\contentsline {subsubsection}{\numberline {4.1.2.225}GPIO\_PIN7\_MODE\_OUTPUT\_AF\_OPEN\_DRAIN}{45}{subsubsection.4.1.2.225}%
+\contentsline {subsubsection}{\numberline {4.1.2.226}GPIO\_PIN7\_MODE\_OUTPUT\_AF\_PUSH\_PULL}{45}{subsubsection.4.1.2.226}%
+\contentsline {subsubsection}{\numberline {4.1.2.227}GPIO\_PIN7\_MODE\_OUTPUT\_OPEN\_DRAIN}{45}{subsubsection.4.1.2.227}%
+\contentsline {subsubsection}{\numberline {4.1.2.228}GPIO\_PIN7\_MODE\_OUTPUT\_PUSH\_PULL}{45}{subsubsection.4.1.2.228}%
+\contentsline {subsubsection}{\numberline {4.1.2.229}GPIO\_PIN7\_PORTA}{45}{subsubsection.4.1.2.229}%
+\contentsline {subsubsection}{\numberline {4.1.2.230}GPIO\_PIN7\_PORTB}{46}{subsubsection.4.1.2.230}%
+\contentsline {subsubsection}{\numberline {4.1.2.231}GPIO\_PIN7\_PORTC}{46}{subsubsection.4.1.2.231}%
+\contentsline {subsubsection}{\numberline {4.1.2.232}GPIO\_PIN7\_SELECT}{46}{subsubsection.4.1.2.232}%
+\contentsline {subsubsection}{\numberline {4.1.2.233}GPIO\_PIN7\_SPEED\_10MHZ}{46}{subsubsection.4.1.2.233}%
+\contentsline {subsubsection}{\numberline {4.1.2.234}GPIO\_PIN7\_SPEED\_2MHZ}{46}{subsubsection.4.1.2.234}%
+\contentsline {subsubsection}{\numberline {4.1.2.235}GPIO\_PIN7\_SPEED\_50MHZ}{46}{subsubsection.4.1.2.235}%
+\contentsline {subsubsection}{\numberline {4.1.2.236}GPIO\_PIN7\_SPEED\_NONE}{46}{subsubsection.4.1.2.236}%
+\contentsline {subsubsection}{\numberline {4.1.2.237}GPIO\_PIN7\_VALUE\_HIGH}{46}{subsubsection.4.1.2.237}%
+\contentsline {subsubsection}{\numberline {4.1.2.238}GPIO\_PIN7\_VALUE\_LOW}{47}{subsubsection.4.1.2.238}%
+\contentsline {subsubsection}{\numberline {4.1.2.239}GPIO\_PIN8\_MODE\_INPUT\_ANALOG}{47}{subsubsection.4.1.2.239}%
+\contentsline {subsubsection}{\numberline {4.1.2.240}GPIO\_PIN8\_MODE\_INPUT\_FLOATING}{47}{subsubsection.4.1.2.240}%
+\contentsline {subsubsection}{\numberline {4.1.2.241}GPIO\_PIN8\_MODE\_INPUT\_PULL\_UP\_DOWN}{47}{subsubsection.4.1.2.241}%
+\contentsline {subsubsection}{\numberline {4.1.2.242}GPIO\_PIN8\_MODE\_OUTPUT\_AF\_OPEN\_DRAIN}{47}{subsubsection.4.1.2.242}%
+\contentsline {subsubsection}{\numberline {4.1.2.243}GPIO\_PIN8\_MODE\_OUTPUT\_AF\_PUSH\_PULL}{47}{subsubsection.4.1.2.243}%
+\contentsline {subsubsection}{\numberline {4.1.2.244}GPIO\_PIN8\_MODE\_OUTPUT\_OPEN\_DRAIN}{47}{subsubsection.4.1.2.244}%
+\contentsline {subsubsection}{\numberline {4.1.2.245}GPIO\_PIN8\_MODE\_OUTPUT\_PUSH\_PULL}{47}{subsubsection.4.1.2.245}%
+\contentsline {subsubsection}{\numberline {4.1.2.246}GPIO\_PIN8\_PORTA}{48}{subsubsection.4.1.2.246}%
+\contentsline {subsubsection}{\numberline {4.1.2.247}GPIO\_PIN8\_PORTB}{48}{subsubsection.4.1.2.247}%
+\contentsline {subsubsection}{\numberline {4.1.2.248}GPIO\_PIN8\_PORTC}{48}{subsubsection.4.1.2.248}%
+\contentsline {subsubsection}{\numberline {4.1.2.249}GPIO\_PIN8\_SELECT}{48}{subsubsection.4.1.2.249}%
+\contentsline {subsubsection}{\numberline {4.1.2.250}GPIO\_PIN8\_SPEED\_10MHZ}{48}{subsubsection.4.1.2.250}%
+\contentsline {subsubsection}{\numberline {4.1.2.251}GPIO\_PIN8\_SPEED\_2MHZ}{48}{subsubsection.4.1.2.251}%
+\contentsline {subsubsection}{\numberline {4.1.2.252}GPIO\_PIN8\_SPEED\_50MHZ}{48}{subsubsection.4.1.2.252}%
+\contentsline {subsubsection}{\numberline {4.1.2.253}GPIO\_PIN8\_SPEED\_NONE}{48}{subsubsection.4.1.2.253}%
+\contentsline {subsubsection}{\numberline {4.1.2.254}GPIO\_PIN8\_VALUE\_HIGH}{49}{subsubsection.4.1.2.254}%
+\contentsline {subsubsection}{\numberline {4.1.2.255}GPIO\_PIN8\_VALUE\_LOW}{49}{subsubsection.4.1.2.255}%
+\contentsline {subsubsection}{\numberline {4.1.2.256}GPIO\_PIN9\_MODE\_INPUT\_ANALOG}{49}{subsubsection.4.1.2.256}%
+\contentsline {subsubsection}{\numberline {4.1.2.257}GPIO\_PIN9\_MODE\_INPUT\_FLOATING}{49}{subsubsection.4.1.2.257}%
+\contentsline {subsubsection}{\numberline {4.1.2.258}GPIO\_PIN9\_MODE\_INPUT\_PULL\_UP\_DOWN}{49}{subsubsection.4.1.2.258}%
+\contentsline {subsubsection}{\numberline {4.1.2.259}GPIO\_PIN9\_MODE\_OUTPUT\_AF\_OPEN\_DRAIN}{49}{subsubsection.4.1.2.259}%
+\contentsline {subsubsection}{\numberline {4.1.2.260}GPIO\_PIN9\_MODE\_OUTPUT\_AF\_PUSH\_PULL}{49}{subsubsection.4.1.2.260}%
+\contentsline {subsubsection}{\numberline {4.1.2.261}GPIO\_PIN9\_MODE\_OUTPUT\_OPEN\_DRAIN}{49}{subsubsection.4.1.2.261}%
+\contentsline {subsubsection}{\numberline {4.1.2.262}GPIO\_PIN9\_MODE\_OUTPUT\_PUSH\_PULL}{50}{subsubsection.4.1.2.262}%
+\contentsline {subsubsection}{\numberline {4.1.2.263}GPIO\_PIN9\_PORTA}{50}{subsubsection.4.1.2.263}%
+\contentsline {subsubsection}{\numberline {4.1.2.264}GPIO\_PIN9\_PORTB}{50}{subsubsection.4.1.2.264}%
+\contentsline {subsubsection}{\numberline {4.1.2.265}GPIO\_PIN9\_PORTC}{50}{subsubsection.4.1.2.265}%
+\contentsline {subsubsection}{\numberline {4.1.2.266}GPIO\_PIN9\_SELECT}{50}{subsubsection.4.1.2.266}%
+\contentsline {subsubsection}{\numberline {4.1.2.267}GPIO\_PIN9\_SPEED\_10MHZ}{50}{subsubsection.4.1.2.267}%
+\contentsline {subsubsection}{\numberline {4.1.2.268}GPIO\_PIN9\_SPEED\_2MHZ}{50}{subsubsection.4.1.2.268}%
+\contentsline {subsubsection}{\numberline {4.1.2.269}GPIO\_PIN9\_SPEED\_50MHZ}{50}{subsubsection.4.1.2.269}%
+\contentsline {subsubsection}{\numberline {4.1.2.270}GPIO\_PIN9\_SPEED\_NONE}{51}{subsubsection.4.1.2.270}%
+\contentsline {subsubsection}{\numberline {4.1.2.271}GPIO\_PIN9\_VALUE\_HIGH}{51}{subsubsection.4.1.2.271}%
+\contentsline {subsubsection}{\numberline {4.1.2.272}GPIO\_PIN9\_VALUE\_LOW}{51}{subsubsection.4.1.2.272}%
+\contentsline {subsubsection}{\numberline {4.1.2.273}GPIO\_PIN\_ALL\_MODE\_INPUT\_ANALOG}{51}{subsubsection.4.1.2.273}%
+\contentsline {subsubsection}{\numberline {4.1.2.274}GPIO\_PIN\_ALL\_MODE\_INPUT\_FLOATING}{51}{subsubsection.4.1.2.274}%
+\contentsline {subsubsection}{\numberline {4.1.2.275}GPIO\_PIN\_ALL\_MODE\_INPUT\_PULL\_UP\_DOWN}{51}{subsubsection.4.1.2.275}%
+\contentsline {subsubsection}{\numberline {4.1.2.276}GPIO\_PIN\_ALL\_MODE\_OUTPUT\_AF\_OPEN\_DRAIN}{51}{subsubsection.4.1.2.276}%
+\contentsline {subsubsection}{\numberline {4.1.2.277}GPIO\_PIN\_ALL\_MODE\_OUTPUT\_AF\_PUSH\_PULL}{51}{subsubsection.4.1.2.277}%
+\contentsline {subsubsection}{\numberline {4.1.2.278}GPIO\_PIN\_ALL\_MODE\_OUTPUT\_OPEN\_DRAIN}{52}{subsubsection.4.1.2.278}%
+\contentsline {subsubsection}{\numberline {4.1.2.279}GPIO\_PIN\_ALL\_MODE\_OUTPUT\_PUSH\_PULL}{52}{subsubsection.4.1.2.279}%
+\contentsline {subsubsection}{\numberline {4.1.2.280}GPIO\_PIN\_ALL\_PORTA}{52}{subsubsection.4.1.2.280}%
+\contentsline {subsubsection}{\numberline {4.1.2.281}GPIO\_PIN\_ALL\_PORTB}{52}{subsubsection.4.1.2.281}%
+\contentsline {subsubsection}{\numberline {4.1.2.282}GPIO\_PIN\_ALL\_PORTC}{52}{subsubsection.4.1.2.282}%
+\contentsline {subsubsection}{\numberline {4.1.2.283}GPIO\_PIN\_ALL\_SPEED\_10MHZ}{52}{subsubsection.4.1.2.283}%
+\contentsline {subsubsection}{\numberline {4.1.2.284}GPIO\_PIN\_ALL\_SPEED\_2MHZ}{52}{subsubsection.4.1.2.284}%
+\contentsline {subsubsection}{\numberline {4.1.2.285}GPIO\_PIN\_ALL\_SPEED\_50MHZ}{52}{subsubsection.4.1.2.285}%
+\contentsline {subsubsection}{\numberline {4.1.2.286}GPIO\_PIN\_ALL\_SPEED\_NONE}{53}{subsubsection.4.1.2.286}%
+\contentsline {subsubsection}{\numberline {4.1.2.287}GPIO\_PIN\_ALL\_VALUE\_HIGH}{53}{subsubsection.4.1.2.287}%
+\contentsline {subsubsection}{\numberline {4.1.2.288}GPIO\_PIN\_ALL\_VALUE\_LOW}{53}{subsubsection.4.1.2.288}%
+\contentsline {subsection}{\numberline {4.1.3}Function Documentation}{53}{subsection.4.1.3}%
+\contentsline {subsubsection}{\numberline {4.1.3.1}GPIO\_InitPin()}{53}{subsubsection.4.1.3.1}%
+\contentsline {subsubsection}{\numberline {4.1.3.2}GPIO\_ReadPin()}{53}{subsubsection.4.1.3.2}%
+\contentsline {subsubsection}{\numberline {4.1.3.3}GPIO\_WritePin()}{54}{subsubsection.4.1.3.3}%
+\contentsline {section}{\numberline {4.2}include/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}L\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}CD.h File Reference}{54}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}Detailed Description}{55}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}Macro Definition Documentation}{55}{subsection.4.2.2}%
+\contentsline {subsubsection}{\numberline {4.2.2.1}E\_BUSY}{55}{subsubsection.4.2.2.1}%
+\contentsline {subsubsection}{\numberline {4.2.2.2}E\_NOT\_OK}{55}{subsubsection.4.2.2.2}%
+\contentsline {subsubsection}{\numberline {4.2.2.3}E\_OK}{56}{subsubsection.4.2.2.3}%
+\contentsline {subsubsection}{\numberline {4.2.2.4}LCD\_4\_BIT\_1\_LINE}{56}{subsubsection.4.2.2.4}%
+\contentsline {subsubsection}{\numberline {4.2.2.5}LCD\_4\_BIT\_2\_LINE}{56}{subsubsection.4.2.2.5}%
+\contentsline {subsubsection}{\numberline {4.2.2.6}LCD\_8\_BIT\_1\_LINE}{56}{subsubsection.4.2.2.6}%
+\contentsline {subsubsection}{\numberline {4.2.2.7}LCD\_8\_BIT\_2\_LINE}{56}{subsubsection.4.2.2.7}%
+\contentsline {subsubsection}{\numberline {4.2.2.8}LCD\_CLEAR\_SCREEN}{56}{subsubsection.4.2.2.8}%
+\contentsline {subsubsection}{\numberline {4.2.2.9}LCD\_DISPLAY\_OFF\_CURSOR\_OFF}{56}{subsubsection.4.2.2.9}%
+\contentsline {subsubsection}{\numberline {4.2.2.10}LCD\_DISPLAY\_ON\_CURSOR\_Blinging}{56}{subsubsection.4.2.2.10}%
+\contentsline {subsubsection}{\numberline {4.2.2.11}LCD\_DISPLAY\_ON\_CURSOR\_OFF}{57}{subsubsection.4.2.2.11}%
+\contentsline {subsubsection}{\numberline {4.2.2.12}LCD\_DISPLAY\_ON\_CURSOR\_ON}{57}{subsubsection.4.2.2.12}%
+\contentsline {subsubsection}{\numberline {4.2.2.13}LCD\_FIRST\_LINE}{57}{subsubsection.4.2.2.13}%
+\contentsline {subsubsection}{\numberline {4.2.2.14}LCD\_SECOND\_LINE}{57}{subsubsection.4.2.2.14}%
+\contentsline {subsection}{\numberline {4.2.3}Typedef Documentation}{57}{subsection.4.2.3}%
+\contentsline {subsubsection}{\numberline {4.2.3.1}APPNotifiactionCbf\_t}{57}{subsubsection.4.2.3.1}%
+\contentsline {subsubsection}{\numberline {4.2.3.2}Std\_ReturnType}{57}{subsubsection.4.2.3.2}%
+\contentsline {subsection}{\numberline {4.2.4}Function Documentation}{57}{subsection.4.2.4}%
+\contentsline {subsubsection}{\numberline {4.2.4.1}LCD\_ClearScreen()}{57}{subsubsection.4.2.4.1}%
+\contentsline {subsubsection}{\numberline {4.2.4.2}LCD\_GotoLocation()}{58}{subsubsection.4.2.4.2}%
+\contentsline {subsubsection}{\numberline {4.2.4.3}LCD\_SetCbf()}{58}{subsubsection.4.2.4.3}%
+\contentsline {subsubsection}{\numberline {4.2.4.4}LCD\_voidInit()}{59}{subsubsection.4.2.4.4}%
+\contentsline {subsubsection}{\numberline {4.2.4.5}LCD\_WriteString()}{59}{subsubsection.4.2.4.5}%
+\contentsline {section}{\numberline {4.3}include/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}L\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}C\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}D\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}cfg.h File Reference}{60}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}Detailed Description}{60}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {4.3.2}Macro Definition Documentation}{60}{subsection.4.3.2}%
+\contentsline {subsubsection}{\numberline {4.3.2.1}LCD\_CoLumn}{60}{subsubsection.4.3.2.1}%
+\contentsline {subsubsection}{\numberline {4.3.2.2}LCD\_CONFIGPIN}{60}{subsubsection.4.3.2.2}%
+\contentsline {subsubsection}{\numberline {4.3.2.3}LCD\_D\_PIN}{61}{subsubsection.4.3.2.3}%
+\contentsline {subsubsection}{\numberline {4.3.2.4}LCD\_DISPLAY\_CURSOR}{61}{subsubsection.4.3.2.4}%
+\contentsline {subsubsection}{\numberline {4.3.2.5}LCD\_E\_PIN}{61}{subsubsection.4.3.2.5}%
+\contentsline {subsubsection}{\numberline {4.3.2.6}LCD\_FUNCTION\_SET}{61}{subsubsection.4.3.2.6}%
+\contentsline {subsubsection}{\numberline {4.3.2.7}LCD\_LINE}{61}{subsubsection.4.3.2.7}%
+\contentsline {subsubsection}{\numberline {4.3.2.8}LCD\_RS\_PIN}{61}{subsubsection.4.3.2.8}%
+\contentsline {subsubsection}{\numberline {4.3.2.9}LCD\_RW\_PIN}{61}{subsubsection.4.3.2.9}%
+\contentsline {section}{\numberline {4.4}include/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}L\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}ED.h File Reference}{61}{section.4.4}%
+\contentsline {subsection}{\numberline {4.4.1}Detailed Description}{62}{subsection.4.4.1}%
+\contentsline {subsection}{\numberline {4.4.2}Macro Definition Documentation}{62}{subsection.4.4.2}%
+\contentsline {subsubsection}{\numberline {4.4.2.1}LED\_ACTIVE\_HIGH}{62}{subsubsection.4.4.2.1}%
+\contentsline {subsubsection}{\numberline {4.4.2.2}LED\_ACTIVE\_LOW}{62}{subsubsection.4.4.2.2}%
+\contentsline {subsection}{\numberline {4.4.3}Function Documentation}{62}{subsection.4.4.3}%
+\contentsline {subsubsection}{\numberline {4.4.3.1}LED\_voidInit()}{62}{subsubsection.4.4.3.1}%
+\contentsline {subsubsection}{\numberline {4.4.3.2}LED\_voidOFF()}{63}{subsubsection.4.4.3.2}%
+\contentsline {subsubsection}{\numberline {4.4.3.3}LED\_voidON()}{63}{subsubsection.4.4.3.3}%
+\contentsline {section}{\numberline {4.5}include/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}L\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}E\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}D\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Cfg.h File Reference}{63}{section.4.5}%
+\contentsline {subsection}{\numberline {4.5.1}Detailed Description}{64}{subsection.4.5.1}%
+\contentsline {subsection}{\numberline {4.5.2}Macro Definition Documentation}{64}{subsection.4.5.2}%
+\contentsline {subsubsection}{\numberline {4.5.2.1}LED\_CFGNUMBER}{64}{subsubsection.4.5.2.1}%
+\contentsline {section}{\numberline {4.6}include/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}N\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}V\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}IC.h File Reference}{64}{section.4.6}%
+\contentsline {subsection}{\numberline {4.6.1}Detailed Description}{65}{subsection.4.6.1}%
+\contentsline {subsection}{\numberline {4.6.2}Macro Definition Documentation}{65}{subsection.4.6.2}%
+\contentsline {subsubsection}{\numberline {4.6.2.1}EXTI0\_IRQNUMBER}{65}{subsubsection.4.6.2.1}%
+\contentsline {subsubsection}{\numberline {4.6.2.2}EXTI1\_IRQNUMBER}{66}{subsubsection.4.6.2.2}%
+\contentsline {subsubsection}{\numberline {4.6.2.3}EXTI2\_IRQNUMBER}{66}{subsubsection.4.6.2.3}%
+\contentsline {subsubsection}{\numberline {4.6.2.4}EXTI3\_IRQNUMBER}{66}{subsubsection.4.6.2.4}%
+\contentsline {subsubsection}{\numberline {4.6.2.5}EXTI4\_IRQNUMBER}{66}{subsubsection.4.6.2.5}%
+\contentsline {subsubsection}{\numberline {4.6.2.6}UART4\_IRQNUMBER}{66}{subsubsection.4.6.2.6}%
+\contentsline {subsubsection}{\numberline {4.6.2.7}UART5\_IRQNUMBER}{66}{subsubsection.4.6.2.7}%
+\contentsline {subsubsection}{\numberline {4.6.2.8}USART1\_IRQNUMBER}{66}{subsubsection.4.6.2.8}%
+\contentsline {subsubsection}{\numberline {4.6.2.9}USART2\_IRQNUMBER}{66}{subsubsection.4.6.2.9}%
+\contentsline {subsubsection}{\numberline {4.6.2.10}USART3\_IRQNUMBER}{67}{subsubsection.4.6.2.10}%
+\contentsline {subsection}{\numberline {4.6.3}Function Documentation}{67}{subsection.4.6.3}%
+\contentsline {subsubsection}{\numberline {4.6.3.1}NVIC\_ClearPendingIRQ()}{67}{subsubsection.4.6.3.1}%
+\contentsline {subsubsection}{\numberline {4.6.3.2}NVIC\_DisableAllFaults()}{67}{subsubsection.4.6.3.2}%
+\contentsline {subsubsection}{\numberline {4.6.3.3}NVIC\_DisableAllInterrupt()}{67}{subsubsection.4.6.3.3}%
+\contentsline {subsubsection}{\numberline {4.6.3.4}NVIC\_DisableIRQ()}{68}{subsubsection.4.6.3.4}%
+\contentsline {subsubsection}{\numberline {4.6.3.5}NVIC\_EnableAllInterrupt()}{68}{subsubsection.4.6.3.5}%
+\contentsline {subsubsection}{\numberline {4.6.3.6}NVIC\_EnableIRQ()}{69}{subsubsection.4.6.3.6}%
+\contentsline {subsubsection}{\numberline {4.6.3.7}NVIC\_ISActive()}{69}{subsubsection.4.6.3.7}%
+\contentsline {subsubsection}{\numberline {4.6.3.8}NVIC\_SetPendingIRQ()}{69}{subsubsection.4.6.3.8}%
+\contentsline {subsubsection}{\numberline {4.6.3.9}NVIC\_SetPriority()}{70}{subsubsection.4.6.3.9}%
+\contentsline {subsubsection}{\numberline {4.6.3.10}NVIC\_SetPriorityGrouping()}{70}{subsubsection.4.6.3.10}%
+\contentsline {subsubsection}{\numberline {4.6.3.11}NVIC\_SoftwareInterrupt()}{70}{subsubsection.4.6.3.11}%
+\contentsline {section}{\numberline {4.7}include/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}R\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}CC.h File Reference}{72}{section.4.7}%
+\contentsline {subsection}{\numberline {4.7.1}Detailed Description}{74}{subsection.4.7.1}%
+\contentsline {subsection}{\numberline {4.7.2}Macro Definition Documentation}{74}{subsection.4.7.2}%
+\contentsline {subsubsection}{\numberline {4.7.2.1}ClockSourceType}{74}{subsubsection.4.7.2.1}%
+\contentsline {subsubsection}{\numberline {4.7.2.2}OFF}{75}{subsubsection.4.7.2.2}%
+\contentsline {subsubsection}{\numberline {4.7.2.3}ON}{75}{subsubsection.4.7.2.3}%
+\contentsline {subsubsection}{\numberline {4.7.2.4}RCC\_APB1ENR\_UART4EN}{75}{subsubsection.4.7.2.4}%
+\contentsline {subsubsection}{\numberline {4.7.2.5}RCC\_APB1ENR\_UART5EN}{75}{subsubsection.4.7.2.5}%
+\contentsline {subsubsection}{\numberline {4.7.2.6}RCC\_APB1ENR\_USART2EN}{75}{subsubsection.4.7.2.6}%
+\contentsline {subsubsection}{\numberline {4.7.2.7}RCC\_APB1ENR\_USART3EN}{75}{subsubsection.4.7.2.7}%
+\contentsline {subsubsection}{\numberline {4.7.2.8}RCC\_APB2ENR\_ADC1EN}{75}{subsubsection.4.7.2.8}%
+\contentsline {subsubsection}{\numberline {4.7.2.9}RCC\_APB2ENR\_ADC2EN}{75}{subsubsection.4.7.2.9}%
+\contentsline {subsubsection}{\numberline {4.7.2.10}RCC\_APB2ENR\_ADC3EN\hspace {0.1cm}{\footnotesize \ttfamily [1/2]}}{76}{subsubsection.4.7.2.10}%
+\contentsline {subsubsection}{\numberline {4.7.2.11}RCC\_APB2ENR\_ADC3EN\hspace {0.1cm}{\footnotesize \ttfamily [2/2]}}{76}{subsubsection.4.7.2.11}%
+\contentsline {subsubsection}{\numberline {4.7.2.12}RCC\_APB2ENR\_AFIOEN\_Disable}{76}{subsubsection.4.7.2.12}%
+\contentsline {subsubsection}{\numberline {4.7.2.13}RCC\_APB2ENR\_AFIOEN\_Enable}{76}{subsubsection.4.7.2.13}%
+\contentsline {subsubsection}{\numberline {4.7.2.14}RCC\_APB2ENR\_IOPAEN\_PORTA}{76}{subsubsection.4.7.2.14}%
+\contentsline {subsubsection}{\numberline {4.7.2.15}RCC\_APB2ENR\_IOPBEN\_PORTB}{76}{subsubsection.4.7.2.15}%
+\contentsline {subsubsection}{\numberline {4.7.2.16}RCC\_APB2ENR\_IOPCEN\_PORTC}{76}{subsubsection.4.7.2.16}%
+\contentsline {subsubsection}{\numberline {4.7.2.17}RCC\_APB2ENR\_IOPDEN\_PORTD}{76}{subsubsection.4.7.2.17}%
+\contentsline {subsubsection}{\numberline {4.7.2.18}RCC\_APB2ENR\_IOPEEN\_PORTE}{77}{subsubsection.4.7.2.18}%
+\contentsline {subsubsection}{\numberline {4.7.2.19}RCC\_APB2ENR\_IOPFEN\_PORTF}{77}{subsubsection.4.7.2.19}%
+\contentsline {subsubsection}{\numberline {4.7.2.20}RCC\_APB2ENR\_IOPGEN\_PORTG}{77}{subsubsection.4.7.2.20}%
+\contentsline {subsubsection}{\numberline {4.7.2.21}RCC\_APB2ENR\_SPI1EN}{77}{subsubsection.4.7.2.21}%
+\contentsline {subsubsection}{\numberline {4.7.2.22}RCC\_APB2ENR\_TIM10EN}{77}{subsubsection.4.7.2.22}%
+\contentsline {subsubsection}{\numberline {4.7.2.23}RCC\_APB2ENR\_TIM11EN}{77}{subsubsection.4.7.2.23}%
+\contentsline {subsubsection}{\numberline {4.7.2.24}RCC\_APB2ENR\_TIM1EN}{77}{subsubsection.4.7.2.24}%
+\contentsline {subsubsection}{\numberline {4.7.2.25}RCC\_APB2ENR\_TIM8EN}{77}{subsubsection.4.7.2.25}%
+\contentsline {subsubsection}{\numberline {4.7.2.26}RCC\_APB2ENR\_TIM9EN}{78}{subsubsection.4.7.2.26}%
+\contentsline {subsubsection}{\numberline {4.7.2.27}RCC\_APB2ENR\_USART1EN}{78}{subsubsection.4.7.2.27}%
+\contentsline {subsubsection}{\numberline {4.7.2.28}RCC\_CFGR\_ADCPRE\_div\_2}{78}{subsubsection.4.7.2.28}%
+\contentsline {subsubsection}{\numberline {4.7.2.29}RCC\_CFGR\_ADCPRE\_div\_4}{78}{subsubsection.4.7.2.29}%
+\contentsline {subsubsection}{\numberline {4.7.2.30}RCC\_CFGR\_ADCPRE\_div\_6}{78}{subsubsection.4.7.2.30}%
+\contentsline {subsubsection}{\numberline {4.7.2.31}RCC\_CFGR\_ADCPRE\_div\_8}{78}{subsubsection.4.7.2.31}%
+\contentsline {subsubsection}{\numberline {4.7.2.32}RCC\_CFGR\_HPRE\_div\_1}{78}{subsubsection.4.7.2.32}%
+\contentsline {subsubsection}{\numberline {4.7.2.33}RCC\_CFGR\_HPRE\_div\_128}{78}{subsubsection.4.7.2.33}%
+\contentsline {subsubsection}{\numberline {4.7.2.34}RCC\_CFGR\_HPRE\_div\_16}{79}{subsubsection.4.7.2.34}%
+\contentsline {subsubsection}{\numberline {4.7.2.35}RCC\_CFGR\_HPRE\_div\_2}{79}{subsubsection.4.7.2.35}%
+\contentsline {subsubsection}{\numberline {4.7.2.36}RCC\_CFGR\_HPRE\_div\_256}{79}{subsubsection.4.7.2.36}%
+\contentsline {subsubsection}{\numberline {4.7.2.37}RCC\_CFGR\_HPRE\_div\_4}{79}{subsubsection.4.7.2.37}%
+\contentsline {subsubsection}{\numberline {4.7.2.38}RCC\_CFGR\_HPRE\_div\_512}{79}{subsubsection.4.7.2.38}%
+\contentsline {subsubsection}{\numberline {4.7.2.39}RCC\_CFGR\_HPRE\_div\_64}{79}{subsubsection.4.7.2.39}%
+\contentsline {subsubsection}{\numberline {4.7.2.40}RCC\_CFGR\_HPRE\_div\_8}{79}{subsubsection.4.7.2.40}%
+\contentsline {subsubsection}{\numberline {4.7.2.41}RCC\_CFGR\_MCO\_HSE}{79}{subsubsection.4.7.2.41}%
+\contentsline {subsubsection}{\numberline {4.7.2.42}RCC\_CFGR\_MCO\_HSI}{80}{subsubsection.4.7.2.42}%
+\contentsline {subsubsection}{\numberline {4.7.2.43}RCC\_CFGR\_MCO\_NOCLK}{80}{subsubsection.4.7.2.43}%
+\contentsline {subsubsection}{\numberline {4.7.2.44}RCC\_CFGR\_MCO\_PLL}{80}{subsubsection.4.7.2.44}%
+\contentsline {subsubsection}{\numberline {4.7.2.45}RCC\_CFGR\_MCO\_SYSCLK}{80}{subsubsection.4.7.2.45}%
+\contentsline {subsubsection}{\numberline {4.7.2.46}RCC\_CFGR\_PLLMUL\_10}{80}{subsubsection.4.7.2.46}%
+\contentsline {subsubsection}{\numberline {4.7.2.47}RCC\_CFGR\_PLLMUL\_11}{80}{subsubsection.4.7.2.47}%
+\contentsline {subsubsection}{\numberline {4.7.2.48}RCC\_CFGR\_PLLMUL\_12}{80}{subsubsection.4.7.2.48}%
+\contentsline {subsubsection}{\numberline {4.7.2.49}RCC\_CFGR\_PLLMUL\_13}{80}{subsubsection.4.7.2.49}%
+\contentsline {subsubsection}{\numberline {4.7.2.50}RCC\_CFGR\_PLLMUL\_14}{81}{subsubsection.4.7.2.50}%
+\contentsline {subsubsection}{\numberline {4.7.2.51}RCC\_CFGR\_PLLMUL\_15}{81}{subsubsection.4.7.2.51}%
+\contentsline {subsubsection}{\numberline {4.7.2.52}RCC\_CFGR\_PLLMUL\_16}{81}{subsubsection.4.7.2.52}%
+\contentsline {subsubsection}{\numberline {4.7.2.53}RCC\_CFGR\_PLLMUL\_2}{81}{subsubsection.4.7.2.53}%
+\contentsline {subsubsection}{\numberline {4.7.2.54}RCC\_CFGR\_PLLMUL\_3}{81}{subsubsection.4.7.2.54}%
+\contentsline {subsubsection}{\numberline {4.7.2.55}RCC\_CFGR\_PLLMUL\_4}{81}{subsubsection.4.7.2.55}%
+\contentsline {subsubsection}{\numberline {4.7.2.56}RCC\_CFGR\_PLLMUL\_5}{81}{subsubsection.4.7.2.56}%
+\contentsline {subsubsection}{\numberline {4.7.2.57}RCC\_CFGR\_PLLMUL\_6}{81}{subsubsection.4.7.2.57}%
+\contentsline {subsubsection}{\numberline {4.7.2.58}RCC\_CFGR\_PLLMUL\_7}{82}{subsubsection.4.7.2.58}%
+\contentsline {subsubsection}{\numberline {4.7.2.59}RCC\_CFGR\_PLLMUL\_8}{82}{subsubsection.4.7.2.59}%
+\contentsline {subsubsection}{\numberline {4.7.2.60}RCC\_CFGR\_PLLMUL\_9}{82}{subsubsection.4.7.2.60}%
+\contentsline {subsubsection}{\numberline {4.7.2.61}RCC\_CFGR\_PLLXTPRESRC\_HSE\_divided\_1}{82}{subsubsection.4.7.2.61}%
+\contentsline {subsubsection}{\numberline {4.7.2.62}RCC\_CFGR\_PLLXTPRESRC\_HSE\_divided\_2}{82}{subsubsection.4.7.2.62}%
+\contentsline {subsubsection}{\numberline {4.7.2.63}RCC\_CFGR\_PLLXTPRESRC\_HSI\_divided\_2}{82}{subsubsection.4.7.2.63}%
+\contentsline {subsubsection}{\numberline {4.7.2.64}RCC\_CFGR\_PPRE1\_div\_1}{82}{subsubsection.4.7.2.64}%
+\contentsline {subsubsection}{\numberline {4.7.2.65}RCC\_CFGR\_PPRE1\_div\_16}{82}{subsubsection.4.7.2.65}%
+\contentsline {subsubsection}{\numberline {4.7.2.66}RCC\_CFGR\_PPRE1\_div\_2}{83}{subsubsection.4.7.2.66}%
+\contentsline {subsubsection}{\numberline {4.7.2.67}RCC\_CFGR\_PPRE1\_div\_4}{83}{subsubsection.4.7.2.67}%
+\contentsline {subsubsection}{\numberline {4.7.2.68}RCC\_CFGR\_PPRE1\_div\_8}{83}{subsubsection.4.7.2.68}%
+\contentsline {subsubsection}{\numberline {4.7.2.69}RCC\_CFGR\_PPRE2\_div\_1}{83}{subsubsection.4.7.2.69}%
+\contentsline {subsubsection}{\numberline {4.7.2.70}RCC\_CFGR\_PPRE2\_div\_16}{83}{subsubsection.4.7.2.70}%
+\contentsline {subsubsection}{\numberline {4.7.2.71}RCC\_CFGR\_PPRE2\_div\_2}{83}{subsubsection.4.7.2.71}%
+\contentsline {subsubsection}{\numberline {4.7.2.72}RCC\_CFGR\_PPRE2\_div\_4}{83}{subsubsection.4.7.2.72}%
+\contentsline {subsubsection}{\numberline {4.7.2.73}RCC\_CFGR\_PPRE2\_div\_8}{83}{subsubsection.4.7.2.73}%
+\contentsline {subsubsection}{\numberline {4.7.2.74}RCC\_CFGR\_SW\_HSE}{84}{subsubsection.4.7.2.74}%
+\contentsline {subsubsection}{\numberline {4.7.2.75}RCC\_CFGR\_SW\_HSI}{84}{subsubsection.4.7.2.75}%
+\contentsline {subsubsection}{\numberline {4.7.2.76}RCC\_CFGR\_SW\_PLL}{84}{subsubsection.4.7.2.76}%
+\contentsline {subsubsection}{\numberline {4.7.2.77}RCC\_CFGR\_SWS\_HSE}{84}{subsubsection.4.7.2.77}%
+\contentsline {subsubsection}{\numberline {4.7.2.78}RCC\_CFGR\_SWS\_HSI}{84}{subsubsection.4.7.2.78}%
+\contentsline {subsubsection}{\numberline {4.7.2.79}RCC\_CFGR\_SWS\_PLL}{84}{subsubsection.4.7.2.79}%
+\contentsline {subsubsection}{\numberline {4.7.2.80}RCC\_CR\_CSSON}{84}{subsubsection.4.7.2.80}%
+\contentsline {subsubsection}{\numberline {4.7.2.81}RCC\_CR\_HSE}{84}{subsubsection.4.7.2.81}%
+\contentsline {subsubsection}{\numberline {4.7.2.82}RCC\_CR\_HSEBYP}{85}{subsubsection.4.7.2.82}%
+\contentsline {subsubsection}{\numberline {4.7.2.83}RCC\_CR\_HSERDY}{85}{subsubsection.4.7.2.83}%
+\contentsline {subsubsection}{\numberline {4.7.2.84}RCC\_CR\_HSI}{85}{subsubsection.4.7.2.84}%
+\contentsline {subsubsection}{\numberline {4.7.2.85}RCC\_CR\_HSIRDY}{85}{subsubsection.4.7.2.85}%
+\contentsline {subsubsection}{\numberline {4.7.2.86}RCC\_CR\_PLL}{85}{subsubsection.4.7.2.86}%
+\contentsline {subsubsection}{\numberline {4.7.2.87}RCC\_CR\_PLLRDY}{85}{subsubsection.4.7.2.87}%
+\contentsline {subsection}{\numberline {4.7.3}Typedef Documentation}{85}{subsection.4.7.3}%
+\contentsline {subsubsection}{\numberline {4.7.3.1}ClockSource\_ReturnType}{85}{subsubsection.4.7.3.1}%
+\contentsline {subsection}{\numberline {4.7.4}Function Documentation}{85}{subsection.4.7.4}%
+\contentsline {subsubsection}{\numberline {4.7.4.1}RCC\_ADCPRE\_SetPrescaler()}{85}{subsubsection.4.7.4.1}%
+\contentsline {subsubsection}{\numberline {4.7.4.2}RCC\_CheckSystemClock()}{86}{subsubsection.4.7.4.2}%
+\contentsline {subsubsection}{\numberline {4.7.4.3}RCC\_EnablePeripheral\_APB1()}{86}{subsubsection.4.7.4.3}%
+\contentsline {subsubsection}{\numberline {4.7.4.4}RCC\_EnablePeripheral\_APB2()}{87}{subsubsection.4.7.4.4}%
+\contentsline {subsubsection}{\numberline {4.7.4.5}RCC\_HPRE\_SetPrescaler()}{87}{subsubsection.4.7.4.5}%
+\contentsline {subsubsection}{\numberline {4.7.4.6}RCC\_PLLConfiguration()}{88}{subsubsection.4.7.4.6}%
+\contentsline {subsubsection}{\numberline {4.7.4.7}RCC\_PPRE1\_SetPrescaler()}{88}{subsubsection.4.7.4.7}%
+\contentsline {subsubsection}{\numberline {4.7.4.8}RCC\_PPRE2\_SetPrescaler()}{89}{subsubsection.4.7.4.8}%
+\contentsline {subsubsection}{\numberline {4.7.4.9}RCC\_SelectMCO()}{89}{subsubsection.4.7.4.9}%
+\contentsline {subsubsection}{\numberline {4.7.4.10}RCC\_SetClock()}{90}{subsubsection.4.7.4.10}%
+\contentsline {subsubsection}{\numberline {4.7.4.11}Select\_SystemClock()}{90}{subsubsection.4.7.4.11}%
+\contentsline {section}{\numberline {4.8}include/sched\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}config.h File Reference}{91}{section.4.8}%
+\contentsline {subsection}{\numberline {4.8.1}Detailed Description}{91}{subsection.4.8.1}%
+\contentsline {subsection}{\numberline {4.8.2}Macro Definition Documentation}{91}{subsection.4.8.2}%
+\contentsline {subsubsection}{\numberline {4.8.2.1}SCHED\_AHB\_CLK}{91}{subsubsection.4.8.2.1}%
+\contentsline {subsubsection}{\numberline {4.8.2.2}SCHED\_MAX\_TASKS}{92}{subsubsection.4.8.2.2}%
+\contentsline {subsubsection}{\numberline {4.8.2.3}SCHED\_TICK\_TIME}{92}{subsubsection.4.8.2.3}%
+\contentsline {section}{\numberline {4.9}include/sched\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}interface.h File Reference}{92}{section.4.9}%
+\contentsline {subsection}{\numberline {4.9.1}Detailed Description}{92}{subsection.4.9.1}%
+\contentsline {subsection}{\numberline {4.9.2}Typedef Documentation}{92}{subsection.4.9.2}%
+\contentsline {subsubsection}{\numberline {4.9.2.1}SCHED\_task\_runnable\_t}{93}{subsubsection.4.9.2.1}%
+\contentsline {subsection}{\numberline {4.9.3}Function Documentation}{93}{subsection.4.9.3}%
+\contentsline {subsubsection}{\numberline {4.9.3.1}SCHED\_Init()}{93}{subsubsection.4.9.3.1}%
+\contentsline {subsubsection}{\numberline {4.9.3.2}SCHED\_Start()}{93}{subsubsection.4.9.3.2}%
+\contentsline {section}{\numberline {4.10}include/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}S\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}T\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}D\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}T\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Y\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}P\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}ES.h File Reference}{93}{section.4.10}%
+\contentsline {subsection}{\numberline {4.10.1}Detailed Description}{94}{subsection.4.10.1}%
+\contentsline {subsection}{\numberline {4.10.2}Macro Definition Documentation}{94}{subsection.4.10.2}%
+\contentsline {subsubsection}{\numberline {4.10.2.1}E\_BUSY}{94}{subsubsection.4.10.2.1}%
+\contentsline {subsubsection}{\numberline {4.10.2.2}E\_NOT\_OK}{94}{subsubsection.4.10.2.2}%
+\contentsline {subsubsection}{\numberline {4.10.2.3}E\_OK}{95}{subsubsection.4.10.2.3}%
+\contentsline {subsubsection}{\numberline {4.10.2.4}NULL}{95}{subsubsection.4.10.2.4}%
+\contentsline {subsection}{\numberline {4.10.3}Typedef Documentation}{95}{subsection.4.10.3}%
+\contentsline {subsubsection}{\numberline {4.10.3.1}f32}{95}{subsubsection.4.10.3.1}%
+\contentsline {subsubsection}{\numberline {4.10.3.2}f64}{95}{subsubsection.4.10.3.2}%
+\contentsline {subsubsection}{\numberline {4.10.3.3}f96}{95}{subsubsection.4.10.3.3}%
+\contentsline {subsubsection}{\numberline {4.10.3.4}s16}{95}{subsubsection.4.10.3.4}%
+\contentsline {subsubsection}{\numberline {4.10.3.5}s32}{95}{subsubsection.4.10.3.5}%
+\contentsline {subsubsection}{\numberline {4.10.3.6}s64}{96}{subsubsection.4.10.3.6}%
+\contentsline {subsubsection}{\numberline {4.10.3.7}s8}{96}{subsubsection.4.10.3.7}%
+\contentsline {subsubsection}{\numberline {4.10.3.8}Std\_ReturnType}{96}{subsubsection.4.10.3.8}%
+\contentsline {subsubsection}{\numberline {4.10.3.9}u16}{96}{subsubsection.4.10.3.9}%
+\contentsline {subsubsection}{\numberline {4.10.3.10}u32}{96}{subsubsection.4.10.3.10}%
+\contentsline {subsubsection}{\numberline {4.10.3.11}u64}{96}{subsubsection.4.10.3.11}%
+\contentsline {subsubsection}{\numberline {4.10.3.12}u8}{96}{subsubsection.4.10.3.12}%
+\contentsline {section}{\numberline {4.11}include/stm32f10x\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}conf.h File Reference}{97}{section.4.11}%
+\contentsline {subsection}{\numberline {4.11.1}Macro Definition Documentation}{97}{subsection.4.11.1}%
+\contentsline {subsubsection}{\numberline {4.11.1.1}assert\_param}{97}{subsubsection.4.11.1.1}%
+\contentsline {section}{\numberline {4.12}include/switch\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}config.h File Reference}{97}{section.4.12}%
+\contentsline {subsection}{\numberline {4.12.1}Detailed Description}{98}{subsection.4.12.1}%
+\contentsline {subsection}{\numberline {4.12.2}Macro Definition Documentation}{98}{subsection.4.12.2}%
+\contentsline {subsubsection}{\numberline {4.12.2.1}SWITCH\_COUNT}{98}{subsubsection.4.12.2.1}%
+\contentsline {section}{\numberline {4.13}include/switch\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}interface.h File Reference}{98}{section.4.13}%
+\contentsline {subsection}{\numberline {4.13.1}Detailed Description}{99}{subsection.4.13.1}%
+\contentsline {subsection}{\numberline {4.13.2}Macro Definition Documentation}{99}{subsection.4.13.2}%
+\contentsline {subsubsection}{\numberline {4.13.2.1}SWITCH\_ACTIVE\_HIGH}{99}{subsubsection.4.13.2.1}%
+\contentsline {subsubsection}{\numberline {4.13.2.2}SWITCH\_ACTIVE\_LOW}{99}{subsubsection.4.13.2.2}%
+\contentsline {subsubsection}{\numberline {4.13.2.3}SWITCH\_PRESSED}{99}{subsubsection.4.13.2.3}%
+\contentsline {subsubsection}{\numberline {4.13.2.4}SWITCH\_UNPRESSED}{99}{subsubsection.4.13.2.4}%
+\contentsline {subsection}{\numberline {4.13.3}Function Documentation}{99}{subsection.4.13.3}%
+\contentsline {subsubsection}{\numberline {4.13.3.1}Switch\_GetReading()}{99}{subsubsection.4.13.3.1}%
+\contentsline {subsubsection}{\numberline {4.13.3.2}Switch\_Init()}{100}{subsubsection.4.13.3.2}%
+\contentsline {section}{\numberline {4.14}include/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}S\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Y\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}S\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}T\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}I\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}CK.h File Reference}{100}{section.4.14}%
+\contentsline {subsection}{\numberline {4.14.1}Detailed Description}{101}{subsection.4.14.1}%
+\contentsline {subsection}{\numberline {4.14.2}Macro Definition Documentation}{101}{subsection.4.14.2}%
+\contentsline {subsubsection}{\numberline {4.14.2.1}CLOCK\_FREQUENCY\_8\_MHZ}{101}{subsubsection.4.14.2.1}%
+\contentsline {subsubsection}{\numberline {4.14.2.2}CLOCK\_FREQUENCY\_8\_MHZ\_DIV8}{101}{subsubsection.4.14.2.2}%
+\contentsline {subsubsection}{\numberline {4.14.2.3}CLOCK\_PRESCALER\_AHB\_DIV\_1}{101}{subsubsection.4.14.2.3}%
+\contentsline {subsubsection}{\numberline {4.14.2.4}CLOCK\_PRESCALER\_AHB\_DIV\_8}{101}{subsubsection.4.14.2.4}%
+\contentsline {subsubsection}{\numberline {4.14.2.5}SYSTICK\_DISABLE}{101}{subsubsection.4.14.2.5}%
+\contentsline {subsubsection}{\numberline {4.14.2.6}SYSTICK\_ENABLE}{102}{subsubsection.4.14.2.6}%
+\contentsline {subsubsection}{\numberline {4.14.2.7}SYSTICK\_INTERRUPT\_ENABLE}{102}{subsubsection.4.14.2.7}%
+\contentsline {subsection}{\numberline {4.14.3}Function Documentation}{102}{subsection.4.14.3}%
+\contentsline {subsubsection}{\numberline {4.14.3.1}SYSTICK\_Init()}{102}{subsubsection.4.14.3.1}%
+\contentsline {subsubsection}{\numberline {4.14.3.2}SYSTICK\_SetCallBack()}{102}{subsubsection.4.14.3.2}%
+\contentsline {subsubsection}{\numberline {4.14.3.3}SYSTICK\_SetTimers()}{103}{subsubsection.4.14.3.3}%
+\contentsline {subsubsection}{\numberline {4.14.3.4}SYSTICK\_Start()}{103}{subsubsection.4.14.3.4}%
+\contentsline {subsubsection}{\numberline {4.14.3.5}SYSTICK\_Stop()}{103}{subsubsection.4.14.3.5}%
+\contentsline {section}{\numberline {4.15}include/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}S\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Y\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}S\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}T\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}I\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}C\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}K\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}C\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}FG.h File Reference}{104}{section.4.15}%
+\contentsline {subsection}{\numberline {4.15.1}Detailed Description}{104}{subsection.4.15.1}%
+\contentsline {subsection}{\numberline {4.15.2}Macro Definition Documentation}{104}{subsection.4.15.2}%
+\contentsline {subsubsection}{\numberline {4.15.2.1}CLOCK\_FREQUENCY}{104}{subsubsection.4.15.2.1}%
+\contentsline {subsubsection}{\numberline {4.15.2.2}CLOCK\_PRESCALER}{104}{subsubsection.4.15.2.2}%
+\contentsline {section}{\numberline {4.16}include/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}U\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}A\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}RT.h File Reference}{105}{section.4.16}%
+\contentsline {subsection}{\numberline {4.16.1}Detailed Description}{106}{subsection.4.16.1}%
+\contentsline {subsection}{\numberline {4.16.2}Macro Definition Documentation}{106}{subsection.4.16.2}%
+\contentsline {subsubsection}{\numberline {4.16.2.1}BASE\_ADDRESS\_UART4}{106}{subsubsection.4.16.2.1}%
+\contentsline {subsubsection}{\numberline {4.16.2.2}BASE\_ADDRESS\_UART5}{106}{subsubsection.4.16.2.2}%
+\contentsline {subsubsection}{\numberline {4.16.2.3}BASE\_ADDRESS\_USART1}{106}{subsubsection.4.16.2.3}%
+\contentsline {subsubsection}{\numberline {4.16.2.4}BASE\_ADDRESS\_USART2}{106}{subsubsection.4.16.2.4}%
+\contentsline {subsubsection}{\numberline {4.16.2.5}BASE\_ADDRESS\_USART3}{106}{subsubsection.4.16.2.5}%
+\contentsline {subsubsection}{\numberline {4.16.2.6}UART4}{107}{subsubsection.4.16.2.6}%
+\contentsline {subsubsection}{\numberline {4.16.2.7}UART4\_Peripherial}{107}{subsubsection.4.16.2.7}%
+\contentsline {subsubsection}{\numberline {4.16.2.8}UART5}{107}{subsubsection.4.16.2.8}%
+\contentsline {subsubsection}{\numberline {4.16.2.9}UART5\_Peripherial}{107}{subsubsection.4.16.2.9}%
+\contentsline {subsubsection}{\numberline {4.16.2.10}UART\_BUADRATE\_9600}{107}{subsubsection.4.16.2.10}%
+\contentsline {subsubsection}{\numberline {4.16.2.11}UART\_CR1\_RE\_Disable}{107}{subsubsection.4.16.2.11}%
+\contentsline {subsubsection}{\numberline {4.16.2.12}UART\_CR1\_RE\_Enable}{107}{subsubsection.4.16.2.12}%
+\contentsline {subsubsection}{\numberline {4.16.2.13}UART\_CR1\_TE\_Disable}{107}{subsubsection.4.16.2.13}%
+\contentsline {subsubsection}{\numberline {4.16.2.14}UART\_CR1\_TE\_Enable}{108}{subsubsection.4.16.2.14}%
+\contentsline {subsubsection}{\numberline {4.16.2.15}UART\_ENABLE\_BIT}{108}{subsubsection.4.16.2.15}%
+\contentsline {subsubsection}{\numberline {4.16.2.16}UART\_FREQUENCY}{108}{subsubsection.4.16.2.16}%
+\contentsline {subsubsection}{\numberline {4.16.2.17}UART\_M\_LENGTH\_8}{108}{subsubsection.4.16.2.17}%
+\contentsline {subsubsection}{\numberline {4.16.2.18}UART\_M\_LENGTH\_9}{108}{subsubsection.4.16.2.18}%
+\contentsline {subsubsection}{\numberline {4.16.2.19}UART\_PCE\_Disable}{108}{subsubsection.4.16.2.19}%
+\contentsline {subsubsection}{\numberline {4.16.2.20}UART\_PCE\_Enable\_PS\_EVEN}{108}{subsubsection.4.16.2.20}%
+\contentsline {subsubsection}{\numberline {4.16.2.21}UART\_PCE\_Enable\_PS\_ODD}{108}{subsubsection.4.16.2.21}%
+\contentsline {subsubsection}{\numberline {4.16.2.22}UART\_STOP\_BIT\_0\_5}{109}{subsubsection.4.16.2.22}%
+\contentsline {subsubsection}{\numberline {4.16.2.23}UART\_STOP\_BIT\_1}{109}{subsubsection.4.16.2.23}%
+\contentsline {subsubsection}{\numberline {4.16.2.24}UART\_STOP\_BIT\_1\_5}{109}{subsubsection.4.16.2.24}%
+\contentsline {subsubsection}{\numberline {4.16.2.25}UART\_STOP\_BIT\_2}{109}{subsubsection.4.16.2.25}%
+\contentsline {subsubsection}{\numberline {4.16.2.26}USART1}{109}{subsubsection.4.16.2.26}%
+\contentsline {subsubsection}{\numberline {4.16.2.27}USART1\_Peripherial}{109}{subsubsection.4.16.2.27}%
+\contentsline {subsubsection}{\numberline {4.16.2.28}USART2}{109}{subsubsection.4.16.2.28}%
+\contentsline {subsubsection}{\numberline {4.16.2.29}USART2\_Peripherial}{109}{subsubsection.4.16.2.29}%
+\contentsline {subsubsection}{\numberline {4.16.2.30}USART3}{110}{subsubsection.4.16.2.30}%
+\contentsline {subsubsection}{\numberline {4.16.2.31}USART3\_Peripherial}{110}{subsubsection.4.16.2.31}%
+\contentsline {subsection}{\numberline {4.16.3}Function Documentation}{110}{subsection.4.16.3}%
+\contentsline {subsubsection}{\numberline {4.16.3.1}UART\_Init()}{110}{subsubsection.4.16.3.1}%
+\contentsline {subsubsection}{\numberline {4.16.3.2}UART\_RecieveData()}{110}{subsubsection.4.16.3.2}%
+\contentsline {subsubsection}{\numberline {4.16.3.3}UART\_SendData()}{111}{subsubsection.4.16.3.3}%
+\contentsline {subsubsection}{\numberline {4.16.3.4}UART\_SetRecieverCbf()}{111}{subsubsection.4.16.3.4}%
+\contentsline {subsubsection}{\numberline {4.16.3.5}UART\_SetTransmissionCbf()}{112}{subsubsection.4.16.3.5}%
+\contentsline {section}{\numberline {4.17}include/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}U\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}A\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}R\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}T\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}cfg.h File Reference}{112}{section.4.17}%
+\contentsline {subsection}{\numberline {4.17.1}Detailed Description}{112}{subsection.4.17.1}%
+\contentsline {subsection}{\numberline {4.17.2}Macro Definition Documentation}{112}{subsection.4.17.2}%
+\contentsline {subsubsection}{\numberline {4.17.2.1}UART\_COUNT}{112}{subsubsection.4.17.2.1}%
+\contentsline {section}{\numberline {4.18}include/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}U\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}A\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}R\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}T\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\_\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}handler.h File Reference}{113}{section.4.18}%
+\contentsline {subsection}{\numberline {4.18.1}Function Documentation}{113}{subsection.4.18.1}%
+\contentsline {subsubsection}{\numberline {4.18.1.1}HUART\_EnableIRQ()}{113}{subsubsection.4.18.1.1}%
+\contentsline {subsubsection}{\numberline {4.18.1.2}HUART\_InitGPIO()}{113}{subsubsection.4.18.1.2}%
+\contentsline {chapter}{Index}{115}{section*.44}%

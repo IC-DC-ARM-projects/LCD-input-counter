@@ -1,0 +1,294 @@
+\hypertarget{_l_c_d_8h}{}\doxysection{include/\+L\+CD.h File Reference}
+\label{_l_c_d_8h}\index{include/LCD.h@{include/LCD.h}}
+
+
+This file is to be used as an implementation of the L\+CD driver.  
+
+
+\doxysubsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\#define \mbox{\hyperlink{_l_c_d_8h_a1e7cc741c56207a8872ea58373276925}{E\+\_\+\+OK}}~(\mbox{\hyperlink{_l_c_d_8h_a93fdb4cf6ea7ec3c7be88614dff5f842}{Std\+\_\+\+Return\+Type}})0
+\item 
+\#define \mbox{\hyperlink{_l_c_d_8h_a1d155fa7a571f569a380bb42b1947eb4}{E\+\_\+\+N\+O\+T\+\_\+\+OK}}~(\mbox{\hyperlink{_l_c_d_8h_a93fdb4cf6ea7ec3c7be88614dff5f842}{Std\+\_\+\+Return\+Type}})1
+\item 
+\#define \mbox{\hyperlink{_l_c_d_8h_a12289e8715fd56a16034f610666d900c}{E\+\_\+\+B\+U\+SY}}~(\mbox{\hyperlink{_l_c_d_8h_a93fdb4cf6ea7ec3c7be88614dff5f842}{Std\+\_\+\+Return\+Type}})2
+\item 
+\#define \mbox{\hyperlink{_l_c_d_8h_af710d24a5f33496082fe3c031edf0d44}{L\+C\+D\+\_\+8\+\_\+\+B\+I\+T\+\_\+1\+\_\+\+L\+I\+NE}}~0x30
+\item 
+\#define \mbox{\hyperlink{_l_c_d_8h_aee4792c13522d088b0ac9e0099de3c2f}{L\+C\+D\+\_\+8\+\_\+\+B\+I\+T\+\_\+2\+\_\+\+L\+I\+NE}}~0x38
+\item 
+\#define \mbox{\hyperlink{_l_c_d_8h_a0a268c304feb86612179650adbb37f6e}{L\+C\+D\+\_\+4\+\_\+\+B\+I\+T\+\_\+1\+\_\+\+L\+I\+NE}}~0x20
+\item 
+\#define \mbox{\hyperlink{_l_c_d_8h_a54e618d4b87fcf2f6b846c684cdb860a}{L\+C\+D\+\_\+4\+\_\+\+B\+I\+T\+\_\+2\+\_\+\+L\+I\+NE}}~0x28
+\item 
+\#define \mbox{\hyperlink{_l_c_d_8h_ac547b969070db1798702062faca30c6e}{L\+C\+D\+\_\+\+C\+L\+E\+A\+R\+\_\+\+S\+C\+R\+E\+EN}}~0x01
+\item 
+\#define \mbox{\hyperlink{_l_c_d_8h_ac4265619d3ab168c4d4191aa0877f251}{L\+C\+D\+\_\+\+D\+I\+S\+P\+L\+A\+Y\+\_\+\+O\+F\+F\+\_\+\+C\+U\+R\+S\+O\+R\+\_\+\+O\+FF}}~0x08
+\item 
+\#define \mbox{\hyperlink{_l_c_d_8h_a9d678e913563423bd83ef7524cb8fb09}{L\+C\+D\+\_\+\+D\+I\+S\+P\+L\+A\+Y\+\_\+\+O\+N\+\_\+\+C\+U\+R\+S\+O\+R\+\_\+\+ON}}~0x0E
+\item 
+\#define \mbox{\hyperlink{_l_c_d_8h_a0eff70791626f0ef239234ae8abbce54}{L\+C\+D\+\_\+\+D\+I\+S\+P\+L\+A\+Y\+\_\+\+O\+N\+\_\+\+C\+U\+R\+S\+O\+R\+\_\+\+O\+FF}}~0x0C
+\item 
+\#define \mbox{\hyperlink{_l_c_d_8h_a3bb51af19213365619aa12502e843ef2}{L\+C\+D\+\_\+\+D\+I\+S\+P\+L\+A\+Y\+\_\+\+O\+N\+\_\+\+C\+U\+R\+S\+O\+R\+\_\+\+Blinging}}~0x0F
+\item 
+\#define \mbox{\hyperlink{_l_c_d_8h_a2f3dc7c8c53760f81afaf729ab3482ba}{L\+C\+D\+\_\+\+F\+I\+R\+S\+T\+\_\+\+L\+I\+NE}}~1U
+\item 
+\#define \mbox{\hyperlink{_l_c_d_8h_af512ed31cb2ea981341a151c76b12e9a}{L\+C\+D\+\_\+\+S\+E\+C\+O\+N\+D\+\_\+\+L\+I\+NE}}~2U
+\end{DoxyCompactItemize}
+\doxysubsection*{Typedefs}
+\begin{DoxyCompactItemize}
+\item 
+typedef \mbox{\hyperlink{_s_t_d___t_y_p_e_s_8h_aed742c436da53c1080638ce6ef7d13de}{u8}} \mbox{\hyperlink{_l_c_d_8h_a93fdb4cf6ea7ec3c7be88614dff5f842}{Std\+\_\+\+Return\+Type}}
+\item 
+typedef void($\ast$ \mbox{\hyperlink{_l_c_d_8h_afd0f998de8765edd8170926632d50ce5}{A\+P\+P\+Notifiaction\+Cbf\+\_\+t}}) (void)
+\end{DoxyCompactItemize}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{_l_c_d_8h_a9939aa0ac8f65ebd9ad2b3eb608ba925}{L\+C\+D\+\_\+void\+Init}} (void)
+\begin{DoxyCompactList}\small\item\em Initialize L\+CD pins. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{_l_c_d_8h_a93fdb4cf6ea7ec3c7be88614dff5f842}{Std\+\_\+\+Return\+Type}} \mbox{\hyperlink{_l_c_d_8h_a08e09b717bf35643d0a3ed685d08526a}{L\+C\+D\+\_\+\+Write\+String}} (const \mbox{\hyperlink{_s_t_d___t_y_p_e_s_8h_aed742c436da53c1080638ce6ef7d13de}{u8}} $\ast$Copy\+\_\+pt\+String\+Data, \mbox{\hyperlink{_s_t_d___t_y_p_e_s_8h_aa0b167025ed1eead1300bc4dbdfb230e}{u16}} Copy\+\_\+u16\+String\+Length)
+\begin{DoxyCompactList}\small\item\em Write string on L\+CD. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{_l_c_d_8h_a93fdb4cf6ea7ec3c7be88614dff5f842}{Std\+\_\+\+Return\+Type}} \mbox{\hyperlink{_l_c_d_8h_ae6620dc3a20272e5584937d88e19b152}{L\+C\+D\+\_\+\+Clear\+Screen}} (void)
+\begin{DoxyCompactList}\small\item\em Clear the L\+CD screen. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{_l_c_d_8h_a93fdb4cf6ea7ec3c7be88614dff5f842}{Std\+\_\+\+Return\+Type}} \mbox{\hyperlink{_l_c_d_8h_af228e07ef679f4e3774ef09089a0db36}{L\+C\+D\+\_\+\+Goto\+Location}} (\mbox{\hyperlink{_s_t_d___t_y_p_e_s_8h_aed742c436da53c1080638ce6ef7d13de}{u8}} Copy\+\_\+\+Line, \mbox{\hyperlink{_s_t_d___t_y_p_e_s_8h_aed742c436da53c1080638ce6ef7d13de}{u8}} Copy\+\_\+\+Column)
+\begin{DoxyCompactList}\small\item\em To move the cursor to the location. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{_l_c_d_8h_a93fdb4cf6ea7ec3c7be88614dff5f842}{Std\+\_\+\+Return\+Type}} \mbox{\hyperlink{_l_c_d_8h_a2dcf013d8b09b7ef64c6df2316c837da}{L\+C\+D\+\_\+\+Set\+Cbf}} (\mbox{\hyperlink{_l_c_d_8h_afd0f998de8765edd8170926632d50ce5}{A\+P\+P\+Notifiaction\+Cbf\+\_\+t}} Copy\+\_\+\+Set\+Cbf)
+\begin{DoxyCompactList}\small\item\em Callback function to handle any application function ~\newline
+ it run after ~\newline
+ 1-\/ the writing to L\+CD is finished. -\/$>$ \mbox{\hyperlink{_l_c_d_8h_a08e09b717bf35643d0a3ed685d08526a}{L\+C\+D\+\_\+\+Write\+String()}} finish successfully ~\newline
+ 2-\/ move cursor -\/$>$ \mbox{\hyperlink{_l_c_d_8h_af228e07ef679f4e3774ef09089a0db36}{L\+C\+D\+\_\+\+Goto\+Location()}} finish successfully ~\newline
+ 3-\/ clear screen -\/$>$ \mbox{\hyperlink{_l_c_d_8h_ae6620dc3a20272e5584937d88e19b152}{L\+C\+D\+\_\+\+Clear\+Screen()}} finish successfully. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+This file is to be used as an implementation of the L\+CD driver. 
+
+This file is to be used as an implementation of the U\+A\+RT handler.
+
+\begin{DoxyAuthor}{Author}
+M\+SN 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+Mar 31, 2020 
+\end{DoxyDate}
+
+
+\doxysubsection{Macro Definition Documentation}
+\mbox{\Hypertarget{_l_c_d_8h_a12289e8715fd56a16034f610666d900c}\label{_l_c_d_8h_a12289e8715fd56a16034f610666d900c}} 
+\index{LCD.h@{LCD.h}!E\_BUSY@{E\_BUSY}}
+\index{E\_BUSY@{E\_BUSY}!LCD.h@{LCD.h}}
+\doxysubsubsection{\texorpdfstring{E\_BUSY}{E\_BUSY}}
+{\footnotesize\ttfamily \#define E\+\_\+\+B\+U\+SY~(\mbox{\hyperlink{_l_c_d_8h_a93fdb4cf6ea7ec3c7be88614dff5f842}{Std\+\_\+\+Return\+Type}})2}
+
+\mbox{\Hypertarget{_l_c_d_8h_a1d155fa7a571f569a380bb42b1947eb4}\label{_l_c_d_8h_a1d155fa7a571f569a380bb42b1947eb4}} 
+\index{LCD.h@{LCD.h}!E\_NOT\_OK@{E\_NOT\_OK}}
+\index{E\_NOT\_OK@{E\_NOT\_OK}!LCD.h@{LCD.h}}
+\doxysubsubsection{\texorpdfstring{E\_NOT\_OK}{E\_NOT\_OK}}
+{\footnotesize\ttfamily \#define E\+\_\+\+N\+O\+T\+\_\+\+OK~(\mbox{\hyperlink{_l_c_d_8h_a93fdb4cf6ea7ec3c7be88614dff5f842}{Std\+\_\+\+Return\+Type}})1}
+
+\mbox{\Hypertarget{_l_c_d_8h_a1e7cc741c56207a8872ea58373276925}\label{_l_c_d_8h_a1e7cc741c56207a8872ea58373276925}} 
+\index{LCD.h@{LCD.h}!E\_OK@{E\_OK}}
+\index{E\_OK@{E\_OK}!LCD.h@{LCD.h}}
+\doxysubsubsection{\texorpdfstring{E\_OK}{E\_OK}}
+{\footnotesize\ttfamily \#define E\+\_\+\+OK~(\mbox{\hyperlink{_l_c_d_8h_a93fdb4cf6ea7ec3c7be88614dff5f842}{Std\+\_\+\+Return\+Type}})0}
+
+\mbox{\Hypertarget{_l_c_d_8h_a0a268c304feb86612179650adbb37f6e}\label{_l_c_d_8h_a0a268c304feb86612179650adbb37f6e}} 
+\index{LCD.h@{LCD.h}!LCD\_4\_BIT\_1\_LINE@{LCD\_4\_BIT\_1\_LINE}}
+\index{LCD\_4\_BIT\_1\_LINE@{LCD\_4\_BIT\_1\_LINE}!LCD.h@{LCD.h}}
+\doxysubsubsection{\texorpdfstring{LCD\_4\_BIT\_1\_LINE}{LCD\_4\_BIT\_1\_LINE}}
+{\footnotesize\ttfamily \#define L\+C\+D\+\_\+4\+\_\+\+B\+I\+T\+\_\+1\+\_\+\+L\+I\+NE~0x20}
+
+\mbox{\Hypertarget{_l_c_d_8h_a54e618d4b87fcf2f6b846c684cdb860a}\label{_l_c_d_8h_a54e618d4b87fcf2f6b846c684cdb860a}} 
+\index{LCD.h@{LCD.h}!LCD\_4\_BIT\_2\_LINE@{LCD\_4\_BIT\_2\_LINE}}
+\index{LCD\_4\_BIT\_2\_LINE@{LCD\_4\_BIT\_2\_LINE}!LCD.h@{LCD.h}}
+\doxysubsubsection{\texorpdfstring{LCD\_4\_BIT\_2\_LINE}{LCD\_4\_BIT\_2\_LINE}}
+{\footnotesize\ttfamily \#define L\+C\+D\+\_\+4\+\_\+\+B\+I\+T\+\_\+2\+\_\+\+L\+I\+NE~0x28}
+
+\mbox{\Hypertarget{_l_c_d_8h_af710d24a5f33496082fe3c031edf0d44}\label{_l_c_d_8h_af710d24a5f33496082fe3c031edf0d44}} 
+\index{LCD.h@{LCD.h}!LCD\_8\_BIT\_1\_LINE@{LCD\_8\_BIT\_1\_LINE}}
+\index{LCD\_8\_BIT\_1\_LINE@{LCD\_8\_BIT\_1\_LINE}!LCD.h@{LCD.h}}
+\doxysubsubsection{\texorpdfstring{LCD\_8\_BIT\_1\_LINE}{LCD\_8\_BIT\_1\_LINE}}
+{\footnotesize\ttfamily \#define L\+C\+D\+\_\+8\+\_\+\+B\+I\+T\+\_\+1\+\_\+\+L\+I\+NE~0x30}
+
+\mbox{\Hypertarget{_l_c_d_8h_aee4792c13522d088b0ac9e0099de3c2f}\label{_l_c_d_8h_aee4792c13522d088b0ac9e0099de3c2f}} 
+\index{LCD.h@{LCD.h}!LCD\_8\_BIT\_2\_LINE@{LCD\_8\_BIT\_2\_LINE}}
+\index{LCD\_8\_BIT\_2\_LINE@{LCD\_8\_BIT\_2\_LINE}!LCD.h@{LCD.h}}
+\doxysubsubsection{\texorpdfstring{LCD\_8\_BIT\_2\_LINE}{LCD\_8\_BIT\_2\_LINE}}
+{\footnotesize\ttfamily \#define L\+C\+D\+\_\+8\+\_\+\+B\+I\+T\+\_\+2\+\_\+\+L\+I\+NE~0x38}
+
+\mbox{\Hypertarget{_l_c_d_8h_ac547b969070db1798702062faca30c6e}\label{_l_c_d_8h_ac547b969070db1798702062faca30c6e}} 
+\index{LCD.h@{LCD.h}!LCD\_CLEAR\_SCREEN@{LCD\_CLEAR\_SCREEN}}
+\index{LCD\_CLEAR\_SCREEN@{LCD\_CLEAR\_SCREEN}!LCD.h@{LCD.h}}
+\doxysubsubsection{\texorpdfstring{LCD\_CLEAR\_SCREEN}{LCD\_CLEAR\_SCREEN}}
+{\footnotesize\ttfamily \#define L\+C\+D\+\_\+\+C\+L\+E\+A\+R\+\_\+\+S\+C\+R\+E\+EN~0x01}
+
+\mbox{\Hypertarget{_l_c_d_8h_ac4265619d3ab168c4d4191aa0877f251}\label{_l_c_d_8h_ac4265619d3ab168c4d4191aa0877f251}} 
+\index{LCD.h@{LCD.h}!LCD\_DISPLAY\_OFF\_CURSOR\_OFF@{LCD\_DISPLAY\_OFF\_CURSOR\_OFF}}
+\index{LCD\_DISPLAY\_OFF\_CURSOR\_OFF@{LCD\_DISPLAY\_OFF\_CURSOR\_OFF}!LCD.h@{LCD.h}}
+\doxysubsubsection{\texorpdfstring{LCD\_DISPLAY\_OFF\_CURSOR\_OFF}{LCD\_DISPLAY\_OFF\_CURSOR\_OFF}}
+{\footnotesize\ttfamily \#define L\+C\+D\+\_\+\+D\+I\+S\+P\+L\+A\+Y\+\_\+\+O\+F\+F\+\_\+\+C\+U\+R\+S\+O\+R\+\_\+\+O\+FF~0x08}
+
+\mbox{\Hypertarget{_l_c_d_8h_a3bb51af19213365619aa12502e843ef2}\label{_l_c_d_8h_a3bb51af19213365619aa12502e843ef2}} 
+\index{LCD.h@{LCD.h}!LCD\_DISPLAY\_ON\_CURSOR\_Blinging@{LCD\_DISPLAY\_ON\_CURSOR\_Blinging}}
+\index{LCD\_DISPLAY\_ON\_CURSOR\_Blinging@{LCD\_DISPLAY\_ON\_CURSOR\_Blinging}!LCD.h@{LCD.h}}
+\doxysubsubsection{\texorpdfstring{LCD\_DISPLAY\_ON\_CURSOR\_Blinging}{LCD\_DISPLAY\_ON\_CURSOR\_Blinging}}
+{\footnotesize\ttfamily \#define L\+C\+D\+\_\+\+D\+I\+S\+P\+L\+A\+Y\+\_\+\+O\+N\+\_\+\+C\+U\+R\+S\+O\+R\+\_\+\+Blinging~0x0F}
+
+\mbox{\Hypertarget{_l_c_d_8h_a0eff70791626f0ef239234ae8abbce54}\label{_l_c_d_8h_a0eff70791626f0ef239234ae8abbce54}} 
+\index{LCD.h@{LCD.h}!LCD\_DISPLAY\_ON\_CURSOR\_OFF@{LCD\_DISPLAY\_ON\_CURSOR\_OFF}}
+\index{LCD\_DISPLAY\_ON\_CURSOR\_OFF@{LCD\_DISPLAY\_ON\_CURSOR\_OFF}!LCD.h@{LCD.h}}
+\doxysubsubsection{\texorpdfstring{LCD\_DISPLAY\_ON\_CURSOR\_OFF}{LCD\_DISPLAY\_ON\_CURSOR\_OFF}}
+{\footnotesize\ttfamily \#define L\+C\+D\+\_\+\+D\+I\+S\+P\+L\+A\+Y\+\_\+\+O\+N\+\_\+\+C\+U\+R\+S\+O\+R\+\_\+\+O\+FF~0x0C}
+
+\mbox{\Hypertarget{_l_c_d_8h_a9d678e913563423bd83ef7524cb8fb09}\label{_l_c_d_8h_a9d678e913563423bd83ef7524cb8fb09}} 
+\index{LCD.h@{LCD.h}!LCD\_DISPLAY\_ON\_CURSOR\_ON@{LCD\_DISPLAY\_ON\_CURSOR\_ON}}
+\index{LCD\_DISPLAY\_ON\_CURSOR\_ON@{LCD\_DISPLAY\_ON\_CURSOR\_ON}!LCD.h@{LCD.h}}
+\doxysubsubsection{\texorpdfstring{LCD\_DISPLAY\_ON\_CURSOR\_ON}{LCD\_DISPLAY\_ON\_CURSOR\_ON}}
+{\footnotesize\ttfamily \#define L\+C\+D\+\_\+\+D\+I\+S\+P\+L\+A\+Y\+\_\+\+O\+N\+\_\+\+C\+U\+R\+S\+O\+R\+\_\+\+ON~0x0E}
+
+\mbox{\Hypertarget{_l_c_d_8h_a2f3dc7c8c53760f81afaf729ab3482ba}\label{_l_c_d_8h_a2f3dc7c8c53760f81afaf729ab3482ba}} 
+\index{LCD.h@{LCD.h}!LCD\_FIRST\_LINE@{LCD\_FIRST\_LINE}}
+\index{LCD\_FIRST\_LINE@{LCD\_FIRST\_LINE}!LCD.h@{LCD.h}}
+\doxysubsubsection{\texorpdfstring{LCD\_FIRST\_LINE}{LCD\_FIRST\_LINE}}
+{\footnotesize\ttfamily \#define L\+C\+D\+\_\+\+F\+I\+R\+S\+T\+\_\+\+L\+I\+NE~1U}
+
+\mbox{\Hypertarget{_l_c_d_8h_af512ed31cb2ea981341a151c76b12e9a}\label{_l_c_d_8h_af512ed31cb2ea981341a151c76b12e9a}} 
+\index{LCD.h@{LCD.h}!LCD\_SECOND\_LINE@{LCD\_SECOND\_LINE}}
+\index{LCD\_SECOND\_LINE@{LCD\_SECOND\_LINE}!LCD.h@{LCD.h}}
+\doxysubsubsection{\texorpdfstring{LCD\_SECOND\_LINE}{LCD\_SECOND\_LINE}}
+{\footnotesize\ttfamily \#define L\+C\+D\+\_\+\+S\+E\+C\+O\+N\+D\+\_\+\+L\+I\+NE~2U}
+
+
+
+\doxysubsection{Typedef Documentation}
+\mbox{\Hypertarget{_l_c_d_8h_afd0f998de8765edd8170926632d50ce5}\label{_l_c_d_8h_afd0f998de8765edd8170926632d50ce5}} 
+\index{LCD.h@{LCD.h}!APPNotifiactionCbf\_t@{APPNotifiactionCbf\_t}}
+\index{APPNotifiactionCbf\_t@{APPNotifiactionCbf\_t}!LCD.h@{LCD.h}}
+\doxysubsubsection{\texorpdfstring{APPNotifiactionCbf\_t}{APPNotifiactionCbf\_t}}
+{\footnotesize\ttfamily typedef void($\ast$ A\+P\+P\+Notifiaction\+Cbf\+\_\+t) (void)}
+
+\mbox{\Hypertarget{_l_c_d_8h_a93fdb4cf6ea7ec3c7be88614dff5f842}\label{_l_c_d_8h_a93fdb4cf6ea7ec3c7be88614dff5f842}} 
+\index{LCD.h@{LCD.h}!Std\_ReturnType@{Std\_ReturnType}}
+\index{Std\_ReturnType@{Std\_ReturnType}!LCD.h@{LCD.h}}
+\doxysubsubsection{\texorpdfstring{Std\_ReturnType}{Std\_ReturnType}}
+{\footnotesize\ttfamily typedef \mbox{\hyperlink{_s_t_d___t_y_p_e_s_8h_aed742c436da53c1080638ce6ef7d13de}{u8}} \mbox{\hyperlink{_l_c_d_8h_a93fdb4cf6ea7ec3c7be88614dff5f842}{Std\+\_\+\+Return\+Type}}}
+
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{_l_c_d_8h_ae6620dc3a20272e5584937d88e19b152}\label{_l_c_d_8h_ae6620dc3a20272e5584937d88e19b152}} 
+\index{LCD.h@{LCD.h}!LCD\_ClearScreen@{LCD\_ClearScreen}}
+\index{LCD\_ClearScreen@{LCD\_ClearScreen}!LCD.h@{LCD.h}}
+\doxysubsubsection{\texorpdfstring{LCD\_ClearScreen()}{LCD\_ClearScreen()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{_l_c_d_8h_a93fdb4cf6ea7ec3c7be88614dff5f842}{Std\+\_\+\+Return\+Type}} L\+C\+D\+\_\+\+Clear\+Screen (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})}
+
+
+
+Clear the L\+CD screen. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em void} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Std\+\_\+\+Return\+Type ~\newline
+ E\+\_\+\+OK \+: Service request accepted . ~\newline
+ E\+\_\+\+N\+O\+T\+\_\+\+OK \+: Service request not accepted . ~\newline
+ E\+\_\+\+B\+U\+SY \+: transmit request could not be processed because no ~\newline
+ transmit object was available 
+\end{DoxyReturn}
+\mbox{\Hypertarget{_l_c_d_8h_af228e07ef679f4e3774ef09089a0db36}\label{_l_c_d_8h_af228e07ef679f4e3774ef09089a0db36}} 
+\index{LCD.h@{LCD.h}!LCD\_GotoLocation@{LCD\_GotoLocation}}
+\index{LCD\_GotoLocation@{LCD\_GotoLocation}!LCD.h@{LCD.h}}
+\doxysubsubsection{\texorpdfstring{LCD\_GotoLocation()}{LCD\_GotoLocation()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{_l_c_d_8h_a93fdb4cf6ea7ec3c7be88614dff5f842}{Std\+\_\+\+Return\+Type}} L\+C\+D\+\_\+\+Goto\+Location (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{_s_t_d___t_y_p_e_s_8h_aed742c436da53c1080638ce6ef7d13de}{u8}}}]{Copy\+\_\+\+Line,  }\item[{\mbox{\hyperlink{_s_t_d___t_y_p_e_s_8h_aed742c436da53c1080638ce6ef7d13de}{u8}}}]{Copy\+\_\+\+Column }\end{DoxyParamCaption})}
+
+
+
+To move the cursor to the location. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em Copy\+\_\+\+Line} & L\+CD line \\
+\hline
+{\em Copy\+\_\+\+Column} & L\+CD column \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Std\+\_\+\+Return\+Type ~\newline
+ E\+\_\+\+OK \+: Service request accepted . ~\newline
+ E\+\_\+\+N\+O\+T\+\_\+\+OK \+: Service request not accepted .~\newline
+ E\+\_\+\+B\+U\+SY \+: transmit request could not be processed because no ~\newline
+ transmit object was available 
+\end{DoxyReturn}
+\mbox{\Hypertarget{_l_c_d_8h_a2dcf013d8b09b7ef64c6df2316c837da}\label{_l_c_d_8h_a2dcf013d8b09b7ef64c6df2316c837da}} 
+\index{LCD.h@{LCD.h}!LCD\_SetCbf@{LCD\_SetCbf}}
+\index{LCD\_SetCbf@{LCD\_SetCbf}!LCD.h@{LCD.h}}
+\doxysubsubsection{\texorpdfstring{LCD\_SetCbf()}{LCD\_SetCbf()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{_l_c_d_8h_a93fdb4cf6ea7ec3c7be88614dff5f842}{Std\+\_\+\+Return\+Type}} L\+C\+D\+\_\+\+Set\+Cbf (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{_l_c_d_8h_afd0f998de8765edd8170926632d50ce5}{A\+P\+P\+Notifiaction\+Cbf\+\_\+t}}}]{Copy\+\_\+\+Set\+Cbf }\end{DoxyParamCaption})}
+
+
+
+Callback function to handle any application function ~\newline
+ it run after ~\newline
+ 1-\/ the writing to L\+CD is finished. -\/$>$ \mbox{\hyperlink{_l_c_d_8h_a08e09b717bf35643d0a3ed685d08526a}{L\+C\+D\+\_\+\+Write\+String()}} finish successfully ~\newline
+ 2-\/ move cursor -\/$>$ \mbox{\hyperlink{_l_c_d_8h_af228e07ef679f4e3774ef09089a0db36}{L\+C\+D\+\_\+\+Goto\+Location()}} finish successfully ~\newline
+ 3-\/ clear screen -\/$>$ \mbox{\hyperlink{_l_c_d_8h_ae6620dc3a20272e5584937d88e19b152}{L\+C\+D\+\_\+\+Clear\+Screen()}} finish successfully. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em Copy\+\_\+\+Set\+Cbf} & pointer to function \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Std\+\_\+\+Return\+Type ~\newline
+ E\+\_\+\+OK \+: Service request accepted . ~\newline
+ E\+\_\+\+N\+O\+T\+\_\+\+OK \+: Service request not accepted . ~\newline
+ E\+\_\+\+B\+U\+SY \+: transmit request could not be processed because no ~\newline
+ transmit object was available 
+\end{DoxyReturn}
+\mbox{\Hypertarget{_l_c_d_8h_a9939aa0ac8f65ebd9ad2b3eb608ba925}\label{_l_c_d_8h_a9939aa0ac8f65ebd9ad2b3eb608ba925}} 
+\index{LCD.h@{LCD.h}!LCD\_voidInit@{LCD\_voidInit}}
+\index{LCD\_voidInit@{LCD\_voidInit}!LCD.h@{LCD.h}}
+\doxysubsubsection{\texorpdfstring{LCD\_voidInit()}{LCD\_voidInit()}}
+{\footnotesize\ttfamily void L\+C\+D\+\_\+void\+Init (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})}
+
+
+
+Initialize L\+CD pins. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em void} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+\mbox{\Hypertarget{_l_c_d_8h_a08e09b717bf35643d0a3ed685d08526a}\label{_l_c_d_8h_a08e09b717bf35643d0a3ed685d08526a}} 
+\index{LCD.h@{LCD.h}!LCD\_WriteString@{LCD\_WriteString}}
+\index{LCD\_WriteString@{LCD\_WriteString}!LCD.h@{LCD.h}}
+\doxysubsubsection{\texorpdfstring{LCD\_WriteString()}{LCD\_WriteString()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{_l_c_d_8h_a93fdb4cf6ea7ec3c7be88614dff5f842}{Std\+\_\+\+Return\+Type}} L\+C\+D\+\_\+\+Write\+String (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{_s_t_d___t_y_p_e_s_8h_aed742c436da53c1080638ce6ef7d13de}{u8}} $\ast$}]{Copy\+\_\+pt\+String\+Data,  }\item[{\mbox{\hyperlink{_s_t_d___t_y_p_e_s_8h_aa0b167025ed1eead1300bc4dbdfb230e}{u16}}}]{Copy\+\_\+u16\+String\+Length }\end{DoxyParamCaption})}
+
+
+
+Write string on L\+CD. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em Copy\+\_\+pt\+String\+Data} & Pointer to string \\
+\hline
+{\em Copy\+\_\+u16\+String\+Length} & String length \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Std\+\_\+\+Return\+Type ~\newline
+ E\+\_\+\+OK \+: Service request accepted ~\newline
+ E\+\_\+\+N\+O\+T\+\_\+\+OK \+: Service request not accepted ~\newline
+ E\+\_\+\+B\+U\+SY \+: transmit request could not be processed because no ~\newline
+ transmit object was available 
+\end{DoxyReturn}

@@ -1,0 +1,106 @@
+\hypertarget{_l_e_d_8h}{}\doxysection{include/\+L\+ED.h File Reference}
+\label{_l_e_d_8h}\index{include/LED.h@{include/LED.h}}
+
+
+This file is to be used as an implementation of the L\+ED driver.  
+
+
+\doxysubsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\#define \mbox{\hyperlink{_l_e_d_8h_a8c2a5adcb8c054b715c69b0b626d3ad6}{L\+E\+D\+\_\+\+A\+C\+T\+I\+V\+E\+\_\+\+L\+OW}}~0
+\item 
+\#define \mbox{\hyperlink{_l_e_d_8h_ae5f52239e07c1a210e0f35607b6ce786}{L\+E\+D\+\_\+\+A\+C\+T\+I\+V\+E\+\_\+\+H\+I\+GH}}~1
+\end{DoxyCompactItemize}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{_l_e_d_8h_a41a4145492f32fdb4c916182dca8508d}{L\+E\+D\+\_\+void\+Init}} (void)
+\begin{DoxyCompactList}\small\item\em Function To initialize L\+ED pin and clock. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{_l_e_d_8h_a073ef4c96961e966b5e69b9995a066f2}{L\+E\+D\+\_\+void\+ON}} (\mbox{\hyperlink{_s_t_d___t_y_p_e_s_8h_aed742c436da53c1080638ce6ef7d13de}{u8}} L\+E\+D\+\_\+\+Number)
+\begin{DoxyCompactList}\small\item\em Function put L\+ED on. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{_l_e_d_8h_abd46ec24886dab93390aef2d10504f25}{L\+E\+D\+\_\+void\+O\+FF}} (\mbox{\hyperlink{_s_t_d___t_y_p_e_s_8h_aed742c436da53c1080638ce6ef7d13de}{u8}} L\+E\+D\+\_\+\+Number)
+\begin{DoxyCompactList}\small\item\em Function put L\+ED off. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+This file is to be used as an implementation of the L\+ED driver. 
+
+\begin{DoxyAuthor}{Author}
+M\+SN 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+Mar 31, 2020 
+\end{DoxyDate}
+
+
+\doxysubsection{Macro Definition Documentation}
+\mbox{\Hypertarget{_l_e_d_8h_ae5f52239e07c1a210e0f35607b6ce786}\label{_l_e_d_8h_ae5f52239e07c1a210e0f35607b6ce786}} 
+\index{LED.h@{LED.h}!LED\_ACTIVE\_HIGH@{LED\_ACTIVE\_HIGH}}
+\index{LED\_ACTIVE\_HIGH@{LED\_ACTIVE\_HIGH}!LED.h@{LED.h}}
+\doxysubsubsection{\texorpdfstring{LED\_ACTIVE\_HIGH}{LED\_ACTIVE\_HIGH}}
+{\footnotesize\ttfamily \#define L\+E\+D\+\_\+\+A\+C\+T\+I\+V\+E\+\_\+\+H\+I\+GH~1}
+
+\mbox{\Hypertarget{_l_e_d_8h_a8c2a5adcb8c054b715c69b0b626d3ad6}\label{_l_e_d_8h_a8c2a5adcb8c054b715c69b0b626d3ad6}} 
+\index{LED.h@{LED.h}!LED\_ACTIVE\_LOW@{LED\_ACTIVE\_LOW}}
+\index{LED\_ACTIVE\_LOW@{LED\_ACTIVE\_LOW}!LED.h@{LED.h}}
+\doxysubsubsection{\texorpdfstring{LED\_ACTIVE\_LOW}{LED\_ACTIVE\_LOW}}
+{\footnotesize\ttfamily \#define L\+E\+D\+\_\+\+A\+C\+T\+I\+V\+E\+\_\+\+L\+OW~0}
+
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{_l_e_d_8h_a41a4145492f32fdb4c916182dca8508d}\label{_l_e_d_8h_a41a4145492f32fdb4c916182dca8508d}} 
+\index{LED.h@{LED.h}!LED\_voidInit@{LED\_voidInit}}
+\index{LED\_voidInit@{LED\_voidInit}!LED.h@{LED.h}}
+\doxysubsubsection{\texorpdfstring{LED\_voidInit()}{LED\_voidInit()}}
+{\footnotesize\ttfamily void L\+E\+D\+\_\+void\+Init (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})}
+
+
+
+Function To initialize L\+ED pin and clock. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em void} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+\mbox{\Hypertarget{_l_e_d_8h_abd46ec24886dab93390aef2d10504f25}\label{_l_e_d_8h_abd46ec24886dab93390aef2d10504f25}} 
+\index{LED.h@{LED.h}!LED\_voidOFF@{LED\_voidOFF}}
+\index{LED\_voidOFF@{LED\_voidOFF}!LED.h@{LED.h}}
+\doxysubsubsection{\texorpdfstring{LED\_voidOFF()}{LED\_voidOFF()}}
+{\footnotesize\ttfamily void L\+E\+D\+\_\+void\+O\+FF (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{_s_t_d___t_y_p_e_s_8h_aed742c436da53c1080638ce6ef7d13de}{u8}}}]{L\+E\+D\+\_\+\+Number }\end{DoxyParamCaption})}
+
+
+
+Function put L\+ED off. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em L\+E\+D\+\_\+\+Number} & L\+ED number ( L\+E\+D1 ) \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+\mbox{\Hypertarget{_l_e_d_8h_a073ef4c96961e966b5e69b9995a066f2}\label{_l_e_d_8h_a073ef4c96961e966b5e69b9995a066f2}} 
+\index{LED.h@{LED.h}!LED\_voidON@{LED\_voidON}}
+\index{LED\_voidON@{LED\_voidON}!LED.h@{LED.h}}
+\doxysubsubsection{\texorpdfstring{LED\_voidON()}{LED\_voidON()}}
+{\footnotesize\ttfamily void L\+E\+D\+\_\+void\+ON (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{_s_t_d___t_y_p_e_s_8h_aed742c436da53c1080638ce6ef7d13de}{u8}}}]{L\+E\+D\+\_\+\+Number }\end{DoxyParamCaption})}
+
+
+
+Function put L\+ED on. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em L\+E\+D\+\_\+\+Number} & led number ( L\+E\+D1 ) \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
